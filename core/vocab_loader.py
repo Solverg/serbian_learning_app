@@ -1,6 +1,9 @@
 from pathlib import Path
+import logging
 from lxml import etree
 from core.models import Card
+
+logger = logging.getLogger(__name__)
 
 
 def _text(el: etree._Element, tag: str) -> str:
@@ -11,7 +14,12 @@ def _text(el: etree._Element, tag: str) -> str:
 
 def load_words(xml_path: Path) -> list[Card]:
     """Загружает все <word> из serbian_words.xml."""
-    tree = etree.parse(str(xml_path))
+    try:
+        tree = etree.parse(str(xml_path))
+    except (OSError, etree.XMLSyntaxError) as exc:
+        logger.exception("Не удалось загрузить words XML '%s': %s", xml_path, exc)
+        return []
+
     cards = []
     for word in tree.findall("word"):
         cards.append(Card(
@@ -28,7 +36,12 @@ def load_words(xml_path: Path) -> list[Card]:
 
 def load_constructions(xml_path: Path) -> list[Card]:
     """Загружает все <construction> из serbian_constructions.xml."""
-    tree = etree.parse(str(xml_path))
+    try:
+        tree = etree.parse(str(xml_path))
+    except (OSError, etree.XMLSyntaxError) as exc:
+        logger.exception("Не удалось загрузить constructions XML '%s': %s", xml_path, exc)
+        return []
+
     cards = []
     for construction in tree.findall("construction"):
         cards.append(Card(
