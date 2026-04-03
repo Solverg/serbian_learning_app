@@ -90,9 +90,15 @@ class ResultsScreen(QWidget):
         (0.00, "Продолжай учить!", "#e05c5c"),
     ]
 
-    def __init__(self, on_restart: Callable, parent=None):
+    def __init__(
+        self,
+        on_restart: Callable,
+        on_save_progress: Callable[[], tuple[bool, str]],
+        parent=None,
+    ):
         super().__init__(parent)
         self._on_restart = on_restart
+        self._on_save_progress = on_save_progress
         self._build_ui()
 
     # ---------- построение UI ----------
@@ -155,9 +161,26 @@ class ResultsScreen(QWidget):
 
         root.addSpacing(24)
 
-        # ── Кнопка «Ещё раз» ────────────────────────────────────────────────
+        self._save_status_label = QLabel("")
+        self._save_status_label.setObjectName("labelSecondary")
+        self._save_status_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self._save_status_label.setVisible(False)
+        root.addWidget(self._save_status_label)
+        root.addSpacing(12)
+
+        # ── Кнопки действий ────────────────────────────────────────────────
         btn_row = QHBoxLayout()
         btn_row.addStretch()
+
+        self._btn_save = QPushButton("Сохранить прогресс")
+        self._btn_save.setObjectName("btnAccent")
+        self._btn_save.setFixedHeight(48)
+        self._btn_save.setMinimumWidth(220)
+        self._btn_save.setCursor(Qt.CursorShape.PointingHandCursor)
+        self._btn_save.clicked.connect(self._save_progress)
+        btn_row.addWidget(self._btn_save)
+
+        btn_row.addSpacing(12)
 
         self._btn_restart = QPushButton("← Выбрать режим")
         self._btn_restart.setObjectName("btnAccent")
@@ -176,6 +199,9 @@ class ResultsScreen(QWidget):
         """Заполнить экран данными после завершения сессии."""
         self._update_score(stats)
         self._update_errors(stats.error_cards)
+        self._save_status_label.clear()
+        self._save_status_label.setVisible(False)
+        self._btn_save.setEnabled(True)
 
     # ---------- внутренняя логика ----------
 
@@ -222,6 +248,15 @@ class ResultsScreen(QWidget):
                 self._errors_layout.count() - 1,  # перед stretch
                 widget,
             )
+
+    def _save_progress(self) -> None:
+        success, message = self._on_save_progress()
+        color = "#4caf82" if success else "#e05c5c"
+        self._save_status_label.setText(message)
+        self._save_status_label.setStyleSheet(f"color: {color};")
+        self._save_status_label.setVisible(True)
+        if success:
+            self._btn_save.setEnabled(False)
 
     def _get_verdict(self, accuracy: float) -> tuple[str, str]:
         for threshold, text, color in self._VERDICTS:

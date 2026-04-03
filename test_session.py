@@ -29,7 +29,7 @@ def make_progress_dir(tmp: Path, words: list[dict], constructions: list[dict]) -
 
 
 def test_basic_session():
-    """Полный цикл сессии: старт → ответы → финиш → проверка файлов."""
+    """Полный цикл сессии: старт → ответы → финиш → явное сохранение → проверка файлов."""
     with tempfile.TemporaryDirectory() as tmpdir:
         tmp = Path(tmpdir)
         make_progress_dir(tmp,
@@ -68,11 +68,23 @@ def test_basic_session():
         assert stats.errors == 1
         assert 0.0 <= stats.accuracy <= 1.0
 
+        # До явного сохранения файлы не должны меняться
+        words_before_save = load_progress(tmp / "progress_words.json")
+        assert words_before_save["word_325"].last_practiced == date(2025, 10, 1)
+        print("  ✓ До нажатия кнопки сохранения прогресс в файле не меняется")
+
+        saved, message = engine.save_session_progress()
+        assert saved is True, message
+        print(f"  ✓ save_session_progress: {message}")
+
         # Проверить что файлы прогресса обновились
         words_prog = load_progress(tmp / "progress_words.json")
         constr_prog = load_progress(tmp / "progress_constructions.json")
 
-        for eid, entry in {**words_prog, **constr_prog}.items():
+        practiced_ids = {result.element_id for result in engine._results}
+        for eid in practiced_ids:
+            entry = words_prog.get(eid) or constr_prog.get(eid)
+            assert entry is not None, f"{eid}: запись не найдена после сохранения"
             assert entry.last_practiced == date(2026, 4, 1), \
                 f"{eid}: last_practiced не обновился"
             assert entry.repetitions > 0, f"{eid}: repetitions не увеличился"
@@ -101,9 +113,10 @@ def test_priority_order():
         engine.start_session(mode="mixed", session_size=4, today=date(2026, 4, 1))
 
         first = engine._queue[0]
-        assert first.element_id == "construction_108", \
-            f"Новая карточка должна быть первой, получили {first.element_id}"
-        print(f"  ✓ Новая карточка идёт первой: {first.element_id}")
+        first_entry = engine._get_entry(first)
+        assert first_entry.is_new(), \
+            f"Первой должна быть новая карточка, получили {first.element_id} (repetitions={first_entry.repetitions})"
+        print(f"  ✓ В начале очереди новая карточка: {first.element_id}")
 
         order = [c.element_id for c in engine._queue]
         print(f"    Полный порядок: {order}")
