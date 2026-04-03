@@ -1,0 +1,1002 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocabulary>
+	<construction>
+		<element_id>construction_1</element_id>
+        <text>Мóгу ли дóбити вóду, мóлим?</text>
+        <phonetic_transcription>[ˈmoːɡu li ˈdoːbiti ˈvoːdu ˈmoːlim]</phonetic_transcription>
+        <pronunciation_description>м**оо**-гу ли д**оо**-би-ти в**оо**-ду м**оо**-лим, ударение на первый слог в „мóгу“, „дóбити“, „вóду“ и „мóлим“, „о“ длинное во всех словах</pronunciation_description>
+        <translation>Могу ли я получить воду, пожалуйста?</translation>
+        <note>Вежливая форма просьбы, часто используется в ресторанах или кафе</note>
+    </construction>
+	<construction>
+		<element_id>construction_2</element_id>
+        <text>Жéлим кáфу, мóлим</text>
+        <phonetic_transcription>[ˈʒɛlim ˈkaːfu ˈmoːlim]</phonetic_transcription>
+        <pronunciation_description>ж**э**-лим к**аа**-фу м**оо**-лим, ударение на первый слог в „жéлим“, „кáфу“ и „мóлим“, „э“ короткое, „а“ длинное в „кáфу“, „о“ длинное в „мóлим“</pronunciation_description>
+        <translation>Я хочу кофе, пожалуйста</translation>
+        <note>Вежливая форма заказа, часто используется в кафе или ресторанах</note>
+    </construction>
+	<construction>
+		<element_id>construction_4</element_id>
+        <text>Дóбро вéче! Мóгу ли дóбити кáфу, мóлим?</text>
+        <phonetic_transcription>[ˈdoːbro ˈveːtʃe ˈmoːɡu li ˈdoːbiti ˈkaːfu ˈmoːlim]</phonetic_transcription>
+        <pronunciation_description>д**оо**-бро в**е**-че м**оо**-гу ли д**оо**-би-ти к**аа**-фу м**оо**-лим, ударение на первый слог в „дóбро“, „вéче“, „мóгу“, „дóбити“, „кáфу“ и „мóлим“, „о“ и „е“ длинные в „дóбро“ и „вéче“, „о“ длинное в „мóгу“ и „мóлим“, „а“ длинное в „кáфу“</pronunciation_description>
+        <translation>Добрый вечер! Могу ли я получить кофе, пожалуйста?</translation>
+        <note>Вежливая форма приветствия с просьбой, часто используется в кафе или ресторанах вечером</note>
+    </construction>
+	<construction>
+		<element_id>construction_5</element_id>
+        <text>Дóбар дáн! Жéлим чáј, мóлим</text>
+        <phonetic_transcription>[ˈdoːbar ˈdaːn ˈʒɛlim ˈtʃaːj ˈmoːlim]</phonetic_transcription>
+        <pronunciation_description>д**оо**-бар д**аа**-н ж**э**-лим ч**аа**-й м**оо**-лим, ударение на первый слог в „дóбар“, „дáн“, „жéлим“, „чáј“ и „мóлим“, „о“ и „а“ длинные в „дóбар“ и „дáн“, „а“ длинное в „чáј“, „о“ длинное в „мóлим“, „э“ короткое в „жéлим“</pronunciation_description>
+        <translation>Добрый день! Я хочу чай, пожалуйста</translation>
+        <note>Вежливая форма приветствия с просьбой, часто используется в кафе или ресторанах в дневное время</note>
+    </construction>
+		<construction>
+		<element_id>construction_10</element_id>
+        <text>Óдакле сте?</text>
+        <phonetic_transcription>[ˈodaklɛ ˈstɛ]</phonetic_transcription>
+        <pronunciation_description>одакл**э** ст**э**, ударение на первый слог в „одакле“ и на „сте“, „э“ короткое в обоих словах</pronunciation_description>
+        <translation>Откуда вы?</translation>
+        <note>Похоже на русское „откуда вы?“, но с четким „э“</note>
+    </construction>
+<construction>
+    <element_id>construction_11</element_id>
+    <text>Извúните, гдé је мój па̑сош?</text>
+    <phonetic_transcription>[izˈviːnitɛ ˈɡdɛ jɛ ˈmoj ˈpaːsoʃ]</phonetic_transcription>
+    <pronunciation_description>из-в**ии**-ни-тэ гд**э** йэ м**оо**-й п**аа**-сош; ударение: „извúните“ — на второй слог, „гдé“, „мój“ и „па̑сош“ — на первый; в „па̑сош“ долгий падающий тон на „па“.</pronunciation_description>
+    <translation>Извините, где мой паспорт?</translation>
+    <note>Вежливая форма вопроса, часто используется в формальных ситуациях, например, на пограничном контроле</note>
+</construction>
+		<construction>
+		<element_id>construction_12</element_id>
+        <text>Имáм ли вáлидан докумéнт?</text>
+        <phonetic_transcription>[ˈimaːm li ˈvaːlidan ˈdokumɛnt]</phonetic_transcription>
+        <pronunciation_description>им**аа**м ли в**аа**-ли-дан док-у-м**э**нт, ударение на первый слог в „имам“, „валидан“ и третий в „документ“</pronunciation_description>
+        <translation>У меня действительный документ?</translation>
+        <note>Вопросительная конструкция с „ли“, используется в формальных ситуациях</note>
+    </construction>
+<construction>
+    <element_id>construction_13</element_id>
+    <text>Ја сам из Русије</text>
+    <phonetic_transcription>[ˈja sam iz ˈrusijɛ]</phonetic_transcription>
+    <pronunciation_description>ја сам Ру́-си-је; ударение на первый слог в „Ја“ и „Русије“, „у“ длинное.</pronunciation_description>
+    <translation>Я из России</translation>
+    <note>Используется для указания происхождения, „сам“ подчеркивает мужской род говорящего</note>
+</construction>
+<construction>
+	<element_id>construction_14</element_id>
+    <text>Ка́ко се зо́вете?</text>
+    <phonetic_transcription>[ˈkako sɛ ˈzovɛtɛ]</phonetic_transcription>
+    <pronunciation_description>ка́-ко сэ зо́-вэ-тэ, ударение на первый слог в „Ка́ко“ и „зо́вете“</pronunciation_description>
+    <translation>Как вас зовут?</translation>
+    <note>Вежливая форма вопроса об имени</note>
+</construction>
+<construction>
+    <element_id>construction_15</element_id>
+    <text>Ово је мóј пријáтељ</text>
+    <phonetic_transcription>[ˈovo jɛ ˈmoj ˈprijaːtɛʎ]</phonetic_transcription>
+    <pronunciation_description>о́-во йэ мóј при-йаа-тэљ; ударение на первый слог в „ово“ и „пријатељ“, в „мóј“ — на единственный слог; „е“ в „је“ короткое.</pronunciation_description>
+    <translation>Это мой друг</translation>
+    <note>Используется для представления друга</note>
+</construction>
+<construction>
+	<element_id>construction_16</element_id>
+    <text>Зо́вем се И́ван</text>
+    <phonetic_transcription>[ˈzovɛm sɛ ˈivan]</phonetic_transcription>
+    <pronunciation_description>зо́-вэм сэ и́-ван, ударение на первый слог в „Зо́вем“ и „И́ван“</pronunciation_description>
+    <translation>Меня зовут Иван</translation>
+    <note>Используется для представления себя</note>
+</construction>
+<construction>
+	<element_id>construction_17</element_id>
+    <text>Мóје и́ме је...</text>
+    <phonetic_transcription>[ˈmoːjɛ ˈimɛ jɛ]</phonetic_transcription>
+    <pronunciation_description>м**оо**-йэ и́-мэ йэ, ударение на первый слог в „Мóје“ и „и́ме“, „э“ короткое</pronunciation_description>
+    <translation>Моё имя...</translation>
+    <note>Используется для представления себя, например, „Мóје и́ме је Иван“ (Моё имя Иван)</note>
+</construction>
+    <construction>
+		<element_id>construction_18</element_id>
+        <text>Дрáго ми је</text>
+        <phonetic_transcription>[ˈdraːɡo mi jɛ]</phonetic_transcription>
+        <pronunciation_description>др**аа**-го ми йэ, ударение на первый слог в „драго“, „а“ длинное, „йэ“ короткое</pronunciation_description>
+        <translation>Приятно познакомиться</translation>
+        <note>Используется при знакомстве, часто после представления имени</note>
+    </construction>
+		<element_id>construction_19</element_id>
+	    <construction>
+        <text>Нé разумéм</text>
+        <phonetic_transcription>[ˈnɛ razuˈmɛm]</phonetic_transcription>
+        <pronunciation_description>н**э** раз-у-м**э**м, ударение на первый слог в „нé“ и третий в „разумéм“, „э“ короткое</pronunciation_description>
+        <translation>Я не понимаю</translation>
+        <note>Используется, когда не понял сказанное</note>
+    </construction>
+    <construction>
+	    <element_id>construction_20</element_id>
+        <text>Понóвите, мóлим вас</text>
+        <phonetic_transcription>[poˈnovitɛ ˈmolim vas]</phonetic_transcription>
+        <pronunciation_description>по-н**оо**-ви-тэ м**оо**-лим вас, ударение на второй слог в „понóвите“ и первый в „мóлим“, „о“ длинное</pronunciation_description>
+        <translation>Повторите, пожалуйста</translation>
+        <note>Вежливая просьба повторить сказанное</note>
+    </construction>
+    <construction>
+	    <element_id>construction_21</element_id>
+        <text>Свé је у рéду</text>
+        <phonetic_transcription>[ˈsvɛ jɛ u ˈrɛdu]</phonetic_transcription>
+        <pronunciation_description>св**э** йэ у р**э**ду, ударение на первый слог в „свé“ и „рéду“, „э“ короткое</pronunciation_description>
+        <translation>Всё в порядке</translation>
+        <note>Используется для подтверждения, что всё хорошо</note>
+    </construction>
+	    <construction>
+		<element_id>construction_22</element_id>
+        <text>Дóбро вéче</text>
+        <phonetic_transcription>[ˈdoːbro ˈveːtʃe]</phonetic_transcription>
+        <pronunciation_description>д**оо**-бро в**е**-че, ударение на первый слог каждого слова, „о“ и „е“ длинные</pronunciation_description>
+        <translation>Добрый вечер</translation>
+        <note>Состоит из двух слов: „дóбро“ (хорошее) и „вéче“ (вечер)</note>
+    </construction>
+	<construction>
+        <element_id>construction_23</element_id>
+        <text>Коли́ко ко́шта?</text>
+        <phonetic_transcription>[ˈkoliko ˈkoʃta]</phonetic_transcription>
+        <pronunciation_description>КО-ли-ко КО-шта, с ударением на первый слог в обоих словах, КО-ли-ко — как русское „ко“ и „ли-ко“ с коротким „о“, КО-шта — как „ко“ и „шта“ с четким „ш“, как в русском „шум“</pronunciation_description>
+        <translation>Сколько это стоит?</translation>
+        <note>Используется для вопроса о цене в магазинах</note>
+    </construction>
+    <construction>
+        <element_id>construction_24</element_id>
+        <text>Тре́ба ке́са?</text>
+        <phonetic_transcription>[ˈtrɛba ˈkɛsa]</phonetic_transcription>
+        <pronunciation_description>ТРЭ-ба КЭ-са, с ударением на первый слог в обоих словах, ТРЭ — как русское „трэ“ в „тренировка“, ба — как „ба“ в „бабушка“, КЭ-са — как в слове „Ке́са“</pronunciation_description>
+        <translation>Нужен пакет?</translation>
+        <note>Вежливый вопрос, часто задаваемый продавцами</note>
+    </construction>
+	<construction>
+        <element_id>construction_25</element_id>
+        <text>Штá је ово?</text>
+        <phonetic_transcription>[ˈʃta jɛ ˈovo]</phonetic_transcription>
+        <pronunciation_description>шт**а** йэ о́-во, ударение на первый слог в „Штá“ и „ово“, „а“ короткое, „йэ“ короткое</pronunciation_description>
+        <translation>Что это?</translation>
+        <note>Используется для вопроса о предмете или ситуации</note>
+    </construction>
+	<construction>
+        <element_id>construction_26</element_id>
+        <text>Жéлим хлêб, мóлим</text>
+        <phonetic_transcription>[ˈʒɛlim xlêːb ˈmoːlim]</phonetic_transcription>
+        <pronunciation_description>ж**э**-лим хл**ээ**б м**оо**-лим, ударение на первый слог в „жэлим“ и „молим“, второй в „хлэб“; „э“ короткое в „жэлим“, „ээ“ протяжное в „хлэб“, „оо“ протяжное в „молим“</pronunciation_description>
+        <translation>Я хочу хлеб, пожалуйста</translation>
+        <note>Вежливая форма заказа в магазине</note>
+    </construction>
+    <construction>
+        <element_id>construction_27</element_id>
+        <text>Коли́ко ко́шта вòће?</text>
+        <phonetic_transcription>[ˈkoliko ˈkoʃta ˈʋɔːtɕe]</phonetic_transcription>
+        <pronunciation_description>ко́-ли-ко ко́-шта в**оо**-че, ударение на первый слог в каждом слове, „о“ протяжное в „вооче“, „че“ мягкое, как в „человек“, но чуть мягче</pronunciation_description>
+        <translation>Сколько стоят фрукты?</translation>
+        <note>Вопрос о цене, можно заменять на другие продукты</note>
+    </construction>
+	<construction>
+        <element_id>construction_28</element_id>
+        <text>Имáте ли млêко?</text>
+        <phonetic_transcription>[ˈimatɛ li ˈmlɛːkɔ]</phonetic_transcription>
+        <pronunciation_description>им**аа**-тэ ли мл**ээ**-ко, ударение на первый слог в „имате“ и второй в „млеко“, „а“ протяжное в „имате“, „э“ протяжное в „млеко“</pronunciation_description>
+        <translation>Есть ли у вас молоко?</translation>
+        <note>Вежливый вопрос о наличии товара в магазине</note>
+    </construction>
+    <construction>
+        <element_id>construction_29</element_id>
+        <text>Хвáла, то је свé</text>
+        <phonetic_transcription>[ˈxvaːla to jɛ ˈsvɛ]</phonetic_transcription>
+        <pronunciation_description>хв**аа**-ла то йэ св**э**, ударение на первый слог в „хвала“ и „све“, „а“ протяжное в „хвала“, „э“ короткое в „све“</pronunciation_description>
+        <translation>Спасибо, это всё</translation>
+        <note>Используется для завершения покупки или заказа</note>
+    </construction>
+    <construction>
+        <element_id>construction_30</element_id>
+        <text>Мóгу ли дóбити сир, мóлим?</text>
+        <phonetic_transcription>[ˈmoːɡu li ˈdoːbiti ˈsiːr ˈmoːlim]</phonetic_transcription>
+        <pronunciation_description>м**оо**-гу ли д**оо**-би-ти с**ии**р м**оо**-лим, ударение на первый слог в „могу“, „добити“, „сир“ и „молим“, „о“ протяжное в „могу“, „добити“ и „молим“, „и“ протяжное в „сир“</pronunciation_description>
+        <translation>Могу ли я получить сыр, пожалуйста?</translation>
+        <note>Вежливая форма заказа сыра в магазине</note>
+    </construction>
+	<construction>
+        <element_id>construction_31</element_id>
+        <text>Мóгу ли плáтити кáртицом?</text>
+        <phonetic_transcription>[ˈmoːɡu li ˈplaːtiti ˈkartit͡som]</phonetic_transcription>
+        <pronunciation_description>м**оо**-гу ли пл**аа**-ти-ти к**аа**-рти-цом, ударение на первый слог в „могу“, „платити“ и „картицом“; „о“ протяжное в „могу“, „а“ протяжное в „платити“ и „картицом“</pronunciation_description>
+        <translation>Могу ли я заплатить картой?</translation>
+        <note>Вежливый вопрос об оплате в магазине, от глагола „платити“ (платить)</note>
+    </construction>
+    <construction>
+        <element_id>construction_32</element_id>
+        <text>Дови́ђења!</text>
+        <phonetic_transcription>[dovidʑɛɲa]</phonetic_transcription>
+        <pronunciation_description>до-ви́-дже-ня, ударение на третий слог (на „ђе“), „ђ“ мягкое, как в русском „дж“ в „джем“ с лёгкой мягкостью (почти „дьж“), „е“ короткое</pronunciation_description>
+        <translation>До свидания!</translation>
+        <note>Вежливое прощание, часто используется в магазинах или на выходе</note>
+    </construction>
+	<construction>
+        <element_id>construction_33</element_id>
+        <text>Примáте ли кáртицу?</text>
+        <phonetic_transcription>[priˈmaːtɛ li ˈkartit͡su]</phonetic_transcription>
+        <pronunciation_description>при-м**аа**-тэ ли к**аа**-рти-цу, ударение на второй слог в „примáте“ и первый в „кáртицу“, „а“ протяжное в „примáте“ и „кáртицу“</pronunciation_description>
+        <translation>Принимаете ли вы карту?</translation>
+        <note>Вежливый вопрос о принятии карты магазином; альтернатива „Мóгу ли плáтити кáртицом?“, с фокусом на политике заведения</note>
+    </construction>
+	<construction>
+        <element_id>construction_34</element_id>
+        <text>Же́лим да отво́рим ра́чун.</text>
+        <phonetic_transcription>[ˈʒɛlim da ɔˈtvɔːrim ˈraːtʃun]</phonetic_transcription>
+        <pronunciation_description>же́-лим да от-во́о-рим ра́а-чун, ударение на первый слог в „же́лим“, второй в „отво́рим“, первый в „ра́чун“, „е“ короткое, „о“ и „а“ длинные в „отво́рим“ и „ра́чун“</pronunciation_description>
+        <translation>Я хочу открыть счёт.</translation>
+        <note>Вежливая форма для обращения в банке, использует глагол „отво́рити“ (открыть) с правильным ударением на „во“</note>
+    </construction>
+    <construction>
+        <element_id>construction_35</element_id>
+        <text>Мо́гу ли да ме́њам но́вац?</text>
+        <phonetic_transcription>[ˈmoːɡu li da ˈmɛɲam ˈnɔːʋat͡s]</phonetic_transcription>
+        <pronunciation_description>мо́о-гу ли да ме́-ням но́о-вац, ударение на первый слог в „мо́гу“, „ме́њам“, „но́вац“, „о“ длинное в „мо́гу“ и „но́вац“, „е“ короткое в „ме́њам“</pronunciation_description>
+        <translation>Могу ли я обменять деньги?</translation>
+        <note>Вежливая форма вопроса, часто используется в обменниках или банках</note>
+    </construction>
+<construction>
+    <element_id>construction_36</element_id>
+    <text>Могу ли добити мени, молим?</text>
+    <phonetic_transcription>[ˈmɔɡu li ˈdɔbiti ˈmɛni, ˈmɔlim]</phonetic_transcription>
+    <pronunciation_description>мо́-гу ли до́-би-ти мэ́-ни, мо́-лим; ударение: мо́гу, до́бити (на «до»), мэ́ни, мо́лим. «е» в «мени» ближе к русскому «э», «ј» отсутствует, слово заимствованное и обычно не склоняется.</pronunciation_description>
+    <translation>Можно меню, пожалуйста?</translation>
+    <note>Нормативная вежливая просьба в ресторане. В разговорной речи часто употребляют «мени» (в т.ч. как «Меню, пожалуйста.»), тогда как «јеловник» — более книжный/профессиональный термин для списка блюд. Допустим также вариант с да-презентом: «Могу ли да добијем мени, молим?»</note>
+</construction>
+	    <construction>
+        <element_id>construction_37</element_id>
+        <text>До́бро ју́тро! Ка́ко сте?</text>
+        <phonetic_transcription>[ˈdɔbrɔ ˈjutrɔ ˈkakɔ ˈstɛ]</phonetic_transcription>
+        <pronunciation_description>до́б-ро ю́-тро! ка́-ко стэ?, ударение как в словах выше, пауза после приветствия</pronunciation_description>
+        <translation>Доброе утро! Как у вас дела?</translation>
+        <note>Простая фраза для начала разговора с соседом</note>
+    </construction>
+	<construction>
+        <element_id>construction_38</element_id>
+        <text>Гдѐ је ауто́буска ста̀ница?</text>
+        <phonetic_transcription>[ɡdɛ jɛ autǒːbuska stǎnit͡sa]</phonetic_transcription>
+        <pronunciation_description>гд**э** йэ ау-то́о-бус-ка ста́-ни-ца, ударение на „је“, „ауто́бус“, „ста̀ница“; „э“ кратко</pronunciation_description>
+        <translation>Где автобусная остановка?</translation>
+        <note>Используется для того, чтобы узнать местоположение остановки.</note>
+    </construction>
+	<construction>
+        <element_id>construction_39</element_id>
+        <text>Коли́ко је сáти?</text>
+        <phonetic_transcription>[ˈkɔlikɔ jɛ ˈsaːti]</phonetic_transcription>
+        <pronunciation_description>ко́-ли-ко йе са́а-ти, ударение на первый слог у „колико“ и „сати“, „о“ кратко, „а“ длинное у „сати“</pronunciation_description>
+        <translation>Сколько времени? / Который час?</translation>
+        <note>Стандардни начин да питаш време, вежливо и разговорно</note>
+    </construction>
+	    <construction>
+        <element_id>construction_40</element_id>
+        <text>Чѐтврт до пѐт</text>
+        <phonetic_transcription>[ˈt͡ʃetʋrt dɔ pɛt]</phonetic_transcription>
+        <pronunciation_description>ч**э**т-врт до п**э**т, ударење на „четврт“ и „пет“, „э“ кратко, пауза после „до“</pronunciation_description>
+        <translation>Без четверти пять (4:45)</translation>
+        <note>Используется для обозначения времени «4:45».</note>
+    </construction>
+    <construction>
+        <element_id>construction_41</element_id>
+        <text>Полóвина шèст</text>
+        <phonetic_transcription>[pɔˈlɔvina ʃɛst]</phonetic_transcription>
+        <pronunciation_description>по-л**о**-ви-на ш**э**ст, ударење на „ловина“ и „шест“, „о“ кратко</pronunciation_description>
+        <translation>Половина шестого (5:30)</translation>
+        <note>Стандардни начин за означавање половине сата</note>
+    </construction>
+	<construction>
+    <element_id>construction_42</element_id>
+    <text>Чѐтврт прѐко шѐст</text>
+    <phonetic_transcription>[ˈt͡ʃetʋrt ˈprɛkɔ ʃɛst]</phonetic_transcription>
+    <pronunciation_description>ч**э**т-врт пр**э**-ко ш**э**ст, ударение на «четврт», «прѐко», «шест»; «э» короткое</pronunciation_description>
+    <translation>Четверть после шести (6:15)</translation>
+    <note>Используется для обозначения времени после целого часа; «прѐко» значит «после» или «через»</note>
+</construction>
+<construction>
+        <element_id>construction_43</element_id>
+        <text>Полóвина дѐвет</text>
+        <phonetic_transcription>[pɔˈlɔvina ˈdɛvɛt]</phonetic_transcription>
+        <pronunciation_description>по-л**о**-ви-на д**э**-вет, ударение на „ловина“ и „девет“; „о“ кратко</pronunciation_description>
+        <translation>Половина девятого (8:30)</translation>
+        <note>Стандартный способ обозначения половины часа, „дѐвет“ — девять</note>
+    </construction>
+    <construction>
+        <element_id>construction_44</element_id>
+        <text>Да ли је дѐвет сáти?</text>
+        <phonetic_transcription>[da li jɛ ˈdɛvɛt ˈsaːti]</phonetic_transcription>
+        <pronunciation_description>да ли йэ д**э**-вет са́а-ти, ударение на „девет“ и „сати“; „э“ короткое</pronunciation_description>
+        <translation>Сейчас девять часов?</translation>
+        <note>Вопрос для подтверждения времени, использует "да ли" + "је" от "бити"</note>
+    </construction>
+    <construction>
+        <element_id>construction_45</element_id>
+        <text>Чѐтврт до дѐсет</text>
+        <phonetic_transcription>[ˈt͡ʃetʋrt dɔ ˈdɛsɛt]</phonetic_transcription>
+        <pronunciation_description>ч**э**т-врт до д**э**-сет, ударение на „четврт“ и „десет“; „э“ короткое</pronunciation_description>
+        <translation>Четверть до десяти (9:45)</translation>
+        <note>Для времени перед следующим часом, "до" значит "до"</note>
+    </construction>
+	<construction>
+        <element_id>construction_46</element_id>
+        <text>У коли́ко сáти?</text>
+        <phonetic_transcription>[u ˈkɔlikɔ ˈsaːti]</phonetic_transcription>
+        <pronunciation_description>у ко́-ли-ко са́а-ти, ударение на первый слог в „колико“ и „сати“, „о“ краткое, „а“ длинное в „сати“</pronunciation_description>
+        <translation>Во сколько?</translation>
+        <note>Вопрос о времени события, часто в диалогах о встречах</note>
+    </construction>
+    <construction>
+        <element_id>construction_47</element_id>
+        <text>У дѐвет сáти</text>
+        <phonetic_transcription>[u ˈdɛvɛt ˈsaːti]</phonetic_transcription>
+        <pronunciation_description>у д**э**-вет са́а-ти, ударение на „девет“ и „сати“, „э“ короткое</pronunciation_description>
+        <translation>В девять часов</translation>
+        <note>Ответ на "У колико сати?", указывает точное время</note>
+    </construction>
+<construction>
+    <element_id>construction_48</element_id>
+    <text>Хо́ћу да и́дем су́тра</text>
+    <phonetic_transcription>[ˈxotɕu da ˈidɛm ˈsutra]</phonetic_transcription>
+    <pronunciation_description>хо́-ћу да и́-дэм су́-тра; естественнее без точного «в девять», потому что конструкция выражает желание/намерение.</pronunciation_description>
+    <translation>Я хочу пойти завтра.</translation>
+    <note>«Хоћу да + презент» — выражает желание/намерение; более вежливо: «Хтео/хтела бих да идем сутра…»</note>
+</construction>
+	    <construction>
+        <element_id>construction_49</element_id>
+        <text>Пи́шем пи́смо</text>
+        <phonetic_transcription>[pǐːʃɛm pǐːsmo]</phonetic_transcription>
+        <pronunciation_description>п**ии**-шем п**ии**-смо, ударение на первый слог в обоих, „и“ длинное</pronunciation_description>
+        <translation>Пишу письмо</translation>
+        <note>Пример с pisati в настоящем; для napisati: "Написао сам писмо" - Написал письмо</note>
+    </construction>
+	<construction>
+    <element_id>construction_50</element_id>
+    <text>Нéћу да и́дем</text>
+    <phonetic_transcription>[ˈnɛtɕu da ˈidɛm]</phonetic_transcription>
+    <pronunciation_description>н**э**-ћу да и́-дэм, ударение на первый слог „нéћу“ и „и́дем“, „ћу“ мягкое как «тьу»</pronunciation_description>
+    <translation>Я не хочу / не буду идти</translation>
+    <note>Используется для выражения нежелания или отказа в будущем</note>
+</construction>
+<construction>
+    <element_id>construction_51</element_id>
+    <text>Нéћу ра́дити су́тра</text>
+    <phonetic_transcription>[ˈnɛtɕu ˈraditi ˈsutra]</phonetic_transcription>
+    <pronunciation_description>н**э**-ћу ра́-ди-ти су́-тра, ударение на первый слог „нéћу“, первый в „ра́дити“ и „су́тра“</pronunciation_description>
+    <translation>Я не хочу работать завтра / Я не буду работать завтра</translation>
+    <note>Пример с глаголом „радити“ (работать)</note>
+</construction>
+<construction>
+    <element_id>construction_52</element_id>
+    <text>Мȍжете ли ми по̀моћи?</text>
+    <phonetic_transcription>[ˈmɔʒetɛ li mi pɔ̀mɔtɕi]</phonetic_transcription>
+    <pronunciation_description>Мȍ-же-те ли ми по̀-мо-ћи: ударение в „Мȍжете“ на первом слоге (краткий падающий), в „по̀моћи“ на первом слоге.</pronunciation_description>
+    <translation>Не могли бы вы мне помочь?</translation>
+    <note>Вежливая просьба о помощи; „ми“ — дательный: «мне».</note>
+</construction>
+<construction>
+    <element_id>construction_53</element_id>
+    <text>Изви́ните, гдè је тоа̀лет?</text>
+    <phonetic_transcription>[izʋǐnitɛ ɡdɛ jɛ toǎlet]</phonetic_transcription>
+    <pronunciation_description>Из-ви́-ни-те, гдè је то-а̀-лет — основной ударный слог в „Изви́ните“ на „ви“, в „гдè“ — краткий нисходящий, в „тоа̀лет“ — восходящий на „а“.</pronunciation_description>
+    <translation>Извините, где туалет?</translation>
+    <note>Вежливая формула для запроса направления; нейтрально можно сказать: „Гдè је тоа̀лет?“</note>
+</construction>
+<construction>
+    <element_id>construction_54</element_id>
+    <text>Гдè је стàница?</text>
+    <phonetic_transcription>[ɡdɛ jɛ stǎnit͡sa]</phonetic_transcription>
+    <pronunciation_description>гдè је ста̀-ни-ца; ударение на «гдè» и «ста̀-». Краткое «е» в „је“.</pronunciation_description>
+    <translation>Где остановка?</translation>
+    <note>Нейтральный общий вопрос о месте остановки.</note>
+</construction>
+<construction>
+    <element_id>construction_55</element_id>
+    <text>Гдè је стàница за ауто́бус 26?</text>
+    <phonetic_transcription>[ɡdɛ jɛ stǎnit͡sa za autǒːbus dvadɛsɛt ʃɛst]</phonetic_transcription>
+    <pronunciation_description>гдè је ста̀ница за ау-то́о-бус 26; долг. „оː“ в „ауто́бус“.</pronunciation_description>
+    <translation>Где остановка автобуса 26?</translation>
+    <note>Уточнение по номеру маршрута.</note>
+</construction>
+<construction>
+    <element_id>construction_56</element_id>
+    <text>Да ли овај ауто́бус иде до це̏нтра?</text>
+    <phonetic_transcription>[da li ɔʋaj autǒːbus ˈidɛ dɔ ˈt͡sɛntar]</phonetic_transcription>
+    <pronunciation_description>да ли о́-вај ау-то́о-бус и-де до це̏н-тар; ударение в „це̏нтар“ на первом слоге.</pronunciation_description>
+    <translation>Этот автобус идёт до центра?</translation>
+    <note>Нейтральный общий вопрос с „да ли“.</note>
+</construction>
+<construction>
+    <element_id>construction_57</element_id>
+    <text>Иде ли овај ауто́бус до це̏нтра?</text>
+    <phonetic_transcription>[ˈidɛ li ɔʋaj autǒːbus dɔ ˈt͡sɛntar]</phonetic_transcription>
+    <pronunciation_description>и́-де ли овај ау-то́о-бус до це̏н-тар; инверсия с „ли“.</pronunciation_description>
+    <translation>Идёт ли этот автобус до центра?</translation>
+    <note>Более разговорный вариант с инверсией.</note>
+</construction>
+<construction>
+    <element_id>construction_58</element_id>
+    <text>Хȍћу да сȉђем о́вде.</text>
+    <phonetic_transcription>[ˈxɔtɕu da ˈsid͡ʑɛm ˈɔʋdɛ]</phonetic_transcription>
+    <pronunciation_description>хо̏-ћу да сȉ-ђем о́в-де; ударение на „хо̏“, „сȉ-“ и „о́в-“.</pronunciation_description>
+    <translation>Я хочу выйти здесь.</translation>
+    <note>Стандартно к водителю или кондуктору.</note>
+</construction>
+<construction>
+    <element_id>construction_59</element_id>
+    <text>Коли́ко ко́шта кȃрта?</text>
+    <phonetic_transcription>[ˈkɔlikɔ ˈkɔʃta kâːrta]</phonetic_transcription>
+    <pronunciation_description>ко́-ли-ко ко́ш-та ка̑р-та; долгий „аː“ в „кȃрта“.</pronunciation_description>
+    <translation>Сколько стоит билет?</translation>
+    <note>Вежливо и универсально в кассе/у водителя.</note>
+</construction>
+<construction>
+    <element_id>construction_60</element_id>
+    <text>Кàсни ауто́бус.</text>
+    <phonetic_transcription>[ˈkasni autǒːbus]</phonetic_transcription>
+    <pronunciation_description>ка̀с-ни ау-то́о-бус; долгий „оː“ в „ауто́бус“.</pronunciation_description>
+    <translation>Автобус опаздывает.</translation>
+    <note>Сообщение о задержке/опоздании транспорта.</note>
+</construction>
+<construction>
+    <element_id>construction_61</element_id>
+    <text>О́ни су у про̀давници.</text>
+    <phonetic_transcription>[ˈɔni su u prǒdavnit͡si]</phonetic_transcription>
+    <pronunciation_description>О́-ни су у про̀-дав-ни-ци; ударение на „О́ни“ (первый слог) и на „про̀-“.</pronunciation_description>
+    <translation>Они в магазине.</translation>
+    <note>Модель: „(они/оне/она) су у + Локатив“ — указание места пребывания.</note>
+</construction>
+<construction>
+    <element_id>construction_62</element_id>
+    <text>Да ли ћеш по̏ћи у про̀давницу су̏тра?</text>
+    <phonetic_transcription>[da li tɕeʃ pɔ̏tɕi u prǒdavnit͡su sǔtra]</phonetic_transcription>
+    <pronunciation_description>Да ли ћеш по̏-ћи у про̀-дав-ни-цу су̏-тра; краткий падающий на „по̏“, „про̀“, „су̏“; „ћ“ = мягкое [tɕ].</pronunciation_description>
+    <translation>Ты пойдёшь в магазин завтра?</translation>
+    <note>Будуће време I: „ћу/ћеш/ће… + инфинитив“; направление: у + вин. ед. → „у про̀давницу“.</note>
+</construction>
+<construction>
+    <element_id>construction_63</element_id>
+    <text>Мòгу ли да у̀ђем?</text>
+    <phonetic_transcription>[ˈmɔɡu li da ˈud͡ʑɛm]</phonetic_transcription>
+    <pronunciation_description>мо̏-гу ли да у̀-ђем; основа од „moći“: „mògu“; инфинитив „ȗći“ даје презенску форму „у̀ђем“.</pronunciation_description>
+    <translation>Могу ли войти?</translation>
+    <note>Вежливая просьба о входе; уместно при стуке в дверь.</note>
+</construction>
+<construction>
+    <element_id>construction_64</element_id>
+    <text>Штá имáте за јѐло?</text>
+    <phonetic_transcription>[ʃtâ iˈmatɛ za ˈjɛlɔ]</phonetic_transcription>
+    <pronunciation_description>штá и-ма́-те за јѐ-ло; „штá“ — долгосилав., „имáте“ — ударение на „ма“, „јѐло“ — ударение на первом слоге.</pronunciation_description>
+    <translation>Что у вас есть поесть?</translation>
+    <note>Нейтральный ресторанный вопрос о блюдах/меню.</note>
+</construction>
+<construction>
+    <element_id>construction_65</element_id>
+    <text>Свé је бѝло о̏длично!</text>
+    <phonetic_transcription>[ˈsvɛ jɛ ˈbilo ˈɔdlit͡ʃnɔ]</phonetic_transcription>
+    <pronunciation_description>Свé је бѝ-ло о̏д-ли-чно; «бѝло» — краткий восходящий на первом слоге; «о̏длично» — ударение на первом слоге.</pronunciation_description>
+    <translation>Всё было отлично!</translation>
+    <note>Вежливая похвала еде/обслуживанию.</note>
+</construction>
+<construction>
+    <element_id>construction_66</element_id>
+    <text>Мȍгу ли да дòбијем нȅгазӣрану вóду?</text>
+    <phonetic_transcription>[ˈmɔɡu li da ˈdɔbijɛm nɛɡaˈziːranu ˈʋɔdu]</phonetic_transcription>
+    <pronunciation_description>Мȍ-гу ли да дò-би-јем не̏-га-зӣ-ра-ну вó-ду; ударение в «Мȍгу» на 1-м слоге, в «дòбијем» на 1-м, в «нȅгазӣрану» — на «не̏» и долгий «ӣ», в «вóду» — на 1-м слоге.</pronunciation_description>
+    <translation>Могу ли я получить негазированную воду?</translation>
+    <note>Вежливая полная просьба. Короткий разговорный вариант: «Може негазирана вода?»</note>
+</construction>
+<construction>
+  <element_id>construction_67</element_id>
+  <text>Мо̀же ли ра̀чӯн, мо̀лим?</text>
+  <phonetic_transcription>[mɔ̌ʒe li rǎt͡ʃuːn ˈmǒlim]</phonetic_transcription>
+  <pronunciation_description>мо̀-же ли ра̀-чӯн, мо̀-лим? — ударение на первых слогах «мо̀-», «ра̀-» и «мо̀-»; в «рачун» долгий звук у [uː]</pronunciation_description>
+  <translation>Можно счёт, пожалуйста?</translation>
+  <note>Нейтрально-вежливый запрос счёта. Распространённые варианты: «Račun, molim (vas).» и «Je l’ može račun?»; более формально с «vas». Аудио и словарные подтверждения: račun ‘счёт’ (/rǎt͡ʃuːn/) и «molim» ‘пожалуйста’ (/ˈmǒ.lim/). Допустима латиница: «Može li račun, molim?»</note>
+</construction>
+<construction>
+  <element_id>construction_68</element_id>
+  <text>Нȇма на чѐму.</text>
+  <phonetic_transcription>[ˈnɛma na ˈt͡ʃɛmu]</phonetic_transcription>
+  <pronunciation_description>Нȇ-ма на чѐ-му; фраза-ответ на «Хвала!».</pronunciation_description>
+  <translation>Не за что / Пожалуйста.</translation>
+  <note>Фраза зафиксирована в HJP под леммой «némati» (nema na čemu); акцент чѐму подтверждён как čèmu.</note>
+</construction>
+<construction>
+  <element_id>construction_69</element_id>
+  <text>Крȇћем у школу.</text>
+  <phonetic_transcription>[ˈkrɛt͡ɕɛm u ˈʃkɔlu]</phonetic_transcription>
+  <pronunciation_description>Крȇ-ћем — презенс от «крéтати»; «у школу» — безударный предлог + существительное.</pronunciation_description>
+  <translation>Я выхожу / выдвигаюсь в школу.</translation>
+  <note>Парадигма и акцент презенса у «крéтати» (krȇćēm) согласно HJP.</note>
+</construction>
+<construction>
+  <element_id>construction_70</element_id>
+  <text>Када крȇћемо?</text>
+  <phonetic_transcription>[ˈkada ˈkrɛt͡ɕɛmo]</phonetic_transcription>
+  <pronunciation_description>крȇ-ће-мо — тот же презенс от «крéтати», вопрос о планах.</pronunciation_description>
+  <translation>Когда мы выдвигаемся?</translation>
+  <note>Имперфектив для планов/расписания; сравни с перфективом «кре́нути».</note>
+</construction>
+<construction>
+  <element_id>construction_71</element_id>
+  <text>Вȏз је крéнуо.</text>
+  <phonetic_transcription>[ʋoːz jɛ ˈkrɛnuo]</phonetic_transcription>
+  <pronunciation_description>Вȏз — долгота/силовой спад на «о»; крé-ну-о — перф. прич. от «кре́нути».</pronunciation_description>
+  <translation>Поезд отправился.</translation>
+  <note>Акцент «vȏz» и формы «кре́нути / крéнуо» подтверждены HJP.</note>
+</construction>
+<construction>
+  <element_id>construction_72</element_id>
+  <text>Ви̏ди што је лѐпо!</text>
+  <phonetic_transcription>[ˈʋidi ʃtɔ jɛ ˈlɛpɔ]</phonetic_transcription>
+  <pronunciation_description>ВИ̏-ди што је Лѐ-по; ударения на «Ви̏-» и «лѐ-».</pronunciation_description>
+  <translation>Смотри/глянь, как красиво!</translation>
+  <note>Разговорная восклицательная модель: „Vidi/Gledaj + što/kako + je + прил.“</note>
+</construction>
+<construction>
+  <element_id>construction_73</element_id>
+  <text>Кȅса нè трȅба.</text>
+  <phonetic_transcription>[ˈkɛsa nɛ ˈtrɛba]</phonetic_transcription>
+  <pronunciation_description>КЕ-са нэ ТРЭ-ба; ударение на первых слогах в «кȅса» и «трȅба», «е» краткие. Произносится слитно и коротко, как шаблонный ответ на кассе.</pronunciation_description>
+  <translation>Пакет не нужен.</translation>
+  <note>Частотный ответ в магазине. Вариант с дательным: «Нè трȅба ми кȅса.» — «Мне не нужен пакет.»</note>
+</construction>
+<construction>
+  <element_id>construction_74</element_id>
+  <text>Свӣђа ми се Бео́град.</text>
+  <phonetic_transcription>[ˈsʋiːd͡ʑa mi sɛ ˈbɛoɡrad]</phonetic_transcription>
+  <pronunciation_description>СВИИ-ђа ми се БЕ-о-град; ударение на первом слоге «Свӣ-» (долгота i слышна), в «Бео́град» — на «Бе-». «ђ» = мягкое [d͡ʑ].</pronunciation_description>
+  <translation>Мне нравится Белград.</translation>
+  <note>Модель «(нешто) ми се свиђа» с дательным experiencer-ом: ми/ти/му…; ср. словарные пометы и аудио-примеры.</note>
+</construction>
+<construction>
+  <element_id>construction_75</element_id>
+  <text>Ми̏слим да је то до̀бра иде́ја.</text>
+  <phonetic_transcription>[ˈmislim da jɛ tɔ ˈdɔbra iˈdɛja]</phonetic_transcription>
+  <pronunciation_description>МЍ-слим да је то ДО̀-бра и-де́-ја; ударения: „ми̏слим“ (первый слог), „до̀бра“ (первый слог), „иде́ја“ (на „де“). „ј“ в „је/идеја“ — краткое [j].</pronunciation_description>
+  <translation>Я думаю, что это хорошая идея.</translation>
+  <note>Модель: „мислити да + презент“. Согласование прилагательного с ж.р. „идеја“: добра/одлична/лоша идеја.</note>
+</construction>
+<construction>
+  <element_id>construction_76</element_id>
+  <text>О́во је ту́жно, али ва́жно.</text>
+  <phonetic_transcription>[ˈɔvɔ jɛ ˈtuʒnɔ ˈali ˈʋaʒnɔ]</phonetic_transcription>
+  <pronunciation_description>О́-во је ТУ́-жно, а-ли ВА́-жно; средний род ед. ч. для безличного «это ...». «ж» и «жн» звучат твёрдо; «али» — нейтральный союз «но».</pronunciation_description>
+  <translation>Это грустно, но важно.</translation>
+  <note>Модель: «Ово је X, али Y». Часто с прилагательными среднего рода: добро/лоше/тужно/важно и т.п.</note>
+</construction>
+<construction>
+  <element_id>construction_77</element_id>
+  <text>Мо́жете ли да говори́те спо́рије, мо́лим вас?</text>
+  <phonetic_transcription>[ˈmɔʒɛtɛ li da ɡɔvɔˈritɛ ˈspɔrijɛ ˈmɔlim ʋas]</phonetic_transcription>
+  <pronunciation_description>МО́-жете ли да говори́те СПО́-ри-је, МО́-лим вас; ударения: «мо́жете», «говори́те», «спо́рије», «мо́лим».</pronunciation_description>
+  <translation>Не могли бы вы говорить помедленнее, пожалуйста?</translation>
+  <note>Формула вежливой просьбы: «Можете ли да + презент, молим вас?»</note>
+</construction>
+<construction>
+  <element_id>construction_78</element_id>
+  <text>Полóвина сѐдам</text>
+  <phonetic_transcription>[pɔˈlɔvina ˈsɛdam]</phonetic_transcription>
+  <pronunciation_description>по-лó-ви-на сѐ-дам; ударение: во фразе на «лó», в слове «сѐдам» — на первом слоге; все гласные краткие, «в» ближе к [ʋ].</pronunciation_description>
+  <translation>Половина седьмого (6:30 / 18:30)</translation>
+  <note>Нормативный способ сказать «:30». В разговорной речи чаще: «Пóла седам» (= 6:30).</note>
+</construction>
+<construction>
+  <element_id>construction_79</element_id>
+  <text>Бóли ме глáва</text>
+  <phonetic_transcription>[ˈbɔli mɛ ˈɡlaːʋa]</phonetic_transcription>
+  <pronunciation_description>бо́-ли мэ гла́-ва; ударение на первых слогах «бо́-» и «гла́-», «а» в «глава» длинное.</pronunciation_description>
+  <translation>У меня болит голова</translation>
+  <note>Модель: «Бóли ме + ед. ч.» / «Бóле ме + мн. ч.». Ср.: «Бóле ме ле́ђа» (спина — мн. ч.).</note>
+</construction>
+<construction>
+  <element_id>construction_80</element_id>
+  <text>Идéм код лèкара</text>
+  <phonetic_transcription>[ˈidɛm kɔd ˈlɛkara]</phonetic_transcription>
+  <pronunciation_description>и-дéм код лè-кара; ударение на втором слоге в «идем», первом в «лекар».</pronunciation_description>
+  <translation>Я иду к врачу</translation>
+  <note>Стандартное выражение: «код» + род. падеж обозначает направление к человеку.</note>
+</construction>
+<construction>
+  <element_id>construction_81</element_id>
+  <text>Ва̑жи, нèма проблéма.</text>
+  <phonetic_transcription>[ʋâːʒi ˈnɛma prɔˈblɛma]</phonetic_transcription>
+  <pronunciation_description>Ва̑-жи — долгий падающий на „ва“, «ж» твёрдое; нè-ма — ударение на первом слоге; про-블é-ма — акцент на «ле».</pronunciation_description>
+  <translation>Окей, без проблем.</translation>
+  <note>Частый разговорный ответ-согласие; нейтрально-вежливый. Вариант усиления: „Ва̑жи, ва̑жи!“</note>
+</construction>
+<construction>
+  <element_id>construction_82</element_id>
+  <text>Ка́ко се то ра́ди?</text>
+  <phonetic_transcription>[ˈkako sɛ tɔ ˈradi]</phonetic_transcription>
+  <pronunciation_description>ка́-ко сэ то ра́-ди; ударение на первом слоге „ка́ко“ и „ра́ди“, „о“ короткое, „и“ чёткое. Частица „се“ произносится кратко и слитно с соседними словами.</pronunciation_description>
+  <translation>Как это делается?</translation>
+  <note>Возвратная конструкция: „се“ указывает, что действие совершается само по себе или в общем смысле («делают вообще»). Часто используется в объяснениях или вопросах о способе выполнения чего-либо.</note>
+</construction>
+<construction>
+  <element_id>construction_83</element_id>
+  <text>Још не гòворим српски.</text>
+  <phonetic_transcription>[jɔʃ nɛ ɡǒʋorim ˈsrpski]</phonetic_transcription>
+  <pronunciation_description>Йош нэ го̀-ворим српски; ударение на первом слоге «го̀-», «ш» мягкое, «рп» произносится чётко и слитно.</pronunciation_description>
+  <translation>Я ещё не говорю по-сербски.</translation>
+  <note>Частотная фраза для начинающих; подчёркивает, что действие ещё не завершено. Аналог: «Још не разумем.»</note>
+</construction>
+<construction>
+  <element_id>construction_84</element_id>
+  <text>Да ли говори́те ѐнглески?</text>
+  <phonetic_transcription>[da li ɡɔvɔˈritɛ ˈɛŋɡlɛski]</phonetic_transcription>
+  <pronunciation_description>да ли го-во-РИ-те Э̀Н-глес-ки; ударения: говори́те — на «ри», ѐнглески — на первом слоге.</pronunciation_description>
+  <translation>Вы говорите по-английски?</translation>
+  <note>Вежливая форма вопроса о языке собеседника.</note>
+</construction>
+<construction>
+    <element_id>construction_85</element_id>
+    <text>Са̑мо глèдам.</text>
+    <phonetic_transcription>[ˈsâmo ˈɡlɛdam]</phonetic_transcription>
+    <pronunciation_description>са̑мо — долгий падающий на первом слоге; глè-дам — ударение на глè-, короткое «е»</pronunciation_description>
+    <translation>Я просто смотрю.</translation>
+    <note>Стандартный вежливый ответ продавцу: помощь не требуется.</note>
+</construction>
+<construction>
+  <element_id>construction_86</element_id>
+  <text>Мóгу ли да замéним éвре за ди́наре?</text>
+  <phonetic_transcription>[ˈmoːɡu li da zaˈmɛnim ˈɛʋrɛ za ˈdinaːrɛ]</phonetic_transcription>
+  <pronunciation_description>м**оо**-гу ли да за-м**э**-ним э́в-рэ за д**и́**-на-рэ; ударения на „мóгу“, „замéним“, „éвре“ и „ди́наре“.</pronunciation_description>
+  <translation>Могу ли я обменять евро на динары?</translation>
+  <note>Вежливая форма вопроса при обмене валюты; вариант конструкции с конкретизацией валют вместо общего «новца».</note>
+</construction>
+<construction>
+  <element_id>construction_87</element_id>
+  <text>Гдè је мењáчница?</text>
+  <phonetic_transcription>[ɡdɛ jɛ mɛˈɲat͡ʃnit͡sa]</phonetic_transcription>
+  <pronunciation_description>гдè је ме-ЊÁЧ-ни-ца; краткое «е» в „је“, ударение на «-њáч-».</pronunciation_description>
+  <translation>Где обменник?</translation>
+  <note>Полезный вопрос в незнакомом городе; вариант усиления: „Гдè је најближа мењáчница?“ — Где ближайший обменник?</note>
+</construction>
+<construction>
+    <element_id>construction_88</element_id>
+    <text>Мóгу ли да пи́там?</text>
+    <phonetic_transcription>[ˈmoːɡu li da pǐtam]</phonetic_transcription>
+    <pronunciation_description>м**оо**-гу ли да пи́-там; ударение на первый слог в «Мóгу» и «пи́там», «о» в «мóгу» долгий, «и» в «пи́там» слегка вытянутое.</pronunciation_description>
+    <translation>Могу я спросить? / Можно спросить?</translation>
+    <note>Вежливая, но при этом достаточно нейтральная формула просьбы задать вопрос; построена по знакомой модели «Мóгу ли да + презент».</note>
+</construction>
+<construction>
+    <element_id>construction_89</element_id>
+    <text>Kako se zoveš?</text>
+    <phonetic_transcription></phonetic_transcription>
+    <pronunciation_description></pronunciation_description>
+    <translation>Как тебя зовут?</translation>
+    <note></note>
+</construction>
+<construction>
+    <element_id>construction_90</element_id>
+    <text>Kako se prezivaš?</text>
+    <phonetic_transcription></phonetic_transcription>
+    <pronunciation_description></pronunciation_description>
+    <translation>Как твоя фамилия?</translation>
+    <note></note>
+</construction>
+<construction>
+    <element_id>construction_91</element_id>
+    <text>Gde živiš?</text>
+    <phonetic_transcription></phonetic_transcription>
+    <pronunciation_description></pronunciation_description>
+    <translation>Где ты живёшь?</translation>
+    <note></note>
+</construction>
+<construction>
+    <element_id>construction_92</element_id>
+    <text>Odakle si?</text>
+    <phonetic_transcription></phonetic_transcription>
+    <pronunciation_description></pronunciation_description>
+    <translation>Откуда ты?</translation>
+    <note></note>
+</construction>
+<construction>
+    <element_id>construction_93</element_id>
+    <text>Čime se baviš?</text>
+    <phonetic_transcription></phonetic_transcription>
+    <pronunciation_description></pronunciation_description>
+    <translation>Чем ты занимаешься?</translation>
+    <note></note>
+</construction>
+<construction>
+    <element_id>construction_94</element_id>
+    <text>Šta voliš?</text>
+    <phonetic_transcription></phonetic_transcription>
+    <pronunciation_description></pronunciation_description>
+    <translation>Что ты любишь?</translation>
+    <note></note>
+</construction>
+<construction>
+    <element_id>construction_95</element_id>
+    <text>Kako se kaže ... na srpskom?</text>
+    <phonetic_transcription></phonetic_transcription>
+    <pronunciation_description></pronunciation_description>
+    <translation>Как сказать ... по-сербски?</translation>
+    <note></note>
+</construction>
+<construction>
+    <element_id>construction_96</element_id>
+    <text>Šta znači ... ?</text>
+    <phonetic_transcription></phonetic_transcription>
+    <pronunciation_description></pronunciation_description>
+    <translation>Что значит ... ?</translation>
+    <note></note>
+</construction>
+<construction>
+    <element_id>construction_97</element_id>
+    <text>Može pitanje?</text>
+    <phonetic_transcription></phonetic_transcription>
+    <pronunciation_description></pronunciation_description>
+    <translation>Можно вопрос?</translation>
+    <note></note>
+</construction>
+<construction>
+    <element_id>construction_98</element_id>
+    <text>Ponovi, molim te.</text>
+    <phonetic_transcription></phonetic_transcription>
+    <pronunciation_description></pronunciation_description>
+    <translation>Повтори, пожалуйста.</translation>
+    <note></note>
+</construction>
+<construction>
+    <element_id>construction_99</element_id>
+    <text>Kako se čita ... ?</text>
+    <phonetic_transcription></phonetic_transcription>
+    <pronunciation_description></pronunciation_description>
+    <translation>Как читается ... ?</translation>
+    <note></note>
+</construction>
+<construction>
+    <element_id>construction_100</element_id>
+    <text>Kako se kaže ... ?</text>
+    <phonetic_transcription></phonetic_transcription>
+    <pronunciation_description></pronunciation_description>
+    <translation>Как говорится ... ?</translation>
+    <note></note>
+</construction>
+<construction>
+    <element_id>construction_101</element_id>
+    <text>Ja se zovem ...</text>
+    <phonetic_transcription></phonetic_transcription>
+    <pronunciation_description></pronunciation_description>
+    <translation>Меня зовут ...</translation>
+    <note></note>
+</construction>
+<construction>
+    <element_id>construction_102</element_id>
+    <text>Dobro došli</text>
+    <phonetic_transcription></phonetic_transcription>
+    <pronunciation_description></pronunciation_description>
+    <translation>Добро пожаловать</translation>
+    <note></note>
+</construction>
+<construction>
+    <element_id>construction_103</element_id>
+    <text>Sve najbolje</text>
+    <phonetic_transcription></phonetic_transcription>
+    <pronunciation_description></pronunciation_description>
+    <translation>Всего наилучшего</translation>
+    <note>Частое пожелание в быту</note>
+</construction>
+<construction>
+    <element_id>construction_104</element_id>
+    <text>Свé боље и боље</text>
+    <phonetic_transcription>[ˈsvɛ ˈbɔʎɛ i ˈbɔʎɛ]</phonetic_transcription>
+    <pronunciation_description>свЭ бо́-лйе и бо́-лйе; ударение на первом слоге «све» и на «бо-»</pronunciation_description>
+    <translation>Всё лучше и лучше</translation>
+    <note>Используется для описания улучшения состояния или ситуации</note>
+</construction>
+<construction>
+        <element_id>construction_105</element_id>
+        <text>Ко̀ји је дàнас дáн?</text>
+        <phonetic_transcription>[ˈkɔji jɛ ˈdanas ˈdan]</phonetic_transcription>
+        <pronunciation_description>Ко̀ји је дàнас дáн? — «КО-йи йе ДА-нас дааан»; ударения на «ко», «да» и «дан» (в «дан» долгий «а»).</pronunciation_description>
+        <translation>Какой сегодня день?</translation>
+        <note>Вопрос о дне недели; часто используется в повседневной речи и на уроках.</note>
+</construction>
+<construction>
+		<element_id>construction_106</element_id>
+        <text>До̏бар да̑н, ку̀рӣр сам.</text>
+        <phonetic_transcription>[ˈdô.bar ˈdâːn | ˈkǔ.riːr sam]</phonetic_transcription>
+        <pronunciation_description>ДО-бар ДА:н | КУ-риир сам (в “курир” долгое “иː”)</pronunciation_description>
+        <translation>Добрый день, я курьер.</translation>
+        <note>Типичная фраза, когда курьер представляется у двери/по телефону.</note>
+</construction>
+<construction>
+		<element_id>construction_107</element_id>
+        <text>Ѝмам па̀ке̄т за вас.</text>
+        <phonetic_transcription>[ˈǐ.mam ˈpǎ.keːt za ʋas]</phonetic_transcription>
+        <pronunciation_description>И-мам ПА-кет за вас (v = [ʋ], между “в” и “у”)</pronunciation_description>
+        <translation>У меня для вас посылка (пакет).</translation>
+        <note>Можно и “Имам пошиљку за вас.”, но “пакет” — очень частотный вариант.</note>
+</construction>
+<construction>
+		<element_id>construction_108</element_id>
+        <text>Јѐсте ли ко̏д ку̏ће̄?</text>
+        <phonetic_transcription>[ˈjě.ste li kôd ˈkût͡ɕeː]</phonetic_transcription>
+        <pronunciation_description>ЙЕ-сте ли код КУ-че: (“ћ” ≈ мягкое “ть”)</pronunciation_description>
+        <translation>Вы дома?</translation>
+        <note>Вежливый вопрос “Вы дома/на месте?”.</note>
+</construction>
+<construction>
+		<element_id>construction_109</element_id>
+        <text>Да, ко̏д ку̏ће̄ сам.</text>
+        <phonetic_transcription>[da kôd ˈkût͡ɕeː sam]</phonetic_transcription>
+        <pronunciation_description>Да, код КУ-че: сам</pronunciation_description>
+        <translation>Да, я дома.</translation>
+        <note>Короткий естественный ответ курьеру.</note>
+</construction>
+    <construction>
+        <element_id>construction_110</element_id>
+        <text>Móže li kàrtica?</text>
+        <phonetic_transcription>[ˈmoʒe li ˈkartit͡sa]</phonetic_transcription>
+        <pronunciation_description>м**о**-же ли к**а**р-ти-ца; „ž“ = ж, „c“ = ц</pronunciation_description>
+        <translation>Можно картой? / Оплата картой возможна?</translation>
+        <note>Короткий и очень частый вопрос в магазине/кафе про оплату картой</note>
+    </construction>
+    <construction>
+        <element_id>construction_111</element_id>
+        <text>Gdê móžemo da plátimo?</text>
+        <phonetic_transcription>[ɡdê ˈmoʒemo da ˈplaːtimo]</phonetic_transcription>
+        <pronunciation_description>гд**э** м**о**-же-мо да пл**а**-ти-мо; „gde“ = [ɡdê]</pronunciation_description>
+        <translation>Где мы можем оплатить?</translation>
+        <note>Удобно в ресторане/магазине, когда ищете кассу или терминал</note>
+    </construction>
+    <construction>
+        <element_id>construction_112</element_id>
+        <text>Специја́лна по̏нуда</text>
+        <phonetic_transcription>[spet͡siˈjaːlna ˈponuda]</phonetic_transcription>
+        <pronunciation_description>спе-ци-ј**а**л-на п**о**-ну-да; „j“ = й</pronunciation_description>
+        <translation>Специальное предложение</translation>
+        <note>Так пишут/говорят про акции и спец-предложения</note>
+    </construction>
+    <construction>
+        <element_id>construction_113</element_id>
+        <text>Imáte li pȍpust?</text>
+        <phonetic_transcription>[ˈimate li ˈpopust]</phonetic_transcription>
+        <pronunciation_description>и-м**а**-те ли п**о**-пуст; „popust“ = скидка</pronunciation_description>
+        <translation>У вас есть скидка? / Есть ли скидка?</translation>
+        <note>Вежливо спросить про скидку (для карты/акции/студентов и т.п.)</note>
+    </construction>
+    <construction>
+        <element_id>construction_114</element_id>
+        <text>Gdê stóji šèćer?</text>
+        <phonetic_transcription>[ɡdê ˈstɔji ˈʃet͡ɕer]</phonetic_transcription>
+        <pronunciation_description>гд**э** ст**о**-йи ш**е**-чер; „ć“ мягче, чем „ч“ (примерно ть+ч)</pronunciation_description>
+        <translation>Где стоит сахар? / Где находится сахар?</translation>
+        <note>Типичный вопрос в магазине (на какой полке/в каком отделе)</note>
+    </construction>
+    <construction>
+        <element_id>construction_115</element_id>
+        <text>Да̀ ли има́те хле̑б?</text>
+        <phonetic_transcription>[da li ˈimate xlɛːb]</phonetic_transcription>
+        <pronunciation_description>да ли и-м**а**-те хл**э**б; „h“ = х</pronunciation_description>
+        <translation>У вас есть хлеб?</translation>
+        <note>Нейтральный вежливый вопрос в магазине</note>
+    </construction>
+    <construction>
+        <element_id>construction_116</element_id>
+        <text>Trêba mi hlȇb.</text>
+        <phonetic_transcription>[ˈtrɛba mi xlɛːb]</phonetic_transcription>
+        <pronunciation_description>тр**э**-ба ми хл**э**б</pronunciation_description>
+        <translation>Мне нужен хлеб.</translation>
+        <note>Простое утверждение, часто используется при заказе</note>
+    </construction>
+    <construction>
+        <element_id>construction_117</element_id>
+        <text>Brȁšno je dêsno, a ùlje prâvo.</text>
+        <phonetic_transcription>[ˈbraʃno je ˈdɛsno | a ˈuʎe ˈpraːvo]</phonetic_transcription>
+        <pronunciation_description>бр**а**ш-но йе д**э**с-но, а **у**ль-е пр**а**-во</pronunciation_description>
+        <translation>Мука справа, а масло прямо.</translation>
+        <note>Типичный ответ сотрудника магазина с указанием направления</note>
+    </construction>
+    <construction>
+        <element_id>construction_118</element_id>
+        <text>Нѝшта ви̏ше, хва́ла!</text>
+        <phonetic_transcription>[ˈniʃta ˈviʃe ˈxvala]</phonetic_transcription>
+        <pronunciation_description>н**и**ш-та в**и**-ше хв**а**-ла</pronunciation_description>
+        <translation>Больше ничего, спасибо!</translation>
+        <note>Вежливый отказ, часто на кассе</note>
+    </construction>
+    <construction>
+        <element_id>construction_119</element_id>
+        <text>Са́мо глѐдам.</text>
+        <phonetic_transcription>[ˈsamo ˈɡlɛdam]</phonetic_transcription>
+        <pronunciation_description>с**а**-мо гл**э**-дам</pronunciation_description>
+        <translation>Я просто смотрю.</translation>
+        <note>Стандартный ответ продавцу, когда не нужна помощь</note>
+    </construction>
+    <construction>
+        <element_id>construction_120</element_id>
+        <text>Мо́же јо̏ш…</text>
+        <phonetic_transcription>[ˈmoʒe jɔʃ]</phonetic_transcription>
+        <pronunciation_description>м**о**-же й**о**ш</pronunciation_description>
+        <translation>Можно ещё…</translation>
+        <note>Используется при добавлении позиции или просьбе продолжить</note>
+    </construction>
+	<construction>
+  <element_id>construction_121</element_id>
+  <text>Додајте речи са списка у свој речник и научите их.</text>
+  <phonetic_transcription>[dodajtɛ rɛtʃi sa spiska u svoj rɛtʃnik i nautʃitɛ ix.]</phonetic_transcription>
+  <pronunciation_description>до-дај-те ре-чи са спи-ска у свој ре-чник и нау-чи-те их, ударение не отмечено (в исходнике); „ј“ как рус. «й»</pronunciation_description>
+  <translation>Добавьте список слов в свой словарик и выучите их.</translation>
+  <note>Повелительное наклонение (вежливое мн. число).</note>
+</construction>
+<construction>
+  <element_id>construction_122</element_id>
+  <text>Са́мо трену́так, мо́лим вас.</text>
+  <phonetic_transcription>[ˈsamɔ trɛˈnuːtak ˈmɔlim ʋas]</phonetic_transcription>
+  <pronunciation_description>СА-мо тре-НУУ-так, МО-лим вас; ударение в «трену́так» на «ну», в «мо́лим» на первый слог. Произносится мягко и слитно, как вежливая сервисная формула.</pronunciation_description>
+  <translation>Одну минуту, пожалуйста. / Подождите, пожалуйста.</translation>
+  <note>Более естественно для магазина, кофейни, кассы, чем буквальное «Сачекајте, молим вас». Употребляется, когда сотрудник просит клиента немного подождать.</note>
+</construction>
+<construction>
+  <element_id>construction_123</element_id>
+  <text>Има́те ли безлакто́зно мле́ко?</text>
+  <phonetic_transcription>[ˈimate li bezlakˈtozno ˈmlekɔ]</phonetic_transcription>
+  <pronunciation_description>и-МА-те ли без-лак-ТО-зно МЛЕ-ко; ударение для учебной записи: има́те, безлакто́зно, мле́ко.</pronunciation_description>
+  <translation>У вас есть безлактозное молоко?</translation>
+  <note>Очень полезный вежливый вопрос в кофейне перед заказом кофе с альтернативным молоком.</note>
+</construction>
+<construction>
+  <element_id>construction_124</element_id>
+  <text>Је́дан ла́те са безлакто́зним мле́ком, мо́лим.</text>
+  <phonetic_transcription>[ˈjɛdan ˈlatɛ sa bezlakˈtoznim ˈmlekɔm ˈmolim]</phonetic_transcription>
+  <pronunciation_description>ЈЕ-дан ЛА-те са без-лак-ТО-зним МЛЕ-ком МО-лим; произносится как готовая формула заказа.</pronunciation_description>
+  <translation>Один латте на безлактозном молоке, пожалуйста.</translation>
+  <note>Готовая фраза для заказа кофе. Можно заменять „ла́те” на „капучи́но”, „ка́фу” и т. п.</note>
+</construction>
+<construction>
+  <element_id>construction_125</element_id>
+  <text>За по́нети, мо́лим.</text>
+  <phonetic_transcription>[za ˈpɔneti ˈmolim]</phonetic_transcription>
+  <pronunciation_description>за ПО-не-ти МО-лим; короткая и очень частотная реплика при заказе навынос.</pronunciation_description>
+  <translation>С собой, пожалуйста.</translation>
+  <note>Очень частотная разговорная формула в кофейнях и пекарнях. Нормативно модель „за + инфинитив” считается спорной, но в живой речи крайне распространена.</note>
+</construction>
+<construction>
+  <element_id>construction_126</element_id>
+  <text>О́вде, мо́лим.</text>
+  <phonetic_transcription>[ˈɔvdɛ ˈmolim]</phonetic_transcription>
+  <pronunciation_description>ОВ-де МО-лим; короткий естественный ответ, если заказ будет здесь, в заведении.</pronunciation_description>
+  <translation>Здесь, пожалуйста. / На месте, пожалуйста.</translation>
+  <note>Лучший безопасный вариант для ответа, если заказ не с собой. Разговорный вариант, который тоже можно услышать: „За о́вде.”</note>
+</construction>
+<construction>
+    <element_id>construction_127</element_id>
+    <text>Четрдесет један</text>
+    <phonetic_transcription>[ˈt͡ʃɛtrdɛsɛt jɛdan]</phonetic_transcription>
+    <pronunciation_description>ЧЕ-тр-де-сет ЈЕ-дан; для учебного произношения можно опираться на два ударных центра: „четрдесет“ и „један“. Произносится слитно, как одно числительное.</pronunciation_description>
+    <translation>Сорок один</translation>
+    <note>Базовое количественное числительное. Стандартное написание: „четрдесет један“.</note>
+</construction>
+<construction>
+    <element_id>construction_128</element_id>
+    <text>Студи́рати јѐзик</text>
+    <phonetic_transcription>[studiˈrati ˈjɛzik]</phonetic_transcription>
+    <pronunciation_description>сту-ди́-ра-ти јѐ-зик.</pronunciation_description>
+    <translation>Изучать язык</translation>
+    <note>„Studirati“ чаще звучит более академично; для бытового „учить язык“ часто естественнее „учити језик“.</note>
+</construction>
+<construction>
+    <element_id>construction_129</element_id>
+    <text>Изви́ните, јѐдва да го̀ворим ср̏пски.</text>
+    <phonetic_transcription>[izˈʋinite ˈjɛdʋa da ˈɡɔʋorim ˈsr̩pski]</phonetic_transcription>
+    <pronunciation_description>из-ВИ́-ни-те, ЈЀД-ва да ГО̀-во-рим СР̏П-ски; ударение на «ви», «је», «го» и на слоговом «р» в «ср̏пски». Фраза значит «я едва говорю по-сербски / я почти не говорю по-сербски».</pronunciation_description>
+    <translation>Извините, я почти не говорю по-сербски.</translation>
+    <note>Естественная разговорная формула. Более нейтральный и мягкий вариант: „Изви́ните, не гово̀рим до́бро ср̏пски.“</note>
+</construction>
+<construction>
+    <element_id>construction_130</element_id>
+    <text>Јо̏ш не̏што?</text>
+    <phonetic_transcription>[jɔʃ ˈnɛʃtɔ]</phonetic_transcription>
+    <translation>Что-нибудь ещё?</translation>
+	<note>Частый вопрос официанта или продавца, означает предложение добавить что-то к заказу; обычно ожидается краткий ответ: „Не, хвáла.“ или уточнение заказа.</note>
+</construction>
+</vocabulary>

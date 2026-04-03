@@ -1,0 +1,305 @@
+/* ── Глобальные токены ─────────────────────────────────────────────────── */
+/* bg0  #1a1a1f  самый тёмный фон (окно)                                   */
+/* bg1  #22222a  поверхности (карточки, панели)                             */
+/* bg2  #2c2c36  приподнятые элементы (кнопки, инпуты)                     */
+/* acc  #7c6af7  акцент (фиолетовый)                                        */
+/* acc2 #9d8fff  светлый акцент (hover)                                     */
+/* ok   #4caf82  зелёный (правильно)                                        */
+/* err  #e05c5c  красный (ошибка)                                           */
+/* txt0 #e8e6f0  основной текст                                             */
+/* txt1 #9b99aa  вторичный текст                                            */
+/* txt2 #5c5a6e  подсказки / неактивное                                     */
+
+/* ── Базовые виджеты ───────────────────────────────────────────────────── */
+QWidget {
+    background-color: #1a1a1f;
+    color: #e8e6f0;
+    font-family: "Segoe UI", "Arial", sans-serif;
+    font-size: 14px;
+}
+
+QMainWindow {
+    background-color: #1a1a1f;
+}
+
+/* ── Метки ─────────────────────────────────────────────────────────────── */
+QLabel {
+    background: transparent;
+    color: #e8e6f0;
+}
+
+QLabel#labelSecondary {
+    color: #9b99aa;
+    font-size: 13px;
+}
+
+QLabel#labelHint {
+    color: #5c5a6e;
+    font-size: 12px;
+}
+
+QLabel#labelTitle {
+    color: #e8e6f0;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+QLabel#labelCardText {
+    color: #e8e6f0;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+QLabel#labelTranslation {
+    color: #c8c6d8;
+    font-size: 20px;
+}
+
+QLabel#labelPhonetic {
+    color: #7c6af7;
+    font-size: 15px;
+    font-family: "Segoe UI", "Arial Unicode MS", sans-serif;
+}
+
+QLabel#labelNote {
+    color: #9b99aa;
+    font-size: 13px;
+    font-style: italic;
+}
+
+QLabel#labelPronunciation {
+    color: #9b99aa;
+    font-size: 13px;
+}
+
+/* ── Кнопки ────────────────────────────────────────────────────────────── */
+QPushButton {
+    background-color: #2c2c36;
+    color: #e8e6f0;
+    border: 1px solid #3a3a48;
+    border-radius: 8px;
+    padding: 10px 24px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+QPushButton:hover {
+    background-color: #363644;
+    border-color: #7c6af7;
+}
+
+QPushButton:pressed {
+    background-color: #28282f;
+}
+
+QPushButton:disabled {
+    background-color: #22222a;
+    color: #5c5a6e;
+    border-color: #2c2c36;
+}
+
+QPushButton#btnAccent {
+    background-color: #7c6af7;
+    color: #ffffff;
+    border: none;
+    font-weight: 600;
+}
+
+QPushButton#btnAccent:hover {
+    background-color: #9d8fff;
+}
+
+QPushButton#btnAccent:pressed {
+    background-color: #6658d4;
+}
+
+QPushButton#btnCorrect {
+    background-color: #1e3d30;
+    color: #4caf82;
+    border: 1px solid #2d5c47;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+QPushButton#btnCorrect:hover {
+    background-color: #264d3c;
+    border-color: #4caf82;
+}
+
+QPushButton#btnWrong {
+    background-color: #3d1e1e;
+    color: #e05c5c;
+    border: 1px solid #5c2d2d;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+QPushButton#btnWrong:hover {
+    background-color: #4d2626;
+    border-color: #e05c5c;
+}
+
+/* Multiple choice варианты */
+QPushButton#btnChoice {
+    background-color: #22222a;
+    color: #e8e6f0;
+    border: 1px solid #3a3a48;
+    border-radius: 10px;
+    padding: 14px 20px;
+    font-size: 15px;
+    text-align: left;
+}
+
+QPushButton#btnChoice:hover {
+    background-color: #2c2c36;
+    border-color: #7c6af7;
+    color: #e8e6f0;
+}
+
+QPushButton#btnChoiceCorrect {
+    background-color: #1e3d30;
+    color: #4caf82;
+    border: 2px solid #4caf82;
+    border-radius: 10px;
+    padding: 14px 20px;
+    font-size: 15px;
+    text-align: left;
+}
+
+QPushButton#btnChoiceWrong {
+    background-color: #3d1e1e;
+    color: #e05c5c;
+    border: 2px solid #e05c5c;
+    border-radius: 10px;
+    padding: 14px 20px;
+    font-size: 15px;
+    text-align: left;
+}
+
+/* ── Фрейм карточки ─────────────────────────────────────────────────────── */
+QFrame#cardFrame {
+    background-color: #22222a;
+    border: 1px solid #3a3a48;
+    border-radius: 16px;
+}
+
+QFrame#cardFrameFlipped {
+    background-color: #22222a;
+    border: 1px solid #7c6af7;
+    border-radius: 16px;
+}
+
+QFrame#separator {
+    background-color: #3a3a48;
+    max-height: 1px;
+    min-height: 1px;
+}
+
+/* ── Прогресс-бар ───────────────────────────────────────────────────────── */
+QProgressBar {
+    background-color: #2c2c36;
+    border: none;
+    border-radius: 4px;
+    height: 6px;
+    text-align: center;
+}
+
+QProgressBar::chunk {
+    background-color: #7c6af7;
+    border-radius: 4px;
+}
+
+/* ── Панели выбора колоды ────────────────────────────────────────────────── */
+QPushButton#btnDeck {
+    background-color: #22222a;
+    border: 1px solid #3a3a48;
+    border-radius: 14px;
+    padding: 24px 20px;
+    font-size: 15px;
+    text-align: left;
+}
+
+QPushButton#btnDeck:hover {
+    background-color: #2c2c36;
+    border-color: #7c6af7;
+}
+
+QPushButton#btnDeck:checked {
+    background-color: #1e1a3a;
+    border: 2px solid #7c6af7;
+    color: #e8e6f0;
+}
+
+/* ── Экран результатов ───────────────────────────────────────────────────── */
+QLabel#labelScore {
+    color: #4caf82;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+QLabel#labelScoreBad {
+    color: #e05c5c;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+QFrame#resultCard {
+    background-color: #22222a;
+    border: 1px solid #3a3a48;
+    border-radius: 10px;
+}
+
+/* ── ScrollArea ─────────────────────────────────────────────────────────── */
+QScrollArea {
+    border: none;
+    background: transparent;
+}
+
+QScrollArea > QWidget > QWidget {
+    background: transparent;
+}
+
+QScrollBar:vertical {
+    background: #22222a;
+    width: 6px;
+    border-radius: 3px;
+}
+
+QScrollBar::handle:vertical {
+    background: #3a3a48;
+    border-radius: 3px;
+    min-height: 24px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #7c6af7;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    height: 0px;
+}
+
+/* ── SpinBox (размер сессии) ─────────────────────────────────────────────── */
+QSpinBox {
+    background-color: #2c2c36;
+    color: #e8e6f0;
+    border: 1px solid #3a3a48;
+    border-radius: 8px;
+    padding: 6px 12px;
+    font-size: 15px;
+}
+
+QSpinBox:focus {
+    border-color: #7c6af7;
+}
+
+QSpinBox::up-button, QSpinBox::down-button {
+    background-color: #36364a;
+    border: none;
+    width: 20px;
+    border-radius: 4px;
+}
+
+QSpinBox::up-button:hover, QSpinBox::down-button:hover {
+    background-color: #7c6af7;
+}

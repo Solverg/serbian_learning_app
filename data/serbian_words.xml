@@ -1,0 +1,2886 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocabulary>
+    <word>
+	<element_id>>word_1</element_id>
+        <text>Здрáво</text>
+        <phonetic_transcription>[ˈzdraːvo]</phonetic_transcription>
+        <pronunciation_description>здр**аа**-во, ударение на первый слог, „а“ длинное, „о“ мягкое</pronunciation_description>
+        <translation>Здравствуйте</translation>
+        <note>Похоже на русское „здравствуй“</note>
+    </word>
+    <word>
+		<element_id>word_2</element_id>
+        <text>Дóбар дáн</text>
+        <phonetic_transcription>[ˈdoːbar ˈdaːn]</phonetic_transcription>
+        <pronunciation_description>д**оо**-бар д**аа**-н, оба слова с ударением на первый слог, „о“ и „а“ длинные</pronunciation_description>
+        <translation>Добрый день</translation>
+        <note>Состоит из двух слов: „дóбар“ (хороший) и „дáн“ (день)</note>
+    </word>
+    <word>
+        <text>Хвáла</text>
+		<element_id>word_3</element_id>
+        <phonetic_transcription>[ˈxvaːla]</phonetic_transcription>
+        <pronunciation_description>хв**аа**-ла, ударение на первый слог, „л“ твёрдое, как в русском „лук“</pronunciation_description>
+        <translation>Спасибо</translation>
+        <note>Похоже на русское „хвалить“</note>
+    </word>
+    <word>
+		<element_id>word_4</element_id>
+        <text>Мóлим</text>
+        <phonetic_transcription>[ˈmoːlim]</phonetic_transcription>
+        <pronunciation_description>м**оо**лим, ударение на первый слог, „о“ длинное, „м“ мягкое</pronunciation_description>
+        <translation>Пожалуйста</translation>
+        <note>Вежливая форма, аналог русского „прошу“</note>
+    </word>
+    <word>
+		<element_id>word_5</element_id>
+        <text>Извúните</text>
+        <phonetic_transcription>[izˈviːnitɛ]</phonetic_transcription>
+        <pronunciation_description>из-в**ии**-ни-тэ, ударение на второй слог, „и“ длинное, „тэ“ как в русском „тэ“</pronunciation_description>
+        <translation>Извините</translation>
+        <note>Формальная форма, используется в официальных ситуациях</note>
+    </word>
+    <word>
+		<element_id>word_6</element_id>
+        <text>Кáфа</text>
+        <phonetic_transcription>[ˈkaːfa]</phonetic_transcription>
+        <pronunciation_description>к**аа**-фа, ударение на первый слог, „а“ длинное, „ф“ четкое</pronunciation_description>
+        <translation>Кофе</translation>
+        <note>Используется как в мужском, так и в женском роде в разговорной речи</note>
+    </word>
+	    <word>
+		<element_id>word_7</element_id>
+        <text>Чáј</text>
+        <phonetic_transcription>[ˈtʃaːj]</phonetic_transcription>
+        <pronunciation_description>ч**аа**-й, ударение на первый слог, „ч“ как в русском „чай“, „а“ длинное, „й“ мягкое</pronunciation_description>
+        <translation>Чай</translation>
+        <note>Слово звучит почти как в русском, но с длинным „а“</note>
+    </word>
+	<word>
+        <element_id>word_8</element_id>
+        <text>Дóбро</text>
+        <phonetic_transcription>[ˈdoːbro]</phonetic_transcription>
+        <pronunciation_description>д**оо**-бро, ударение на первый слог, „о“ длинное, „р“ твёрдое, дрожащее, как в русском „река“</pronunciation_description>
+        <translation>Хорошо</translation>
+        <note>Используется как подтверждение или в составе приветствий, например, „Дóбро вéче“ (Добрый вечер)</note>
+    </word>
+    <word>
+		<element_id>word_9</element_id>
+        <text>Вóда</text>
+        <phonetic_transcription>[ˈvoːda]</phonetic_transcription>
+        <pronunciation_description>в**оо**-да, ударение на первый слог, „о“ длинное, „д“ четкое</pronunciation_description>
+        <translation>Вода</translation>
+        <note>Слово звучит почти как в русском, но с длинным „о“</note>
+    </word>
+<word>
+    <element_id>word_10</element_id>
+    <text>Па̑сош</text>
+    <phonetic_transcription>[ˈpaːsoʃ]</phonetic_transcription>
+    <pronunciation_description>п**аа**-сош, ударение на первый слог; тон — долгий падающий (па̑).</pronunciation_description>
+    <translation>Паспорт</translation>
+    <note>Стандартная форма: „пасош“ (лат. „pasoš“).</note>
+</word>
+    <word>
+	    <element_id>word_11</element_id>
+        <text>Гдé</text>
+        <phonetic_transcription>[ɡde]</phonetic_transcription>
+        <pronunciation_description>гд**э**, ударение на первый слог, „э“ короткое, как в русском „где“</pronunciation_description>
+        <translation>Где</translation>
+        <note>Звучит почти идентично русскому „где“</note>
+    </word>
+	<word>
+		<element_id>word_12</element_id>
+		<text>Грáница</text>
+		<phonetic_transcription>[ˈgranitsa]</phonetic_transcription>
+		<pronunciation_description>гр**а**-ни-ца, ударение на первый слог, „ц“ чёткое</pronunciation_description>
+		<translation>Граница</translation>
+		<note>Похоже на русское „граница“</note>
+	</word>
+<word>
+    <element_id>word_13</element_id>
+    <text>Докумéнт</text>
+    <phonetic_transcription>[ˈdokumɛnt]</phonetic_transcription>
+    <pronunciation_description>док-у-м**э**нт, ударение может падать как на „у“ (дòкумент), так и на „е“ (докумèнт); „э“ короткое</pronunciation_description>
+    <translation>Документ</translation>
+    <note>Звучит похоже на русское „документ“, в сербском допустимы оба варианта ударения</note>
+</word>
+	<word>
+	 <element_id>word_14</element_id>
+    <text>И́ме</text>
+    <phonetic_transcription>[ˈimɛ]</phonetic_transcription>
+    <pronunciation_description>и́-мэ, ударение на первый слог, „э“ короткое</pronunciation_description>
+    <translation>Имя</translation>
+    <note>Похоже на русское „имя“, но с коротким „э“</note>
+</word>
+<word>
+	<element_id>word_15</element_id>
+    <text>Ка́ко</text>
+    <phonetic_transcription>[ˈkako]</phonetic_transcription>
+    <pronunciation_description>ка́-ко, ударение на первый слог, „а“ короткое</pronunciation_description>
+    <translation>Как</translation>
+    <note>Используется в вопросах, например, „Ка́ко се зо́вете?“</note>
+</word>
+	<word>
+	<element_id>word_16</element_id>
+        <text>Пријáтељ</text>
+        <phonetic_transcription>[ˈprijaːtɛʎ]</phonetic_transcription>
+        <pronunciation_description>при-йаа-тэљ, ударение на первый слог, „а“ длинное, „э“ короткое, „љ“ мягкое, как в русском „любовь“</pronunciation_description>
+        <translation>Друг</translation>
+        <note>Используется для обозначения друга мужского пола</note>
+    </word>
+	<word>
+<element_id>word_17</element_id>
+    <text>Мóје</text>
+    <phonetic_transcription>[ˈmoːjɛ]</phonetic_transcription>
+    <pronunciation_description>м**оо**-йэ, ударение на первый слог, „о“ длинное, „э“ короткое</pronunciation_description>
+    <translation>Моё</translation>
+    <note>Используется для обозначения принадлежности, например, „Мóје и́ме“ (моё имя)</note>
+</word>
+    <word>
+	<element_id>word_18</element_id>
+        <text>Такóђе</text>
+        <phonetic_transcription>[takǒːdʑe]</phonetic_transcription>
+        <pronunciation_description>так-**оо**-дже, ударение на второй слог, „о“ длинное, „дже“ как в русском „джем“</pronunciation_description>
+        <translation>Также, тоже</translation>
+        <note>Используется для подтверждения или согласия, например, в ответ на „Дрáго ми је“</note>
+    </word>
+	<word>
+		<element_id>word_19</element_id>
+        <text>Рáдим</text>
+        <phonetic_transcription>[ˈraːdim]</phonetic_transcription>
+        <pronunciation_description>р**аа**-дим, ударение на первый слог, „а“ длинное, „дим“ как в русском „дым“</pronunciation_description>
+        <translation>Работаю</translation>
+        <note>Используется для рассказа о своей деятельности, например, „Я рáдим у шкóли“ (Я работаю в школе)</note>
+    </word>
+	<word>
+        <element_id>word_20</element_id>
+        <text>Ке́са</text>
+        <phonetic_transcription>[ˈkɛsa]</phonetic_transcription>
+        <pronunciation_description>КЭ-са, с ударением на первый слог, КЭ звучит как русское „э“ в слове „эхо“, са — четкое, как в русском „сам“</pronunciation_description>
+        <translation>Пакет</translation>
+        <note>Используется в магазинах для обозначения пластикового пакета</note>
+    </word>
+	<word>
+        <element_id>word_21</element_id>
+		<text>Ра̀чӯн</text>
+		<phonetic_transcription>[rǎt͡ʃuːn]</phonetic_transcription>
+		<pronunciation_description>ра̀-чӯн; ударение на первом слоге (краткий восходящий), долгий «у» [uː], «ч» как в «чай».</pronunciation_description>
+		<translation>Счёт (чек, банковский счёт)</translation>
+        <note>Используется для обозначения счёта в ресторане (чек) или банковского счёта, например, „Отво́рим ра́чун“ (Открыть счёт)</note>
+    </word>
+    <word>
+        <element_id>word_22</element_id>
+        <text>Пла́ћам</text>
+        <phonetic_transcription>[ˈplaːtɕam]</phonetic_transcription>
+        <pronunciation_description>ПЛА-чам, с ударением на первый слог, ПЛА — как русское „пла“ в слове „плата“, чам — как „ч“ в русском „чай“ и „ам“ как в „сам“</pronunciation_description>
+        <translation>Плачу</translation>
+        <note>Используется при оплате</note>
+    </word>
+	<word>
+        <element_id>word_23</element_id>
+        <text>Хлêб</text>
+        <phonetic_transcription>[xlêːb]</phonetic_transcription>
+        <pronunciation_description>хл**ээ**б, ударение на второй слог (на „ээ“), „э“ протяжное, как в русском „э-э“, „хл“ как в „хлеб“, „б“ четкое</pronunciation_description>
+        <translation>Хлеб</translation>
+        <note>Может означать „хлеб“ или „буханка хлеба“. Похоже на русское слово</note>
+    </word>
+    <word>
+        <element_id>word_24</element_id>
+        <text>Вòће</text>
+        <phonetic_transcription>[ˈʋɔːtɕe]</phonetic_transcription>
+        <pronunciation_description>в**оо**-че, ударение на первый слог (на „оо“), „о“ протяжное, как в русском „ооо“, „че“ мягкое, как в русском „человек“, но чуть мягче, почти как „тье“</pronunciation_description>
+        <translation>Фрукты</translation>
+        <note>Коллективное существительное для фруктов в целом, используется в повседневной речи и ботанике</note>
+    </word>
+	<word>
+        <element_id>word_25</element_id>
+        <text>Млêко</text>
+        <phonetic_transcription>[ˈmlɛːkɔ]</phonetic_transcription>
+        <pronunciation_description>мл**ээ**-ко, ударение на второй слог (на „ээ“), „э“ протяжное, как в русском „э-э“, „мл“ как в „младший“, „ко“ как „ко“ в „кот“</pronunciation_description>
+        <translation>Молоко</translation>
+        <note>Используется для обозначения молока, как напитка или продукта</note>
+    </word>
+    <word>
+        <element_id>word_26</element_id>
+        <text>Сир</text>
+        <phonetic_transcription>[ˈsiːr]</phonetic_transcription>
+        <pronunciation_description>с**ии**р, ударение на первый слог, „и“ протяжное, как в русском „иии“, „с“ четкое, „р“ мягкое, как в „река“</pronunciation_description>
+        <translation>Сыр</translation>
+        <note>Означает сыр, часто свежий или белый сыр в сербской кухне</note>
+    </word>
+	<word>
+        <element_id>word_27</element_id>
+        <text>Мêсо</text>
+        <phonetic_transcription>[ˈmeːso]</phonetic_transcription>
+        <pronunciation_description>м**ээ**-со, ударение на первый слог (на „ээ“), „э“ протяжное, как в русском „э-э“, „м“ четкое, „со“ как „со“ в „собака“</pronunciation_description>
+        <translation>Мясо</translation>
+        <note>Используется для обозначения мяса в повседневной речи, например, в примерах вроде „Это мясо нельзя долго хранить“</note>
+    </word>
+    <word>
+        <element_id>word_28</element_id>
+        <text>Ја́ја</text>
+        <phonetic_transcription>[ˈjaja]</phonetic_transcription>
+        <pronunciation_description>й**а**-йа, ударение на первый слог, „а“ короткое в обоих слогах, „й“ как в русском „яйцо“</pronunciation_description>
+        <translation>Яйца</translation>
+        <note>Коллективное существительное для яиц, часто используется в магазинах или рецептах</note>
+    </word>
+	<word>
+        <element_id>word_29</element_id>
+        <text>Кáртица</text>
+        <phonetic_transcription>[ˈkartit͡sa]</phonetic_transcription>
+        <pronunciation_description>к**аа**-рти-ца, ударение на первый слог, „а“ длинное, „рти“ как в русском „рти“, „ца“ как „ца“ в „цаца“</pronunciation_description>
+        <translation>Карта (банковская)</translation>
+        <note>Женский род, используется для обозначения платёжной карты в магазинах; в разговорной речи иногда заменяется „кáрта“, но стандартно „картица“</note>
+    </word>
+		<word>
+        <element_id>word_30</element_id>
+        <text>Штá</text>
+        <phonetic_transcription>[ˈʃta]</phonetic_transcription>
+        <pronunciation_description>шт**а**, ударение на первый слог, „а“ короткое, „ш“ как в русском „шум“</pronunciation_description>
+        <translation>Что</translation>
+        <note>Используется в вопросах, например, „Штá жéлите?“ (Что хотите?)</note>
+    </word>
+<word>
+        <element_id>word_31</element_id>
+        <text>Ба́нка</text>
+        <phonetic_transcription>[ˈbaŋka]</phonetic_transcription>
+        <pronunciation_description>ба́н-ка, ударение на первый слог, „а“ короткое, „н“ с лёгким носовым оттенком, как в английском „bank“</pronunciation_description>
+        <translation>Банк</translation>
+        <note>Похоже на русское „банка“ (сосуд), но в сербском обозначает финансовое учреждение</note>
+    </word>
+    <word>
+        <element_id>word_32</element_id>
+        <text>Но́вац</text>
+        <phonetic_transcription>[ˈnɔːʋat͡s]</phonetic_transcription>
+        <pronunciation_description>но́о-вац, ударение на первый слог, „о“ длинное, „вац“ с чётким „ц“, как в русском „царь“</pronunciation_description>
+        <translation>Деньги</translation>
+        <note>Используется для обозначения наличных или денег в целом, например, „Имам но́вац“ (У меня есть деньги)</note>
+    </word>
+    <word>
+        <element_id>word_33</element_id>
+        <text>Ме́њати</text>
+        <phonetic_transcription>[ˈmɛɲati]</phonetic_transcription>
+        <pronunciation_description>ме́-ня-ти, ударение на первый слог, „е“ короткое, „њ“ мягкое, как „нь“ в русском „конь“, „ти“ как „ти“ в „тигр“</pronunciation_description>
+        <translation>Менять (например, валюту)</translation>
+        <note>Глагол в инфинитиве, часто используется в банковском контексте, например, „Же́лим да ме́њам но́вац“ (Я хочу обменять деньги)</note>
+    </word>
+	<word>
+        <element_id>word_34</element_id>
+        <text>Мèни</text>
+        <phonetic_transcription>[ˈmɛniː]</phonetic_transcription>
+        <pronunciation_description>мЭ-ни, ударение на первый слог, „э“ короткое как в русском „этот“, „и“ длинное как протяжное „ии“ в „синий“</pronunciation_description>
+        <translation>Меню</translation>
+        <note>Слово заимствовано из французского, используется в ресторанах для списка блюд</note>
+    </word>
+    <word>
+        <element_id>word_35</element_id>
+        <text>Јèло</text>
+        <phonetic_transcription>[ˈjɛlo]</phonetic_transcription>
+        <pronunciation_description>йЭ-ло, ударение на первый слог, „э“ короткое как в „этот“, „й“ как мягкое „й“ в „йод“, „ло“ как в „лото“</pronunciation_description>
+        <translation>Блюдо (еда)</translation>
+        <note>Слово среднего рода, обозначает конкретное блюдо в меню</note>
+    </word>
+    <word>
+        <element_id>word_36</element_id>
+        <text>Пи́ће</text>
+        <phonetic_transcription>[ˈpiːtɕe]</phonetic_transcription>
+        <pronunciation_description>пи́-чэ, ударение на первый слог, „и“ длинное как протяжное „ии“ в „синий“, „ч“ мягкое, похоже на „ч“ в „чай“, но чуть мягче, „э“ короткое как в „этот“</pronunciation_description>
+        <translation>Напиток</translation>
+        <note>Общее слово для любых напитков, включая соки, воду или вино</note>
+    </word>
+    <word>
+        <element_id>word_37</element_id>
+        <text>Пла́тити</text>
+        <phonetic_transcription>[ˈplaːtiti]</phonetic_transcription>
+        <pronunciation_description>пла́-ти-ти, ударение на первый слог, „а“ длинное как протяжное „аа“ в „банка“, „ти“ как в „тигр“</pronunciation_description>
+        <translation>Платить</translation>
+        <note>Глагол в форме инфинитива; форма 1-го лица: „пла́тим“ (я плачу)</note>
+    </word>
+	<word>
+        <element_id>word_38</element_id>
+        <text>Ћао</text>
+        <phonetic_transcription>[ˈt͡ɕaːo]</phonetic_transcription>
+        <pronunciation_description>ћ**аа**-о, ударение на первый слог, „ћ“ мягкое как в „чай“ но мягче, „а“ длинное, „о“ короткое</pronunciation_description>
+        <translation>Привет/Пока</translation>
+        <note>Неформальное приветствие или прощание, заимствовано из итальянского „ciao“</note>
+    </word>
+	    <word>
+        <element_id>word_39</element_id>
+        <text>До́бро ју́тро</text>
+        <phonetic_transcription>[ˈdɔbrɔ ˈjutrɔ]</phonetic_transcription>
+        <pronunciation_description>до́б-ро ю́-тро, ударение на первый слог в обоих словах, „о“ короткое, „ю“ как в русском „юг“, „тро“ с мягким „р“</pronunciation_description>
+        <translation>Доброе утро</translation>
+        <note>Используется утром для приветствия</note>
+    </word>
+    <word>
+        <element_id>word_40</element_id>
+        <text>Ка́ко сте?</text>
+        <phonetic_transcription>[ˈkakɔ ˈstɛ]</phonetic_transcription>
+        <pronunciation_description>ка́-ко стэ, ударение на первый слог в „ка́ко“ и „сте“, „а“ короткое, „э“ короткое</pronunciation_description>
+        <translation>Как у вас дела?</translation>
+        <note>Вежливая форма, как „Как вы?“</note>
+    </word>
+    <word>
+        <element_id>word_41</element_id>
+        <text>Ко́мшија</text>
+        <phonetic_transcription>[ˈkɔmʃija]</phonetic_transcription>
+        <pronunciation_description>ко́м-ши-я, ударение на первый слог, „о“ короткое, „ши“ как в „шишка“, „я“ мягкое</pronunciation_description>
+        <translation>Сосед</translation>
+        <note>Для женщины — „комши́ница“</note>
+    </word>
+	    <word>
+        <element_id>word_42</element_id>
+        <text>Ауто́бус</text>
+        <phonetic_transcription>[autǒːbus]</phonetic_transcription>
+        <pronunciation_description>ау-то́о-бус, ударение на второй слог, „о“ длинное, „у“ краткое</pronunciation_description>
+        <translation>Автобус</translation>
+        <note>Стандартное слово для городского или междугородного автобуса</note>
+    </word>
+	    <word>
+        <element_id>word_43</element_id>
+        <text>Ка̑рта</text>
+        <phonetic_transcription>[kâːrta]</phonetic_transcription>
+        <pronunciation_description>к**аа**-рта, ударение на первый слог, „а“ длинное нисходящее</pronunciation_description>
+        <translation>Билет (также карта, карта местности)</translation>
+        <note>Используется для транспорта — например, „карта за аутобус“</note>
+    </word>
+	    <word>
+        <element_id>word_44</element_id>
+        <text>Ста̀ница</text>
+        <phonetic_transcription>[stǎnit͡sa]</phonetic_transcription>
+        <pronunciation_description>ста́-ни-ца, ударение на первый слог, „а“ краткое</pronunciation_description>
+        <translation>Остановка (станция)</translation>
+        <note>Часто употребляется как „аутобуска станица“ (автобусная остановка)</note>
+    </word>
+	    <word>
+        <element_id>word_45</element_id>
+        <text>Вре́ме</text>
+        <phonetic_transcription>[ˈvrɛːmɛ]</phonetic_transcription>
+        <pronunciation_description>вр**ээ**-ме, ударение на первый слог, „э“ длинное, „р“ твёрдое, дрожащее</pronunciation_description>
+        <translation>Время</translation>
+        <note>Такође значи „погода“, али овде фокус на времену као „time“</note>
+    </word>
+    <word>
+        <element_id>word_46</element_id>
+        <text>Сȃт</text>
+        <phonetic_transcription>[ˈsaːt]</phonetic_transcription>
+        <pronunciation_description>с**аа**-т, ударение на первый слог, „а“ длинное, „т“ четкое</pronunciation_description>
+        <translation>Час (hour), часы (clock)</translation>
+        <note>Користи се у питањима о времену, нпр. за „час“ или „часовник“</note>
+    </word>
+	    <word>
+        <element_id>word_47</element_id>
+        <text>Мину́та</text>
+        <phonetic_transcription>[miˈnuːta]</phonetic_transcription>
+        <pronunciation_description>ми-н**уу**-та, ударење на други слог, „у“ дуго као „уу“ у „луна“, „и“ кратко</pronunciation_description>
+        <translation>Минута</translation>
+        <note>Јединица времена, нпр. у фрази „пет минута“</note>
+    </word>
+    <word>
+        <element_id>word_48</element_id>
+        <text>Чѐтврт</text>
+        <phonetic_transcription>[ˈt͡ʃetʋrt]</phonetic_transcription>
+        <pronunciation_description>ч**э**т-врт, ударење на први слог, „э“ кратко као у „этот“, „ч“ као у „чай“, „в“ мекше него у руском „в“, ближе [ʋ], „р“ тврдо, држаће, „т“ јасно</pronunciation_description>
+        <translation>Четврт</translation>
+        <note>У времену – „четврт сата“ значи четвртина часа</note>
+    </word>
+    <word>
+        <element_id>word_49</element_id>
+        <text>Полóвина</text>
+        <phonetic_transcription>[pɔˈlɔvina]</phonetic_transcription>
+        <pronunciation_description>по-л**о**-ви-на, ударење на други слог, „о“ кратко као у „лот“, „и“ кратко</pronunciation_description>
+        <translation>Половина</translation>
+        <note>У времену – „половина шест“ значи 5:30</note>
+    </word>
+    <word>
+        <element_id>word_50</element_id>
+        <text>Шèст</text>
+        <phonetic_transcription>[ʃɛst]</phonetic_transcription>
+        <pronunciation_description>ш**э**ст, ударење на први слог, „э“ кратко као у „этот“, „ш“ као у „шум“</pronunciation_description>
+        <translation>Шест</translation>
+        <note>Основни број, користи се у времену као „шест сати“</note>
+    </word>
+	    <word>
+        <element_id>word_51</element_id>
+        <text>Сѐдам</text>
+        <phonetic_transcription>[ˈsɛdam]</phonetic_transcription>
+        <pronunciation_description>с**э**дам, ударение на первый слог, „э“ короткое как в „этот“, „дам“ как в „дам“</pronunciation_description>
+        <translation>Семь</translation>
+        <note>Основное число, используется во времени как „седам сати“ — семь часов</note>
+    </word>
+    <word>
+        <element_id>word_52</element_id>
+        <text>Óсам</text>
+        <phonetic_transcription>[ˈɔsam]</phonetic_transcription>
+        <pronunciation_description>о́-сам, ударение на первый слог, „о“ кратко као у „лот“, „сам“ као у „сам“</pronunciation_description>
+        <translation>Восемь</translation>
+        <note>Восемь, используется во времени, например, „осам сати“ — восемь часов</note>
+    </word>
+    <word>
+        <element_id>word_53</element_id>
+        <text>Дѐвет</text>
+        <phonetic_transcription>[ˈdɛvɛt]</phonetic_transcription>
+        <pronunciation_description>д**э**-вет, ударение на первый слог, „э“ короткое как в „этот“, „вет“ как в „ветер“</pronunciation_description>
+        <translation>Девять</translation>
+        <note>Основное число, используется во времени как „девет сати“ — девять часов</note>
+    </word>
+    <word>
+        <element_id>word_54</element_id>
+        <text>Дѐсет</text>
+        <phonetic_transcription>[ˈdɛsɛt]</phonetic_transcription>
+        <pronunciation_description>д**э**-сет, ударение на первый слог, „э“ короткое как в „этот“, „сет“ как в „сет“</pronunciation_description>
+        <translation>Десять</translation>
+        <note>Используется во времени, например, „десет сати“ — десять часов</note>
+    </word>
+    <word>
+        <element_id>word_55</element_id>
+        <text>Једáнаест</text>
+        <phonetic_transcription>[jɛˈdaːnaɛst]</phonetic_transcription>
+        <pronunciation_description>йэ-да́а-на-эст, ударение на второй слог, „а“ длинное как „аа“ в „банка“, „э“ короткое</pronunciation_description>
+        <translation>Одиннадцать</translation>
+        <note>Основное число, используется во времени как „једанаест сати“ — одиннадцать часов</note>
+    </word>
+    <word>
+        <element_id>word_56</element_id>
+        <text>Двáнаест</text>
+        <phonetic_transcription>[ˈdvaːnaɛst]</phonetic_transcription>
+        <pronunciation_description>два́а-на-эст, ударение на первый слог, „а“ длинное как „аа“, „э“ короткое</pronunciation_description>
+        <translation>Двенадцать</translation>
+        <note>Используется во времени, например, „дванаест сати“ — двенадцать часов</note>
+    </word>
+	    <word>
+        <element_id>word_57</element_id>
+        <text>Ићи</text>
+        <phonetic_transcription>[ǐtɕi]</phonetic_transcription>
+        <pronunciation_description>и́-ћи, ударение на первый слог (восходящий тон), „и“ краткое, „ћи“ мягкое как в «чай»</pronunciation_description>
+        <translation>Идти, ходить (разг. ехать)</translation>
+        <note>Универсальный глагол движения, аналог английского «to go»</note>
+    </word>
+    <word>
+        <element_id>word_58</element_id>
+        <text>Сутра</text>
+        <phonetic_transcription>[sûtra]</phonetic_transcription>
+        <pronunciation_description>су́-тра, ударение на первый слог (падающий тон), „у“ краткое</pronunciation_description>
+        <translation>Завтра</translation>
+        <note>Используется в планах и будущих действиях, например «Сутра идем у школу»</note>
+    </word>
+	    <word>
+        <element_id>word_59</element_id>
+        <text>Пи́сати</text>
+        <phonetic_transcription>[pǐːsati]</phonetic_transcription>
+        <pronunciation_description>п**ии**-са-ти, ударение на первый слог, „и“ длинное, восходящий тон</pronunciation_description>
+        <translation>Писать (несовершенный вид)</translation>
+        <note>Процесс письма, как "pišem" в настоящем: пишу</note>
+    </word>
+    <word>
+        <element_id>word_60</element_id>
+        <text>Напи́сати</text>
+        <phonetic_transcription>[napǐːsati]</phonetic_transcription>
+        <pronunciation_description>на-п**ии**-са-ти, ударение на второй слог, „и“ длинное, восходящий тон</pronunciation_description>
+        <translation>Написать (совершенный вид)</translation>
+        <note>Завершённое действие, как "napisao sam": написал</note>
+    </word>
+	<word>
+    <element_id>word_61</element_id>
+    <text>Ју̀че</text>
+    <phonetic_transcription>[jùt͡ʃe]</phonetic_transcription>
+    <pronunciation_description>ју̀-че, ударение на первый слог, «у» краткое, «ч» как в русском «чай»</pronunciation_description>
+    <translation>Вчера</translation>
+    <note>Частотное слово времени; часто используется с прошедшим временем</note>
+	</word>
+	<word>
+    <element_id>word_62</element_id>
+    <text>Да̀нас</text>
+    <phonetic_transcription>[dǎnas]</phonetic_transcription>
+    <pronunciation_description>да̀-нас, ударение на первый слог, «а» короткое</pronunciation_description>
+    <translation>Сегодня</translation>
+    <note>Частотное слово времени; сочетается с настоящим временем</note>
+	</word>
+	<word>
+    <element_id>word_63</element_id>
+    <text>Пòрука</text>
+    <phonetic_transcription>[ˈpɔruka]</phonetic_transcription>
+    <pronunciation_description>п**ò**-ру-ка, ударение на первый слог (краткий падающий тон); «о» ближе к [ɔ], как в рус. «лот».</pronunciation_description>
+    <translation>Сообщение; записка; SMS</translation>
+    <note>Часто: „слати поруку“ (посылать сообщение), „написати поруку“ (написать сообщение).</note>
+</word>
+<word>
+    <element_id>word_64</element_id>
+    <text>Сла̏ти</text>
+    <phonetic_transcription>[slâti]</phonetic_transcription>
+    <pronunciation_description>сла̏-ти, ударение на первый слог (падающий тон); IPA: /slâti/.</pronunciation_description>
+    <translation>Отправлять, посылать (несов. вид)</translation>
+    <note>Часто с объектом „пòрука“: „(Ја) шаљем пòруку.“; пара сов. вида: „посла̀ти“.</note>
+</word>
+<word>
+    <element_id>word_65</element_id>
+    <text>Телèфо̄н</text>
+    <phonetic_transcription>[telěfoːn]</phonetic_transcription>
+    <pronunciation_description>те-лè-фо̄н, ударение на втором слоге (краткий восходящий тон), долгий „о̄“.</pronunciation_description>
+    <translation>Телефон</translation>
+    <note>Часто употребляется: „имати телèфо̄н“ (иметь телефон), „звати телефо̄ном“ (звонить по телефону).</note>
+</word>
+<word>
+    <element_id>word_66</element_id>
+    <text>Зва̏ти</text>
+    <phonetic_transcription>[zʋâti]</phonetic_transcription>
+    <pronunciation_description>зва̏-ти, ударение на первый слог (падающий тон); в 1 л. наст. — „Зòвем“.</pronunciation_description>
+    <translation>Звать; звонить (по телефону) — несов. вид</translation>
+    <note>Часто: „Зòвем те / Зòвем ма́му“. Совершенный вид в значении „пригласить/позвать“: „позва́ти“.</note>
+</word>
+<word>
+    <element_id>word_67</element_id>
+    <text>Бро̑ј</text>
+    <phonetic_transcription>[brôːj]</phonetic_transcription>
+    <pronunciation_description>брôј — ударение на первый слог (долгий падающий тон), долгий „о̄“ ≈ [oː].</pronunciation_description>
+    <translation>Номер; число</translation>
+    <note>Устойчиво: „телѐфо̄нски бро̑ј“ (телефонный номер).</note>
+</word>
+<word>
+    <element_id>word_68</element_id>
+    <text>Прѐзиме</text>
+    <phonetic_transcription>[prězime]</phonetic_transcription>
+    <pronunciation_description>прѐ-зи-ме, ударение на первый слог (краткий восходящий тон); все гласные краткие.</pronunciation_description>
+    <translation>Фамилия</translation>
+    <note>Часто в анкетах: „И́ме и прѐзиме“ — имя и фамилия.</note>
+</word>
+<word>
+    <element_id>word_69</element_id>
+    <text>Адрѐса</text>
+    <phonetic_transcription>[adrěsa]</phonetic_transcription>
+    <pronunciation_description>ад-рѐ-са, ударение на второй слог (краткий восходящий тон); «е» краткое, «а» краткие.</pronunciation_description>
+    <translation>Адрес</translation>
+    <note>Пример: „Мóја адрѐса је …“</note>
+</word>
+<word>
+    <element_id>word_70</element_id>
+    <text>Тоа̀лет</text>
+    <phonetic_transcription>[toǎlet]</phonetic_transcription>
+    <pronunciation_description>то-а̀-лeт — ударение на второй слог (краткий восходящий тон); «о» среднее [o], «е» краткое.</pronunciation_description>
+    <translation>Туалет</translation>
+    <note>Часто в речи: „Гдè је тоа̀лет?“; разговорно также: „Вéце“ (WC).</note>
+</word>
+<word>
+    <element_id>word_71</element_id>
+    <text>О́вде</text>
+    <phonetic_transcription>[ˈɔʋde]</phonetic_transcription>
+    <pronunciation_description>о́в-де, ударение на первый слог; „в“ приближенно как [ʋ], между в/у.</pronunciation_description>
+    <translation>Здесь</translation>
+    <note>Часто в указании места: „сићи о́вде“ — выйти здесь.</note>
+</word>
+
+<word>
+    <element_id>word_72</element_id>
+    <text>Це̏нтар</text>
+    <phonetic_transcription>[ˈt͡sɛntar]</phonetic_transcription>
+    <pronunciation_description>цЭн-тар, ударение на первый слог; „ц“ чёткое аффриката [t͡s].</pronunciation_description>
+    <translation>Центр (города)</translation>
+    <note>В сочетаниях направления: „до це̏нтра“ — до центра.</note>
+</word>
+<word>
+    <element_id>word_73</element_id>
+    <text>Си̑ћи</text>
+    <phonetic_transcription>[sîtɕi]</phonetic_transcription>
+    <pronunciation_description>си̑-ћи, ударение на первый слог; „ћи“ мягкое [tɕi]. Формы: 1 л. ед. сȉђем.</pronunciation_description>
+    <translation>Сойти, выйти (из транспорта)</translation>
+    <note>Устойчиво: „Хоћу да сȉђем о́вде.“ — Хочу выйти здесь.</note>
+</word>
+<word>
+    <element_id>word_74</element_id>
+    <text>Кàснити</text>
+    <phonetic_transcription>[ˈkasniti]</phonetic_transcription>
+    <pronunciation_description>ка̀с-ни-ти, ударение на первый слог; все гласные краткие.</pronunciation_description>
+    <translation>Опаздывать</translation>
+    <note>„Кàсни ауто́бус.“ — Автобус опаздывает.</note>
+</word>
+<word>
+    <element_id>word_75</element_id>
+    <text>Про̀давница</text>
+    <phonetic_transcription>[prǒdavnit͡sa]</phonetic_transcription>
+    <pronunciation_description>про̀-дав-ни-ца, ударение на первый слог (краткий падающий); „в“ ближе к [ʋ].</pronunciation_description>
+    <translation>Магазин; лавка</translation>
+    <note>Локатив ед.: „у про̀давници“ — в магазине.</note>
+</word>
+<word>
+    <element_id>word_76</element_id>
+    <text>Педѐсе̄т</text>
+    <phonetic_transcription>[peděseːt]</phonetic_transcription>
+    <pronunciation_description>пе-дѐ-сēт: ударение на «де», долгий «ē» перед -т; слово образовано от пе̑т + де̏сет.</pronunciation_description>
+    <translation>Пятьдесят (50)</translation>
+    <note>В ценах и количествах: „педѐсе̄т ди́нара“.</note>
+</word>
+<word>
+    <element_id>word_77</element_id>
+    <text>Сто̑</text>
+    <phonetic_transcription>[stȏ]</phonetic_transcription>
+    <pronunciation_description>сто̑ — долгий падающий тон.</pronunciation_description>
+    <translation>Сто (100)</translation>
+    <note>Часто в составе: „ше̑стсто“ (600).</note>
+</word>
+<word>
+    <element_id>word_78</element_id>
+    <text>Ше̑стсто</text>
+    <phonetic_transcription>[ʃȇststo]</phonetic_transcription>
+    <pronunciation_description>ше̑ст-сто: ударение на первом слоге, группой „стс“ произносится слитно.</pronunciation_description>
+    <translation>Шестьсот (600)</translation>
+    <note>Также употребляется форма „шесто“ в счёте.</note>
+</word>
+<word>
+    <element_id>word_79</element_id>
+    <text>Хи̏љада</text>
+    <phonetic_transcription>[hȉljada]</phonetic_transcription>
+    <pronunciation_description>хи̏-ља-да: краткий восходящий на первом слоге. В вин. ед. после „имам“ — „хи̏љаду“.</pronunciation_description>
+    <translation>Тысяча (1000)</translation>
+    <note>В хорватском чаще „ти̏сућа“.</note>
+</word>
+<word>
+    <element_id>word_80</element_id>
+    <text>Ди̏на̄р</text>
+    <phonetic_transcription>[dȉnaːr]</phonetic_transcription>
+    <pronunciation_description>ди̏-на̄р: ударение на первом слоге, долгий „а̄“.</pronunciation_description>
+    <translation>Динар (валюта Сербии)</translation>
+    <note>После 5 и выше: род. мн. „ди́нара“.</note>
+</word>
+<word>
+    <element_id>word_81</element_id>
+    <text>Нȅгазӣран</text>
+    <phonetic_transcription>[ˈnɛɡaziːran]</phonetic_transcription>
+    <pronunciation_description>нȅ-га-зӣ-ран; ударение на приставке „нȅ-“, долгий „ӣ“ в слоге „зӣ“; ж.р.: нȅгазӣрана, ср.р.: нȅгазӣрано.</pronunciation_description>
+    <translation>Негазированный (о напитке)</translation>
+    <note>Устойчиво: „нȅгазӣрана вóда“ — негазированная вода.</note>
+</word>
+<word>
+    <element_id>word_82</element_id>
+    <text>О̏длично</text>
+    <phonetic_transcription>[ˈɔdlit͡ʃnɔ]</phonetic_transcription>
+    <pronunciation_description>о̏д-ли-чно; ударение на первом слоге, все гласные краткие.</pronunciation_description>
+    <translation>Отлично</translation>
+    <note>Оценка еды/сервиса: „Свé је бȉло о̏длично!“</note>
+</word>
+<word>
+    <element_id>word_83</element_id>
+    <text>По̏здра̄в</text>
+    <phonetic_transcription>[ˈpozdraːʋ]</phonetic_transcription>
+    <pronunciation_description>по̏-здра̄в; ударение на первом слоге, долгий -а̄-.</pronunciation_description>
+    <translation>привет; приветствие; передача привета; (в письме) «с наилучшими пожеланиями/с уважением»</translation>
+    <note>В письмах обычно: «Срдачан поздрав,»; в переписке — «Поздрав!» / «Поздрав свима!»</note>
+</word>
+<word>
+    <element_id>word_84</element_id>
+    <text>До̏пуна</text>
+    <phonetic_transcription>[dɔ̏puna]</phonetic_transcription>
+    <pronunciation_description>до̀-пу-на; ударение на первом слоге (краткий падающий тон), все гласные краткие.</pronunciation_description>
+    <translation>пополнение (баланса), «топ-ап»</translation>
+    <note>Часто: „допуна кредита“, „Имате ли допуну?“; глаголы: „дòпунити/допуњавати“.</note>
+</word>
+<word>
+  <element_id>word_85</element_id>
+  <text>О́нда</text>
+  <phonetic_transcription>[ˈɔnda]</phonetic_transcription>
+  <pronunciation_description>О́-н-да; ударение на первый слог; «о» краткое. Часто в связке: ако … онда … («если … тогда …»).</pronunciation_description>
+  <translation>тогда; потом</translation>
+  <note>Нормативное наречие/связка вывода («дакле, према томе»). Ср.: срп. викит. и HJP по значению и употреблению.</note>
+</word>
+<word>
+  <element_id>word_86</element_id>
+  <text>Ва̑жи</text>
+  <phonetic_transcription>[ʋâːʒi]</phonetic_transcription>
+  <pronunciation_description>Ва̑-жи; ударение на первом слоге (долгий падающий тон), долгий «а̄». Разговорное подтверждение: «окей/договорились».</pronunciation_description>
+  <translation>окей; ладно; договорились</translation>
+  <note>Часто в быту: «Ва̑жи, ва̑жи» (усиление), вопросительно: «Ва̑жи?» (= «окей?»).</note>
+</word>
+<word>
+    <element_id>word_87</element_id>
+    <text>Мо́же</text>
+    <phonetic_transcription>[ˈmɔʒɛ]</phonetic_transcription>
+    <pronunciation_description>мо́-же; ударение на первом слоге; «о» краткое, «ж» как в русском «жук»</pronunciation_description>
+    <translation>Можно; Окей</translation>
+    <note>Разговорное согласие или подтверждение, как «ладно», «подходит»</note>
+</word>
+<word>
+  <element_id>word_88</element_id>
+  <text>Бóлест</text>
+  <phonetic_transcription>[ˈbɔlɛst]</phonetic_transcription>
+  <pronunciation_description>бо́-лест; ударение на первом слоге, «о» краткое, «е» короткое.</pronunciation_description>
+  <translation>Болезнь</translation>
+  <note>Существительное женского рода; часто используется с «имати» — «имам болест» (у меня болезнь).</note>
+</word>
+<word>
+  <element_id>word_89</element_id>
+  <text>Лèкар</text>
+  <phonetic_transcription>[ˈlɛkar]</phonetic_transcription>
+  <pronunciation_description>лè-кар; ударение на первом слоге, «е» краткое, «а» чёткое.</pronunciation_description>
+  <translation>Врач</translation>
+  <note>Муж. род; жен. форма — «лекарка».</note>
+</word>
+<word>
+  <element_id>word_90</element_id>
+  <text>Тàблета</text>
+  <phonetic_transcription>[ˈtaːblɛta]</phonetic_transcription>
+  <pronunciation_description>та̀-бле-та; ударение на первом слоге, «а» длинное, «е» короткое.</pronunciation_description>
+  <translation>Таблетка</translation>
+  <note>Жен. род; часто используется с глаголом «добити» — «добити таблету».</note>
+</word>
+<word>
+  <element_id>word_91</element_id>
+  <text>Сја́јно</text>
+  <phonetic_transcription>[ˈsjâːjno]</phonetic_transcription>
+  <pronunciation_description>сй**аа**й-но, ударение на первый слог, долгий падающий тон</pronunciation_description>
+  <translation>Отлично; прекрасно; блестяще</translation>
+  <note>Используется как эмоциональная оценка или похвала: «Сјајно!» = Отлично!</note>
+</word>
+<word>
+  <element_id>word_92</element_id>
+  <text>Готови́на</text>
+  <phonetic_transcription>[ɡɔtɔˈʋina]</phonetic_transcription>
+  <pronunciation_description>го-то-ви́-на; ударение на третий слог — «ви́»; мягкое «в» [ʋ]; все гласные короткие.</pronunciation_description>
+  <translation>Наличные (деньги)</translation>
+  <note>Часто употребляется в магазинах: «Плаћате ли готовином или картицом?» — «Платите наличными или картой?»</note>
+</word>
+<word>
+  <element_id>word_93</element_id>
+  <text>Мењáчница</text>
+  <phonetic_transcription>[mɛˈɲat͡ʃnit͡sa]</phonetic_transcription>
+  <pronunciation_description>ме-ЊÁЧ-ни-ца; «њ» = мягкое «нь», «чн» произносится слитно [t͡ʃn]. Ударение на «-њáч-».</pronunciation_description>
+  <translation>обменный пункт; обменник</translation>
+  <note>Часто в центре города: „Гдè је мењáчница?“ — Где обменник?</note>
+</word>
+<word>
+  <element_id>word_94</element_id>
+  <text>Па̀ке̄т</text>
+  <phonetic_transcription>[pǎkɛːt]</phonetic_transcription>
+  <pronunciation_description>па̀-ке̄т; ударение на первом слоге, «е» долгий.</pronunciation_description>
+  <translation>посылка; пакет</translation>
+  <note>Разговорное и самое частое слово для «посылка» на почте.</note>
+</word>
+<word>
+  <element_id>word_95</element_id>
+  <text>По̀шиљка</text>
+  <phonetic_transcription>[pɔ̀ʃiʎka]</phonetic_transcription>
+  <pronunciation_description>по̀-ши-љка; ударение на первом слоге; официальный термин «почтовое отправление».</pronunciation_description>
+  <translation>почтовое отправление; посылка (офиц.)</translation>
+  <note>Употребляется в уведомлениях/трекинге: број по̀шиљке, пратити по̀шиљку.</note>
+</word>
+<word>
+    <element_id>word_96</element_id>
+    <text>Пи́тати</text>
+    <phonetic_transcription>[pǐːtati]</phonetic_transcription>
+    <pronunciation_description>пи́-та-ти, ударение на первый слог «пи́», долгий звук «и» [iː]; соответствует норме /pǐːtati/.</pronunciation_description>
+    <translation>Спрашивать</translation>
+    <note>Несовершенный вид; часто в связке: „Могу ли да пи́там?“ — Можно спросить?</note>
+</word>
+<word>
+    <element_id>word_97</element_id>
+    <text>Нѝшта</text>
+    <phonetic_transcription>[nîʃta]</phonetic_transcription>
+    <pronunciation_description>нѝш-та, ударение на первом слоге, краткий нисходящий тон</pronunciation_description>
+    <translation>Ничего; не за что</translation>
+    <note>Частый ответ на «Хвала»</note>
+</word>
+<word>
+    <element_id>word_98</element_id>
+    <text>Извóли</text>
+    <phonetic_transcription>[izʋǒli]</phonetic_transcription>
+    <pronunciation_description>из-во́-ли, ударение на втором слоге; «в» — приближённый звук [ʋ]</pronunciation_description>
+    <translation>Пожалуйста (неформально); держи</translation>
+    <note>Вежливый вариант: Изволите</note>
+</word>
+<word>
+    <element_id>word_99</element_id>
+    <text>Она́ко</text>
+    <phonetic_transcription>[ɔˈnako]</phonetic_transcription>
+    <pronunciation_description>о-на́-ко, ударение на втором слоге, «а» короткое</pronunciation_description>
+    <translation>Так себе; нормально; ну… так</translation>
+    <note>Частый ответ на «Како си?»</note>
+</word>
+<word>
+    <element_id>word_100</element_id>
+    <text>Авѝон</text>
+    <phonetic_transcription>[aʋǐoːn]</phonetic_transcription>
+    <pronunciation_description>а-вѝ-он; ударение на слоге «ви», «о» долгое; «в» как в рус. «вода», «он» как в рус. «он», но без смягчения.</pronunciation_description>
+    <translation>самолёт</translation>
+    <note>Часто в выражениях: „ићи авионом“ — лететь самолётом.</note>
+</word>
+
+<word>
+    <element_id>word_101</element_id>
+    <text>Во̑з</text>
+    <phonetic_transcription>[ʋôːz]</phonetic_transcription>
+    <pronunciation_description>во̑з; односложное слово с долгим «о», ударение падающее; «з» как в рус. «зуб».</pronunciation_description>
+    <translation>поезд</translation>
+    <note>Стандартное слово для железнодорожного поезда: „ићи возом“ — ехать поездом.</note>
+</word>
+
+<word>
+    <element_id>word_102</element_id>
+    <text>Де́те</text>
+    <phonetic_transcription>[ˈdɛtɛ]</phonetic_transcription>
+    <pronunciation_description>дé-те; ударение на первом слоге; оба «е» краткие, как в рус. «это».</pronunciation_description>
+    <translation>ребёнок</translation>
+    <note>Средний род; множественное число заменяется словом „деца“ (дети).</note>
+</word>
+
+<word>
+    <element_id>word_103</element_id>
+    <text>Ђа̑к</text>
+    <phonetic_transcription>[d͡ʑaːk]</phonetic_transcription>
+    <pronunciation_description>ђа̑к; долгий гласный «а», звук „ђ“ мягкий, примерно как «дь» в рус. «дьявол».</pronunciation_description>
+    <translation>ученик</translation>
+    <note>Чаще о школьнике: „Он је добар ђак.“ — Он хороший ученик.</note>
+</word>
+
+<word>
+    <element_id>word_104</element_id>
+    <text>Жа̏ба</text>
+    <phonetic_transcription>[ʒâba]</phonetic_transcription>
+    <pronunciation_description>жа̏-ба; ударение на первом слоге, «ж» как в рус. «жук», «а» краткое.</pronunciation_description>
+    <translation>лягушка</translation>
+    <note>Может иметь и переносные значения в шутках и прозвищах.</note>
+</word>
+
+<word>
+    <element_id>word_105</element_id>
+    <text>Ја́је</text>
+    <phonetic_transcription>[ˈjaje]</phonetic_transcription>
+    <pronunciation_description>я́-је; ударение на первом слоге, „ја“ как в рус. «я», «је» как в «е» в слове «еда», но чуть более закрыто.</pronunciation_description>
+    <translation>яйцо</translation>
+    <note>Часто во множественном числе: „јаја“ — яйца (пржена јаја — яичница).</note>
+</word>
+
+<word>
+    <element_id>word_106</element_id>
+    <text>Њу́шка</text>
+    <phonetic_transcription>[ˈɲuʃka]</phonetic_transcription>
+    <pronunciation_description>нью́-шка; „њ“ как мягкое «нь», „ш“ как в рус. «шапка», ударение на первом слоге.</pronunciation_description>
+    <translation>морда</translation>
+    <note>Чаще о морде животного; разговорно может использоваться и о человеке, в шутливом или грубоватом тоне.</note>
+</word>
+
+<word>
+    <element_id>word_107</element_id>
+    <text>О̀ло̄вка</text>
+    <phonetic_transcription>[ǒloːʋka]</phonetic_transcription>
+    <pronunciation_description>о̀-лов-ка; ударение на первом слоге, „о“ краткое, второй слог с долгим „о“ в речи немного растягивается.</pronunciation_description>
+    <translation>карандаш</translation>
+    <note>В значении «карандаш»; также может означать авторучку в некоторых диалектах, но стандартно — карандаш.</note>
+</word>
+
+<word>
+    <element_id>word_108</element_id>
+    <text>То́рба</text>
+    <phonetic_transcription>[ˈtɔrba]</phonetic_transcription>
+    <pronunciation_description>то́р-ба; ударение на первом слоге; „р“ вибрантное (триль), как в сербском «река».</pronunciation_description>
+    <translation>сумка</translation>
+    <note>Общее слово для сумки/мешка: торба за куповину — сумка для покупок.</note>
+</word>
+
+<word>
+    <element_id>word_109</element_id>
+    <text>Ће́рка</text>
+    <phonetic_transcription>[t͡ɕěːrka]</phonetic_transcription>
+    <pronunciation_description>ћéр-ка; „ћ“ мягкий, ближе к «ть»; ударение на первом слоге, гласный немного долгий.</pronunciation_description>
+    <translation>дочь</translation>
+    <note>Разговорный вариант кћи/кћерка; в современной речи очень часто употребляется именно „ћерка“.</note>
+</word>
+
+<word>
+    <element_id>word_110</element_id>
+    <text>У̀лаз</text>
+    <phonetic_transcription>[ǔlaz]</phonetic_transcription>
+    <pronunciation_description>у̀-лаз; ударение на первом слоге; „з“ звонкое, как в рус. «зуб».</pronunciation_description>
+    <translation>вход</translation>
+    <note>Надписи на дверях: „улаз“ — вход; антоним — „излаз“ (выход).</note>
+</word>
+
+<word>
+    <element_id>word_111</element_id>
+    <text>Цѝпела</text>
+    <phonetic_transcription>[t͡sǐpela]</phonetic_transcription>
+    <pronunciation_description>цѝ-пе-ла; ударение на первом слоге; „ц“ как в рус. «цирк», „е“ краткое.</pronunciation_description>
+    <translation>туфля; ботинок</translation>
+    <note>Обычно употребляется во множественном числе: „ципеле“ — обувь/туфли.</note>
+</word>
+
+<word>
+    <element_id>word_112</element_id>
+    <text>Ча̀рапа</text>
+    <phonetic_transcription>[t͡ʃǎrapa]</phonetic_transcription>
+    <pronunciation_description>ча̀-ра-па; ударение на первом слоге; „ч“ как в рус. «чашка».</pronunciation_description>
+    <translation>носок</translation>
+    <note>Обычно во множественном числе: „чарапе“ — носки.</note>
+</word>
+
+<word>
+    <element_id>word_113</element_id>
+    <text>Џе̏п</text>
+    <phonetic_transcription>[d͡ʒêp]</phonetic_transcription>
+    <pronunciation_description>џе̏п; односложное слово, «џ» — как английское „j“ в „jeans“, ударение на этом единственном слоге.</pronunciation_description>
+    <translation>карман</translation>
+    <note>Частые выражения: „имати дубок џеп“ — быть богатым; „платити из свог џепа“ — заплатить из своего кармана.</note>
+</word>
+<word>
+    <element_id>word_114</element_id>
+    <text>Дéвојка</text>
+    <phonetic_transcription>[ˈdɛʋojka]</phonetic_transcription>
+    <pronunciation_description>Дé-вој-ка; ударение на первом слоге, «в» — приближённый [ʋ].</pronunciation_description>
+    <translation>девушка</translation>
+    <note>Обозначает молодую женщину.</note>
+</word>
+
+<word>
+    <element_id>word_115</element_id>
+    <text>Ју́тро</text>
+    <phonetic_transcription>[ˈjutro]</phonetic_transcription>
+    <pronunciation_description>Ју́-тро; ударение на «ју», как в выражении „Добро јутро“.</pronunciation_description>
+    <translation>утро</translation>
+    <note></note>
+</word>
+
+<word>
+    <element_id>word_116</element_id>
+    <text>Дáн</text>
+    <phonetic_transcription>[ˈdan]</phonetic_transcription>
+    <pronunciation_description>Дáн; односложное слово с ударением на «а».</pronunciation_description>
+    <translation>день</translation>
+    <note>Устойчивое приветствие: „Добар дан“.</note>
+</word>
+
+<word>
+    <element_id>word_117</element_id>
+    <text>Нóћ</text>
+    <phonetic_transcription>[not͡ɕ]</phonetic_transcription>
+    <pronunciation_description>Нóћ; односложное слово, „ћ“ как мягкое „ть“ + „ч“.</pronunciation_description>
+    <translation>ночь</translation>
+    <note>Приветствие: „Лаку ноћ“ — спокойной ночи.</note>
+</word>
+
+<word>
+    <element_id>word_118</element_id>
+    <text>Довиђе́ња</text>
+    <phonetic_transcription>[dɔʋiˈd͡ʑeɲa]</phonetic_transcription>
+    <pronunciation_description>До-ви-ђе́-ња; ударение на „ђе“.</pronunciation_description>
+    <translation>до свидания</translation>
+    <note>Стандартная вежливая форма прощания.</note>
+</word>
+
+<word>
+    <element_id>word_119</element_id>
+    <text>При́јатно</text>
+    <phonetic_transcription>[ˈprijatno]</phonetic_transcription>
+    <pronunciation_description>При́-јат-но; ударение на первом слоге.</pronunciation_description>
+    <translation>приятного аппетита; приятного дня</translation>
+    <note>Универсальное „приятного…“ (аппетита, вечера и т.п.).</note>
+</word>
+
+<word>
+    <element_id>word_120</element_id>
+    <text>Лóше</text>
+    <phonetic_transcription>[ˈlɔʃɛ]</phonetic_transcription>
+    <pronunciation_description>Лó-ше; „ш“ как в рус. «шапка».</pronunciation_description>
+    <translation>плохо</translation>
+    <note>Ответ на „Како си?“: „Лоше.“</note>
+</word>
+
+<word>
+    <element_id>word_121</element_id>
+    <text>Бо́ље</text>
+    <phonetic_transcription>[ˈbɔʎɛ]</phonetic_transcription>
+    <pronunciation_description>Бо́-ље; „љ“ — мягкое „ль“.</pronunciation_description>
+    <translation>лучше</translation>
+    <note>„Сад ми је боље.“ — Сейчас мне лучше.</note>
+</word>
+
+<word>
+    <element_id>word_122</element_id>
+    <text>Нару́џбина</text>
+    <phonetic_transcription>[naˈrud͡ʒbina]</phonetic_transcription>
+    <pronunciation_description>На-ру́-џ-би-на; ударение на „ру“, „џ“ как „дж“.</pronunciation_description>
+    <translation>заказ</translation>
+    <note>Напр.: наруџбина у ресторану или интернет-наруџбина.</note>
+</word>
+
+<word>
+    <element_id>word_123</element_id>
+    <text>Ђу́бре</text>
+    <phonetic_transcription>[ˈd͡ʑubre]</phonetic_transcription>
+    <pronunciation_description>Ђу́-бре; „ђ“ мягкое, близко к «дь», ударение на первом слоге.</pronunciation_description>
+    <translation>мусор</translation>
+    <note>И буквально „отходы“, и переносно о человеке (ругательно).</note>
+</word>
+
+<word>
+    <element_id>word_124</element_id>
+    <text>Ћу́рка</text>
+    <phonetic_transcription>[ˈt͡ɕurka]</phonetic_transcription>
+    <pronunciation_description>Ћу́р-ка; „ћ“ мягкое, как „ть“+„ч“.</pronunciation_description>
+    <translation>индейка</translation>
+    <note>Также может употребляться как обидное прозвище.</note>
+</word>
+
+<word>
+    <element_id>word_125</element_id>
+    <text>Ћáскати</text>
+    <phonetic_transcription>[ˈt͡ɕaskati]</phonetic_transcription>
+    <pronunciation_description>Ћá-ска-ти; ударение на первом слоге.</pronunciation_description>
+    <translation>болтать; болтать о пустяках</translation>
+    <note>Синонимы: причати, ћаскати на ћириллици обычно так и пишется.</note>
+</word>
+
+<word>
+    <element_id>word_126</element_id>
+    <text>Чéсто</text>
+    <phonetic_transcription>[ˈt͡ʃɛstɔ]</phonetic_transcription>
+    <pronunciation_description>Чé-сто; ударение на „че“.</pronunciation_description>
+    <translation>часто</translation>
+    <note></note>
+</word>
+
+<word>
+    <element_id>word_127</element_id>
+    <text>Чáчкалица</text>
+    <phonetic_transcription>[ˈt͡ʃat͡ʃkalitsa]</phonetic_transcription>
+    <pronunciation_description>Чáч-ка-ли-ца; ударение на первом слоге.</pronunciation_description>
+    <translation>зубочистка</translation>
+    <note></note>
+</word>
+
+<word>
+    <element_id>word_128</element_id>
+    <text>Чéкати</text>
+    <phonetic_transcription>[ˈt͡ʃɛkati]</phonetic_transcription>
+    <pronunciation_description>Чé-ка-ти; „ч“ как в рус. «чашка».</pronunciation_description>
+    <translation>ждать</translation>
+    <note></note>
+</word>
+
+<word>
+    <element_id>word_129</element_id>
+    <text>Љу́љашка</text>
+    <phonetic_transcription>[ˈʎuʎaʃka]</phonetic_transcription>
+    <pronunciation_description>Љу́-љаш-ка; „љ“ — мягкое „ль“, ударение на первом слоге.</pronunciation_description>
+    <translation>качели</translation>
+    <note>Обычно одна подвесная качеля.</note>
+</word>
+
+<word>
+    <element_id>word_130</element_id>
+    <text>Лепóта</text>
+    <phonetic_transcription>[lɛˈpɔta]</phonetic_transcription>
+    <pronunciation_description>Ле-пó-та; ударение на „по“.</pronunciation_description>
+    <translation>красота</translation>
+    <note></note>
+</word>
+
+<word>
+    <element_id>word_131</element_id>
+    <text>О́дговор</text>
+    <phonetic_transcription>[ˈodɡovor]</phonetic_transcription>
+    <pronunciation_description>О́д-го-вор; ударение на первом слоге.</pronunciation_description>
+    <translation>ответ</translation>
+    <note>„Хвала на одговору.“ — Спасибо за ответ.</note>
+</word>
+
+<word>
+    <element_id>word_132</element_id>
+    <text>Отво́рити</text>
+    <phonetic_transcription>[ɔtʋɔˈritɪ]</phonetic_transcription>
+    <pronunciation_description>От-во́-ри-ти; ударение на „во“, „т“ твёрдое.</pronunciation_description>
+    <translation>открыть</translation>
+    <note>Совершенный вид: „отворити врата“ — открыть дверь.</note>
+</word>
+
+<word>
+    <element_id>word_133</element_id>
+    <text>Кр̏в</text>
+    <phonetic_transcription>[kr̩ʋ]</phonetic_transcription>
+    <pronunciation_description>Кр̏в; односложное слово, слог образован согласным „р“.</pronunciation_description>
+    <translation>кровь</translation>
+    <note></note>
+</word>
+<word>
+    <element_id>word_134</element_id>
+    <text>Пр̏ст</text>
+    <phonetic_transcription>[pr̩st]</phonetic_transcription>
+    <pronunciation_description>Пр̏ст; односложное слово, „р“ слогообразующее.</pronunciation_description>
+    <translation>палец</translation>
+    <note></note>
+</word>
+    <word>
+        <element_id>word_135</element_id>
+        <text>Пòнедељак</text>
+        <phonetic_transcription>[ˈpɔnɛdɛʎak]</phonetic_transcription>
+        <pronunciation_description>Пò-не-де-љак; ударение на первом слоге «по», «љ» — мягкий «ль».</pronunciation_description>
+        <translation>понедельник</translation>
+        <note>Первый день рабочей недели.</note>
+    </word>
+    <word>
+        <element_id>word_136</element_id>
+        <text>У̀торак</text>
+        <phonetic_transcription>[ˈutɔrak]</phonetic_transcription>
+        <pronunciation_description>У̀-то-рак; ударение на «у», все гласные краткие.</pronunciation_description>
+        <translation>вторник</translation>
+        <note>Второй день недели.</note>
+    </word>
+    <word>
+        <element_id>word_137</element_id>
+        <text>Срѐда</text>
+        <phonetic_transcription>[ˈsrɛda]</phonetic_transcription>
+        <pronunciation_description>Срѐ-да; ударение на первом слоге «сре».</pronunciation_description>
+        <translation>среда</translation>
+        <note>Середина недели.</note>
+    </word>
+    <word>
+        <element_id>word_138</element_id>
+        <text>Чѐтвртак</text>
+        <phonetic_transcription>[ˈtʃɛtvrtak]</phonetic_transcription>
+        <pronunciation_description>Чѐт-вр-так; ударение на первом слоге «чет».</pronunciation_description>
+        <translation>четверг</translation>
+        <note>Четвёртый день недели.</note>
+    </word>
+    <word>
+        <element_id>word_139</element_id>
+        <text>Пѐтак</text>
+        <phonetic_transcription>[ˈpɛtak]</phonetic_transcription>
+        <pronunciation_description>Пѐ-так; ударение на первом слоге «пе».</pronunciation_description>
+        <translation>пятница</translation>
+        <note>Популярный день перед выходными 🙂</note>
+    </word>
+    <word>
+        <element_id>word_140</element_id>
+        <text>Су̀бота</text>
+        <phonetic_transcription>[ˈsubɔta]</phonetic_transcription>
+        <pronunciation_description>Су̀-бо-та; ударение на «су».</pronunciation_description>
+        <translation>суббота</translation>
+        <note>Обычно первый выходной день.</note>
+    </word>
+    <word>
+        <element_id>word_141</element_id>
+        <text>Нѐдеља</text>
+        <phonetic_transcription>[ˈnɛdɛʎa]</phonetic_transcription>
+        <pronunciation_description>Нѐ-де-ља; ударение на первом слоге «не», «љ» — мягкий «ль».</pronunciation_description>
+        <translation>воскресенье</translation>
+        <note>День отдыха; в церковной традиции — воскресный день.</note>
+    </word>
+<word>
+    <element_id>word_143</element_id>
+    <text>Лéп</text>
+    <phonetic_transcription>[lêːp]</phonetic_transcription>
+    <pronunciation_description>Лéп; односложное слово, гласный «е» слегка растянут.</pronunciation_description>
+    <translation>красивый; хороший</translation>
+    <note>Напр.: „леп град“ — красивый город.</note>
+</word>
+
+<word>
+    <element_id>word_144</element_id>
+    <text>За́узет</text>
+    <phonetic_transcription>[ˈzauzet]</phonetic_transcription>
+    <pronunciation_description>За́-у-зет; ударение на первом слоге «за», „ау“ произносится слитно.</pronunciation_description>
+    <translation>занят</translation>
+    <note>„Сада сам за́узет.“ — Сейчас я занят.</note>
+</word>
+
+<word>
+    <element_id>word_145</element_id>
+    <text>Пáметан</text>
+    <phonetic_transcription>[pâmetan]</phonetic_transcription>
+    <pronunciation_description>Пá-ме-тан; ударение на первом слоге, все гласные краткие.</pronunciation_description>
+    <translation>умный</translation>
+    <note>Антоним: „глуп“ — глупый.</note>
+</word>
+
+<word>
+    <element_id>word_146</element_id>
+    <text>Дéчко</text>
+    <phonetic_transcription>[dêt͡ʃko]</phonetic_transcription>
+    <pronunciation_description>Дéч-ко; „ч“ как в рус. «чашка», ударение на первом слоге.</pronunciation_description>
+    <translation>парень; молодой человек; бойфренд</translation>
+    <note>Разговорное слово: „мој дéчко“ — мой парень.</note>
+</word>
+
+<word>
+    <element_id>word_147</element_id>
+    <text>Девóјчица</text>
+    <phonetic_transcription>[dɛˈʋɔjt͡ʃitsa]</phonetic_transcription>
+    <pronunciation_description>Де-вóј-чи-ца; ударение на «вој», „в“ — приближённый звук [ʋ].</pronunciation_description>
+    <translation>девочка</translation>
+    <note>Уменьш.-ласк. от „девојка“ (девушка).</note>
+</word>
+
+<word>
+    <element_id>word_148</element_id>
+    <text>Дóбар</text>
+    <phonetic_transcription>[ˈdɔbar]</phonetic_transcription>
+    <pronunciation_description>Дó-бар; ударение на первом слоге, „о“ краткое.</pronunciation_description>
+    <translation>хороший</translation>
+    <note>Часто в сочетаниях: „добар дан“, „добар човек“.</note>
+</word>
+
+<word>
+    <element_id>word_149</element_id>
+    <text>Срéћан</text>
+    <phonetic_transcription>[srêt͡ɕan]</phonetic_transcription>
+    <pronunciation_description>Срé-ћан; „ћ“ мягкое, примерно как «ть»+«ч», ударение на первом слоге.</pronunciation_description>
+    <translation>счастливый; удачливый</translation>
+    <note>Пожелания: „Срéћан рођендан!“ — С днём рождения!</note>
+</word>
+
+<word>
+    <element_id>word_150</element_id>
+    <text>Кó</text>
+    <phonetic_transcription>[kɔ]</phonetic_transcription>
+    <pronunciation_description>Кó; короткое односложное слово; „к“ твёрдое, „о“ как в рус. «дом».</pronunciation_description>
+    <translation>кто</translation>
+    <note>Вопросительное местоимение: „Кó си ти?“ — Кто ты?</note>
+</word>
+
+<word>
+    <element_id>word_151</element_id>
+    <text>Сáт</text>
+    <phonetic_transcription>[saːt]</phonetic_transcription>
+    <pronunciation_description>Сáт; односложное слово, „а“ может слегка растягиваться.</pronunciation_description>
+    <translation>часы; час</translation>
+    <note>И прибор (часы), и единица времени: „сат времена“ — час времени.</note>
+</word>
+
+<word>
+    <element_id>word_152</element_id>
+    <text>Учиóница</text>
+    <phonetic_transcription>[ut͡ʃiˈɔnit͡sa]</phonetic_transcription>
+    <pronunciation_description>У-чи-ó-ни-ца; ударение на «о», „ч“ как в рус. «чашка».</pronunciation_description>
+    <translation>класс; учебный кабинет</translation>
+    <note>Помещение, где проходят уроки: школска учионица.</note>
+</word>
+
+<word>
+    <element_id>word_153</element_id>
+    <text>Тáбла</text>
+    <phonetic_transcription>[ˈtabla]</phonetic_transcription>
+    <pronunciation_description>Тá-бла; ударение на первом слоге; „бл“ как в рус. «блок».</pronunciation_description>
+    <translation>доска</translation>
+    <note>В школе: „школска тáбла“ — классная доска.</note>
+</word>
+
+<word>
+    <element_id>word_154</element_id>
+    <text>Стóлица</text>
+    <phonetic_transcription>[ˈstɔlit͡sa]</phonetic_transcription>
+    <pronunciation_description>Стó-ли-ца; ударение на первом слоге, „о“ краткое.</pronunciation_description>
+    <translation>стул</translation>
+    <note>Иногда по контексту — «столица» (епископская, городская).</note>
+</word>
+
+<word>
+    <element_id>word_155</element_id>
+    <text>Фрíзер</text>
+    <phonetic_transcription>[ˈfrizɛr]</phonetic_transcription>
+    <pronunciation_description>Фрí-зер; ударение на первом слоге, „з“ звонкое.</pronunciation_description>
+    <translation>парикмахер</translation>
+    <note>Профессия; место работы — фризерски салон (парикмахерская).</note>
+</word>
+
+<word>
+    <element_id>word_156</element_id>
+    <text>Слíкар</text>
+    <phonetic_transcription>[ˈslikar]</phonetic_transcription>
+    <pronunciation_description>Слí-кар; ударение на первом слоге, „и“ как в рус. «мишка».</pronunciation_description>
+    <translation>художник; живописец</translation>
+    <note>Человек, который пишет/рисует картины.</note>
+</word>
+
+<word>
+    <element_id>word_157</element_id>
+    <text>Полица́јац</text>
+    <phonetic_transcription>[pɔliˈt͡saːjats]</phonetic_transcription>
+    <pronunciation_description>По-ли-ца́-јац; ударение на «ца», „ј“ даёт звук «й».</pronunciation_description>
+    <translation>полицейский; офицер полиции</translation>
+    <note>Муж. род; жен. форма — „полицајка“.</note>
+</word>
+
+<word>
+    <element_id>word_158</element_id>
+    <text>Нóвинар</text>
+    <phonetic_transcription>[ˈnɔʋinar]</phonetic_transcription>
+    <pronunciation_description>Нó-ви-нар; ударение на первом слоге; „в“ — приближённый звук [ʋ].</pronunciation_description>
+    <translation>журналист</translation>
+    <note>Человек, работающий в СМИ.</note>
+</word>
+
+<word>
+    <element_id>word_159</element_id>
+    <text>И̏зла̄з</text>
+    <phonetic_transcription>[îzlaːz]</phonetic_transcription>
+    <pronunciation_description>и̏-зла̄з; ударение на первом слоге; во втором слоге „а“ долгий [aː]; „з“ звонкое.</pronunciation_description>
+    <translation>выход</translation>
+    <note>Надписи: „И̏зла̄з“ = выход (часто рядом с „У̀лаз“ = вход).</note>
+</word>
+
+<word>
+    <element_id>word_160</element_id>
+    <text>Ку́вар</text>
+    <phonetic_transcription>[ˈkuʋar]</phonetic_transcription>
+    <pronunciation_description>Ку́-вар; ударение на первом слоге, „у“ немного растягивается, „в“ — приближённый звук [ʋ].</pronunciation_description>
+    <translation>повар</translation>
+    <note>Профессия: „ресторански ку́вар“ — повар в ресторане.</note>
+</word>
+
+<word>
+    <element_id>word_161</element_id>
+    <text>У́читељ</text>
+    <phonetic_transcription>[ˈut͡ʃitɛʎ]</phonetic_transcription>
+    <pronunciation_description>У́-чи-тељ; ударение на первом слоге, „ч“ как в «чашка», „љ“ — мягкое «ль».</pronunciation_description>
+    <translation>учитель</translation>
+    <note>Обычно о школьном учителе в начальных классах.</note>
+</word>
+
+<word>
+    <element_id>word_162</element_id>
+    <text>Фудбáлер</text>
+    <phonetic_transcription>[fudbaˈlɛr]</phonetic_transcription>
+    <pronunciation_description>Фуд-ба́-лер; ударение на слоге „ба“.</pronunciation_description>
+    <translation>футболист</translation>
+    <note>Игрок в футбол, любитель или профессионал.</note>
+</word>
+
+<word>
+    <element_id>word_163</element_id>
+    <text>Пéвач</text>
+    <phonetic_transcription>[ˈpɛʋat͡ʃ]</phonetic_transcription>
+    <pronunciation_description>Пé-вач; ударение на первом слоге; „ч“ как в рус. «чашка».</pronunciation_description>
+    <translation>певец</translation>
+    <note>Жен. форма — „певачица“.</note>
+</word>
+
+<word>
+    <element_id>word_164</element_id>
+    <text>Кóнобар</text>
+    <phonetic_transcription>[ˈkɔnobar]</phonetic_transcription>
+    <pronunciation_description>Кó-но-бар; ударение на первом слоге.</pronunciation_description>
+    <translation>официант</translation>
+    <note>Работник кафе/ресторана; жен. форма — „конобарица“.</note>
+</word>
+
+<word>
+    <element_id>word_165</element_id>
+    <text>Васпúтач</text>
+    <phonetic_transcription>[vasˈpitat͡ʃ]</phonetic_transcription>
+    <pronunciation_description>Вас-пú-тач; ударение на слоге „пи“, „ч“ как в рус. «чашка».</pronunciation_description>
+    <translation>воспитатель</translation>
+    <note>Педагог в детском саду; жен. форма — „васпитачица“.</note>
+</word>
+
+<word>
+    <element_id>word_166</element_id>
+    <text>Слу́жбеник</text>
+    <phonetic_transcription>[ˈsluʒbɛnik]</phonetic_transcription>
+    <pronunciation_description>Слу́ж-бе-ник; „ж“ = [ʒ].</pronunciation_description>
+    <translation>служащий; госслужащий</translation>
+    <note>Напр.: „државни службеник“ — госслужащий.</note>
+</word>
+
+<word>
+    <element_id>word_167</element_id>
+    <text>Нáучник</text>
+    <phonetic_transcription>[ˈnaut͡ʃnik]</phonetic_transcription>
+    <pronunciation_description>Нá-уч-ник; сочетание „ау“ произносится слитно [ау].</pronunciation_description>
+    <translation>учёный</translation>
+    <note>Человек науки; „научни радник“ — научный сотрудник.</note>
+</word>
+
+<word>
+    <element_id>word_168</element_id>
+    <text>Ру́с</text>
+    <phonetic_transcription>[ˈrus]</phonetic_transcription>
+    <pronunciation_description>Ру́с; 1 слог, ударение на „у“.</pronunciation_description>
+    <translation>русский (человек)</translation>
+    <note>Сущ., м.р.; как национальность (обычно о мужчине).</note>
+</word>
+
+<word>
+    <element_id>word_169</element_id>
+    <text>Ле́п</text>
+    <phonetic_transcription>[ˈlɛp]</phonetic_transcription>
+    <pronunciation_description>Ле́п; 1 слог.</pronunciation_description>
+    <translation>красивый</translation>
+    <note>Прил., м.р.; ж.р. лепа, ср.р. лепо.</note>
+</word>
+<word>
+  <element_id>word_170</element_id>
+  <text>Ру́тер</text>
+  <phonetic_transcription>[ˈrutɛr]</phonetic_transcription>
+  <pronunciation_description>ру́-тер, ударение на первый слог; „у“ как в «ту», „е“ как короткое «э», конечный „р“ чёткий</pronunciation_description>
+  <translation>Роутер (маршрутизатор)</translation>
+  <note>Разговорное/техническое заимствование. Более «официально» по-сербски также говорят: „усме́ривач“ (router).</note>
+</word>
+<word>
+    <element_id>word_171</element_id>
+    <text>Па́метан</text>
+    <phonetic_transcription>[ˈpamɛtan]</phonetic_transcription>
+    <pronunciation_description>Па́-ме-тан; 3 слога, ударение на первом.</pronunciation_description>
+    <translation>умный</translation>
+    <note>Прил., м.р.; ж.р. паметна, ср.р. паметно.</note>
+</word>
+
+<word>
+    <element_id>word_172</element_id>
+    <text>Де́чко</text>
+    <phonetic_transcription>[ˈdɛt͡ʃkɔ]</phonetic_transcription>
+    <pronunciation_description>Де́-чко; „ч“ = [т͡ʃ].</pronunciation_description>
+    <translation>парень</translation>
+    <note>Разг.: парень, молодой человек.</note>
+</word>
+
+<word>
+    <element_id>word_173</element_id>
+    <text>Дево́јчица</text>
+    <phonetic_transcription>[dɛˈʋɔjt͡ʃit͡sa]</phonetic_transcription>
+    <pronunciation_description>Де-во́ј-чи-ца; „в“ близко к [ʋ], „ч“ = [т͡ʃ].</pronunciation_description>
+    <translation>девочка</translation>
+    <note>Уменьш. от „девојка“.</note>
+</word>
+
+<word>
+    <element_id>word_174</element_id>
+    <text>До́бар</text>
+    <phonetic_transcription>[ˈdɔbar]</phonetic_transcription>
+    <pronunciation_description>До́-бар; 2 слога, ударение на первом.</pronunciation_description>
+    <translation>хороший</translation>
+    <note>Прил.; ж.р. добра, ср.р. добро.</note>
+</word>
+
+<word>
+    <element_id>word_175</element_id>
+    <text>Сре́ћан</text>
+    <phonetic_transcription>[ˈsrɛt͡ɕan]</phonetic_transcription>
+    <pronunciation_description>Сре́-ћан; „ћ“ = [т͡ɕ].</pronunciation_description>
+    <translation>счастливый</translation>
+    <note>Прил.; ж.р. срећна, ср.р. срећно.</note>
+</word>
+
+<word>
+    <element_id>word_177</element_id>
+    <text>Ко́</text>
+    <phonetic_transcription>[ˈkɔ]</phonetic_transcription>
+    <pronunciation_description>Ко́; 1 слог.</pronunciation_description>
+    <translation>кто</translation>
+    <note>Вопросительное местоимение.</note>
+</word>
+
+<word>
+    <element_id>word_178</element_id>
+    <text>Шта́</text>
+    <phonetic_transcription>[ˈʃta]</phonetic_transcription>
+    <pronunciation_description>Шта́; 1 слог, сочетание „шт“ произносится слитно.</pronunciation_description>
+    <translation>что</translation>
+    <note>Вопросительное местоимение.</note>
+</word>
+
+<word>
+    <element_id>word_179</element_id>
+    <text>Са́т</text>
+    <phonetic_transcription>[ˈsat]</phonetic_transcription>
+    <pronunciation_description>Са́т; 1 слог.</pronunciation_description>
+    <translation>час; часы</translation>
+    <note>„Један сат“ — один час; „сат“ также: часы (прибор).</note>
+</word>
+
+<word>
+    <element_id>word_180</element_id>
+    <text>Учио́ница</text>
+    <phonetic_transcription>[ut͡ʃiˈɔnit͡sa]</phonetic_transcription>
+    <pronunciation_description>У-чи-о́-ни-ца; ударение на „о“; „ц“ = [т͡s].</pronunciation_description>
+    <translation>класс (аудитория)</translation>
+    <note>Классная комната.</note>
+</word>
+
+<word>
+    <element_id>word_181</element_id>
+    <text>Та́бла</text>
+    <phonetic_transcription>[ˈtabla]</phonetic_transcription>
+    <pronunciation_description>Та́-бла; 2 слога, ударение на первом.</pronunciation_description>
+    <translation>доска</translation>
+    <note>Школьная/офисная доска.</note>
+</word>
+
+<word>
+    <element_id>word_182</element_id>
+    <text>Сто́лица</text>
+    <phonetic_transcription>[ˈstɔlit͡sa]</phonetic_transcription>
+    <pronunciation_description>Сто́-ли-ца; „ц“ = [т͡s].</pronunciation_description>
+    <translation>стул</translation>
+    <note>Сущ., ж.р.</note>
+</word>
+
+<word>
+    <element_id>word_183</element_id>
+    <text>Фри́зер</text>
+    <phonetic_transcription>[ˈfrizɛr]</phonetic_transcription>
+    <pronunciation_description>Фри́-зер; 2 слога, ударение на „и“.</pronunciation_description>
+    <translation>парикмахер</translation>
+    <note>Также: „фризерка“ — парикмахер (ж.).</note>
+</word>
+
+<word>
+    <element_id>word_184</element_id>
+    <text>Сли́кар</text>
+    <phonetic_transcription>[ˈslikar]</phonetic_transcription>
+    <pronunciation_description>Сли́-кар; 2 слога, ударение на первом.</pronunciation_description>
+    <translation>художник</translation>
+    <note>Живописец.</note>
+</word>
+
+<word>
+    <element_id>word_185</element_id>
+    <text>Полица́јац</text>
+    <phonetic_transcription>[pɔlit͡ˈsajat͡s]</phonetic_transcription>
+    <pronunciation_description>По-ли-ца́-јац; „ц“ = [т͡s].</pronunciation_description>
+    <translation>полицейский</translation>
+    <note>Сотрудник полиции.</note>
+</word>
+
+<word>
+    <element_id>word_186</element_id>
+    <text>Но́винар</text>
+    <phonetic_transcription>[ˈnɔʋinar]</phonetic_transcription>
+    <pronunciation_description>Но́-ви-нар; „в“ близко к [ʋ].</pronunciation_description>
+    <translation>журналист</translation>
+    <note>Сущ., м.р.</note>
+</word>
+
+<word>
+    <element_id>word_187</element_id>
+    <text>Ле́кар</text>
+    <phonetic_transcription>[ˈlɛkar]</phonetic_transcription>
+    <pronunciation_description>Ле́-кар; 2 слога, ударение на первом.</pronunciation_description>
+    <translation>врач</translation>
+    <note>Сущ., м.р.</note>
+</word>
+
+<word>
+    <element_id>word_189</element_id>
+    <text>По̏мо̄ћ</text>
+    <phonetic_transcription>[pômoːt͡ɕ]</phonetic_transcription>
+    <pronunciation_description>по̏-мо̄ћ; ударение на первом слоге; во втором „о“ долгий [oː]; „ћ“ мягкое [t͡ɕ] (похоже на «тьч»).</pronunciation_description>
+    <translation>помощь</translation>
+    <note>Очень полезно в просьбах: „Мо̏лим, по̏мо̄ћ!“ / „Можете ли ми по̏мо̄ћи?“</note>
+</word>
+
+<word>
+    <element_id>word_190</element_id>
+    <text>По̏шта</text>
+    <phonetic_transcription>[pôʃta]</phonetic_transcription>
+    <pronunciation_description>по̏-шта; ударение на первом слоге; „ш“ как в рус. «шапка»; „т“ чёткое.</pronunciation_description>
+    <translation>почта; почтовое отделение; почта (письма/посылки)</translation>
+    <note>„И̏дем у по̏шту“ — иду на почту; „сти̏гла је по̏шта“ — пришла почта.</note>
+</word>
+
+<word>
+    <element_id>word_191</element_id>
+    <text>Пе́вач</text>
+    <phonetic_transcription>[ˈpɛʋat͡ʃ]</phonetic_transcription>
+    <pronunciation_description>Пе́-вач; „ч“ = [т͡ʃ].</pronunciation_description>
+    <translation>певец</translation>
+    <note>Ж.р.: „певачица“.</note>
+</word>
+
+<word>
+    <element_id>word_192</element_id>
+    <text>Ко́нобар</text>
+    <phonetic_transcription>[ˈkɔnɔbar]</phonetic_transcription>
+    <pronunciation_description>Ко́-но-бар; 3 слога, ударение на первом.</pronunciation_description>
+    <translation>официант</translation>
+    <note>Ж.р.: „конобарица“.</note>
+</word>
+
+<word>
+    <element_id>word_193</element_id>
+    <text>Васпи́тач</text>
+    <phonetic_transcription>[ʋasˈpitat͡ʃ]</phonetic_transcription>
+    <pronunciation_description>Вас-пи́-тач; „ч“ = [т͡ʃ].</pronunciation_description>
+    <translation>воспитатель</translation>
+    <note>Обычно про детский сад; ж.р.: „васпитачица“.</note>
+</word>
+<word>
+    <element_id>word_194</element_id>
+    <text>Ке̏ш</text>
+    <phonetic_transcription>[kɛʃ]</phonetic_transcription>
+    <pronunciation_description>кэ̏ш; ударение на единственном слоге, «е» краткое, «ш» как в русском «шар»</pronunciation_description>
+    <translation>кеш; наличные (разг.)</translation>
+    <note>Разговорное слово; часто противопоставляется «картица»: „Ке̏ш или ка́ртица?“</note>
+</word>
+
+<word>
+    <element_id>word_195</element_id>
+    <text>Па̑ре</text>
+    <phonetic_transcription>[pâːrɛ]</phonetic_transcription>
+    <pronunciation_description>па̑-ре; ударение на первом слоге (долгий падающий тон), «е» краткое</pronunciation_description>
+    <translation>деньги (разг.)</translation>
+    <note>Только форма множественного числа; разговорный эквивалент «новац»</note>
+</word>
+
+<word>
+    <element_id>word_196</element_id>
+    <text>По̀пуст</text>
+    <phonetic_transcription>[ˈpɔpust]</phonetic_transcription>
+    <pronunciation_description>по̀-пуст; ударение на первом слоге, «о» краткое, «у» чёткое</pronunciation_description>
+    <translation>скидка</translation>
+    <note>Часто в магазинах: „Имате ли по̀пуст?“</note>
+</word>
+
+<word>
+    <element_id>word_197</element_id>
+    <text>Сни́жење</text>
+    <phonetic_transcription>[ˈsniʒeɲe]</phonetic_transcription>
+    <pronunciation_description>сни́-же-ње; ударение на первом слоге, «ж» как в русском «жар», «њ» мягкое</pronunciation_description>
+    <translation>снижение; уценка</translation>
+    <note>Официально-нейтральное слово; часто на ценниках</note>
+</word>
+
+<word>
+    <element_id>word_198</element_id>
+    <text>Ра̀спродаја</text>
+    <phonetic_transcription>[rasprǒdaja]</phonetic_transcription>
+    <pronunciation_description>ра̀-спро-да-ја; ударение на первом слоге (краткий падающий), «ја» как «йа»</pronunciation_description>
+    <translation>распродажа</translation>
+    <note>Коммерческая лексика: „Ве́лика ра̀спродаја“</note>
+</word>
+<word>
+    <element_id>word_199</element_id>
+    <text>Сурими́ шта̀пићи</text>
+    <phonetic_transcription>[suˈrimi ˈʃtapit͡ɕi]</phonetic_transcription>
+    <pronunciation_description>су-ри́-ми шта̀-пи-ћи; ударение: сури́ми, шта̀пићи.</pronunciation_description>
+    <translation>крабовые палочки (сурими)</translation>
+    <note>Товарное название: палочки из сурими.</note>
+</word>
+<word>
+    <element_id>word_200</element_id>
+    <text>Кондензовано мле́ко</text>
+    <phonetic_transcription>[kondɛnˈzovano ˈmlɛːko]</phonetic_transcription>
+    <pronunciation_description>кон-ден-зо-ва-но мле́-ко; ударение в «мле́ко» на «е».</pronunciation_description>
+    <translation>сгущённое молоко</translation>
+    <note>Часто на упаковках/в рецептах: „кондензовано млеко“.</note>
+</word>
+<word>
+    <element_id>word_201</element_id>
+    <text>Сѝтан си̏р</text>
+    <phonetic_transcription>[ˈsitan ˈsiːr]</phonetic_transcription>
+    <pronunciation_description>сѝ-тан си̏р; ударение: сѝтан, си̏р.</pronunciation_description>
+    <translation>творог (зернистый)</translation>
+    <note>В магазинах и рецептах так называют свежий «рассыпчатый» творог/сыр.</note>
+</word>
+<word>
+    <element_id>word_202</element_id>
+    <text>Ки̏села па̀влака</text>
+    <phonetic_transcription>[ˈkisɛla ˈpaʋlaka]</phonetic_transcription>
+    <pronunciation_description>ки̏-се-ла па̀-вла-ка; ударение: ки̏села, па̀влака.</pronunciation_description>
+    <translation>сметана</translation>
+    <note>Букв. «кислая сметана»; стандартное название продукта в Сербии.</note>
+</word>
+<word>
+    <element_id>word_203</element_id>
+    <text>Шљи̏ва</text>
+    <phonetic_transcription>[ˈʃʎiʋa]</phonetic_transcription>
+    <pronunciation_description>шљи-ва; ударение на первом слоге, „љ“ мягкое [ʎ], „в“ близко к [ʋ]</pronunciation_description>
+    <translation>слива</translation>
+    <note>Женский род.</note>
+</word>
+<word>
+    <element_id>word_204</element_id>
+    <text>Ја̏бука</text>
+    <phonetic_transcription>[ˈjabuka]</phonetic_transcription>
+    <pronunciation_description>я-бу-ка; ударение на первом слоге</pronunciation_description>
+    <translation>яблоко</translation>
+    <note>Женский род.</note>
+</word>
+<word>
+    <element_id>word_205</element_id>
+    <text>Бре̏сква</text>
+    <phonetic_transcription>[ˈbrɛskʋa]</phonetic_transcription>
+    <pronunciation_description>брэ-сква; ударение на первом слоге</pronunciation_description>
+    <translation>персик</translation>
+    <note>Женский род.</note>
+</word>
+<word>
+    <element_id>word_206</element_id>
+    <text>Кру̏шка</text>
+    <phonetic_transcription>[ˈkruʃka]</phonetic_transcription>
+    <pronunciation_description>кру-шка; ударение на первом слоге</pronunciation_description>
+    <translation>груша</translation>
+    <note>Женский род.</note>
+</word>
+<word>
+    <element_id>word_207</element_id>
+    <text>Ма̀лина</text>
+    <phonetic_transcription>[ˈmalina]</phonetic_transcription>
+    <pronunciation_description>ма-ли-на; ударение на первом слоге</pronunciation_description>
+    <translation>малина</translation>
+    <note>Женский род.</note>
+</word>
+<word>
+    <element_id>word_208</element_id>
+    <text>Ки́шобран</text>
+    <phonetic_transcription>[ˈkiʃobran]</phonetic_transcription>
+    <pronunciation_description>ки-шо-бран; ударение на первом слоге</pronunciation_description>
+    <translation>зонт</translation>
+    <note>Мужской род.</note>
+</word>
+
+<word>
+    <element_id>word_209</element_id>
+    <text>Ја́кна</text>
+    <phonetic_transcription>[ˈjakna]</phonetic_transcription>
+    <pronunciation_description>ја-кна; ударение на первом слоге</pronunciation_description>
+    <translation>куртка</translation>
+    <note>Женский род.</note>
+</word>
+
+<word>
+    <element_id>word_210</element_id>
+    <text>Ства́р</text>
+    <phonetic_transcription>[stʋar]</phonetic_transcription>
+    <pronunciation_description>ствар; ударение на одном слоге</pronunciation_description>
+    <translation>вещь</translation>
+    <note>Женский род.</note>
+</word>
+
+<word>
+    <element_id>word_211</element_id>
+    <text>Ту́жан</text>
+    <phonetic_transcription>[ˈtuʒan]</phonetic_transcription>
+    <pronunciation_description>ту-жан; ударение на первом слоге</pronunciation_description>
+    <translation>грустный</translation>
+    <note>Прилагательное (м.р., ед.ч.).</note>
+</word>
+
+<word>
+    <element_id>word_212</element_id>
+    <text>До́садан</text>
+    <phonetic_transcription>[ˈdosadan]</phonetic_transcription>
+    <pronunciation_description>до-са-дан; ударение на первом слоге</pronunciation_description>
+    <translation>скучный</translation>
+    <note>Прилагательное (м.р., ед.ч.).</note>
+</word>
+
+<word>
+    <element_id>word_213</element_id>
+    <text>Ру́жан</text>
+    <phonetic_transcription>[ˈruʒan]</phonetic_transcription>
+    <pronunciation_description>ру-жан; ударение на первом слоге</pronunciation_description>
+    <translation>уродливый</translation>
+    <note>Прилагательное (м.р., ед.ч.).</note>
+</word>
+
+<word>
+    <element_id>word_214</element_id>
+    <text>Та́чан</text>
+    <phonetic_transcription>[ˈtat͡ʃan]</phonetic_transcription>
+    <pronunciation_description>та-чан; ударение на первом слоге</pronunciation_description>
+    <translation>аккуратный</translation>
+    <note>Прилагательное (м.р., ед.ч.).</note>
+</word>
+
+<word>
+    <element_id>word_215</element_id>
+    <text>Си́гуран</text>
+    <phonetic_transcription>[ˈsiɡuran]</phonetic_transcription>
+    <pronunciation_description>си-гу-ран; ударение на первом слоге</pronunciation_description>
+    <translation>безопасный</translation>
+    <note>Прилагательное (м.р., ед.ч.).</note>
+</word>
+
+<word>
+    <element_id>word_216</element_id>
+    <text>Те́жак</text>
+    <phonetic_transcription>[ˈtɛʒak]</phonetic_transcription>
+    <pronunciation_description>те-жак; ударение на первом слоге</pronunciation_description>
+    <translation>тяжелый</translation>
+    <note>Прилагательное (м.р., ед.ч.).</note>
+</word>
+
+<word>
+    <element_id>word_217</element_id>
+    <text>Де́бео</text>
+    <phonetic_transcription>[ˈdɛbɛo]</phonetic_transcription>
+    <pronunciation_description>де-бе-о; ударение на первом слоге</pronunciation_description>
+    <translation>толстый</translation>
+    <note>Прилагательное (м.р., ед.ч.).</note>
+</word>
+
+<word>
+    <element_id>word_218</element_id>
+    <text>Бо́лестан</text>
+    <phonetic_transcription>[ˈbolɛstan]</phonetic_transcription>
+    <pronunciation_description>бо-ле-стан; ударение на первом слоге</pronunciation_description>
+    <translation>больной</translation>
+    <note>Прилагательное (м.р., ед.ч.).</note>
+</word>
+<word>
+  <element_id>word_219</element_id>
+  <text>са́стојак</text>
+  <phonetic_transcription>[ˈsastojak]</phonetic_transcription>
+  <pronunciation_description>са́-сто-јак (ј = «й»)</pronunciation_description>
+  <translation>ингредиент</translation>
+  <note>сущ., м.р.</note>
+</word>
+
+<word>
+  <element_id>word_220</element_id>
+  <text>ко́лач</text>
+  <phonetic_transcription>[ˈkɔlatʃ]</phonetic_transcription>
+  <pronunciation_description>ко́-лач</pronunciation_description>
+  <translation>торт</translation>
+  <note>сущ., м.р.</note>
+</word>
+
+<word>
+  <element_id>word_221</element_id>
+  <text>о́рах</text>
+  <phonetic_transcription>[ˈɔrax]</phonetic_transcription>
+  <pronunciation_description>о́-рах (х = [x])</pronunciation_description>
+  <translation>орех</translation>
+  <note>сущ., м.р.</note>
+</word>
+
+<word>
+  <element_id>word_222</element_id>
+  <text>но́сорог</text>
+  <phonetic_transcription>[ˈnɔsɔrɔɡ]</phonetic_transcription>
+  <pronunciation_description>но́-со-рог</pronunciation_description>
+  <translation>носорог</translation>
+  <note>сущ., м.р.</note>
+</word>
+
+<word>
+  <element_id>word_224</element_id>
+  <text>пе́тао</text>
+  <phonetic_transcription>[ˈpɛtao]</phonetic_transcription>
+  <pronunciation_description>пе́-тао</pronunciation_description>
+  <translation>петух</translation>
+  <note>сущ., м.р.</note>
+</word>
+
+<word>
+  <element_id>word_226</element_id>
+  <text>Србин</text>
+  <phonetic_transcription>[ˈsr̩bin]</phonetic_transcription>
+  <pronunciation_description>ср̩-бин (р может быть слоговым)</pronunciation_description>
+  <translation>Серб</translation>
+  <note>сущ., м.р.; этноним, пишется с заглавной</note>
+</word>
+
+<word>
+  <element_id>word_227</element_id>
+  <text>ча́с</text>
+  <phonetic_transcription>[ˈtʃas]</phonetic_transcription>
+  <pronunciation_description>час</pronunciation_description>
+  <translation>урок</translation>
+  <note>сущ., м.р.; также «час» = «час (времени)»</note>
+</word>
+
+<word>
+  <element_id>word_228</element_id>
+  <text>ту́риста</text>
+  <phonetic_transcription>[ˈturista]</phonetic_transcription>
+  <pronunciation_description>ту́-ри-ста</pronunciation_description>
+  <translation>турист</translation>
+  <note>сущ., м.р.</note>
+</word>
+
+<word>
+  <element_id>word_229</element_id>
+  <text>кори́стити</text>
+  <phonetic_transcription>[kɔˈristiti]</phonetic_transcription>
+  <pronunciation_description>ко-ри́-сти-ти</pronunciation_description>
+  <translation>использовать</translation>
+  <note>глаг., несов. вид</note>
+</word>
+
+<word>
+  <element_id>word_230</element_id>
+  <text>су́нђер</text>
+  <phonetic_transcription>[ˈsund͡ʑer]</phonetic_transcription>
+  <pronunciation_description>су́н-ђер</pronunciation_description>
+  <translation>губка</translation>
+  <note>сущ., м.р.</note>
+</word>
+<word>
+  <element_id>word_231</element_id>
+  <text>Шѐћер</text>
+  <phonetic_transcription>[ʃět͡ɕer]</phonetic_transcription>
+  <pronunciation_description>ше-ћер, ударение на «е» (первый слог)</pronunciation_description>
+  <translation>сахар</translation>
+  <note>Сущ. м.р.</note>
+</word>
+
+<word>
+  <element_id>word_232</element_id>
+  <text>Со̑</text>
+  <phonetic_transcription>[sôː]</phonetic_transcription>
+  <pronunciation_description>со, ударение на «о» (долгое)</pronunciation_description>
+  <translation>соль</translation>
+  <note>Сущ. ж.р.; вариант Хорватии: «со̑л»</note>
+</word>
+
+<word>
+  <element_id>word_233</element_id>
+  <text>Бѝбер</text>
+  <phonetic_transcription>[bǐber]</phonetic_transcription>
+  <pronunciation_description>би-бер, ударение на «и» (первый слог)</pronunciation_description>
+  <translation>перец (приправа)</translation>
+  <note>Сущ. м.р.</note>
+</word>
+
+<word>
+  <element_id>word_234</element_id>
+  <text>Сѝрће</text>
+  <phonetic_transcription>[sǐrt͡ɕe]</phonetic_transcription>
+  <pronunciation_description>сир-ће, ударение на «и» (первый слог)</pronunciation_description>
+  <translation>уксус</translation>
+  <note>Сущ. ср.р.</note>
+</word>
+
+<word>
+  <element_id>word_235</element_id>
+  <text>У̑ље</text>
+  <phonetic_transcription>[ûːʎe]</phonetic_transcription>
+  <pronunciation_description>у-лье, ударение на «у» (долгое), љ = мягкое «ль»</pronunciation_description>
+  <translation>масло (обычно растительное), нефть</translation>
+  <note>Сущ. ср.р.; «биљно уље» = растительное масло</note>
+</word>
+
+<word>
+  <element_id>word_236</element_id>
+  <text>За́чини</text>
+  <phonetic_transcription>[zǎːt͡ʃini]</phonetic_transcription>
+  <pronunciation_description>за-чи-ни, ударение на «а» (первый слог)</pronunciation_description>
+  <translation>специи, приправы</translation>
+  <note>Важно: правильно «Зачини» (ч), не «Заћини»</note>
+</word>
+<word>
+  <element_id>word_237</element_id>
+  <text>Пла́тна ка́ртица</text>
+  <phonetic_transcription>[ˈplaːtna ˈkaːrtitsa]</phonetic_transcription>
+  <pronunciation_description>Пл**аа**тна к**аа**ртица, 1-е слово: ударение на 1-м слоге; 2-е слово: ударение на 1-м слоге, „ц“ = [ts]</pronunciation_description>
+  <translation>банковская карта</translation>
+  <note>сущ., ж.р.</note>
+</word>
+
+<word>
+  <element_id>word_238</element_id>
+  <text>Бра́шно</text>
+  <phonetic_transcription>[ˈbraːʃno]</phonetic_transcription>
+  <pronunciation_description>Бр**аа**шно, 1-е слово: ударение на 1-м слоге</pronunciation_description>
+  <translation>мука</translation>
+  <note>сущ., ср.р.</note>
+</word>
+
+<word>
+  <element_id>word_239</element_id>
+  <text>Хе́љда</text>
+  <phonetic_transcription>[ˈxɛːʎda]</phonetic_transcription>
+  <pronunciation_description>Х**ее**љда, 1-е слово: ударение на 1-м слоге, „љ“ = мягкое «ль»</pronunciation_description>
+  <translation>гречка</translation>
+  <note>сущ., ж.р.</note>
+</word>
+
+<word>
+  <element_id>word_240</element_id>
+  <text>Ха́ринга</text>
+  <phonetic_transcription>[ˈxaːriŋɡa]</phonetic_transcription>
+  <pronunciation_description>Х**аа**ринга, 1-е слово: ударение на 1-м слоге</pronunciation_description>
+  <translation>сельдь</translation>
+  <note>сущ., ж.р.</note>
+</word>
+
+<word>
+  <element_id>word_241</element_id>
+  <text>Ка́јсија</text>
+  <phonetic_transcription>[ˈkaːjsija]</phonetic_transcription>
+  <pronunciation_description>К**аа**јсија, 1-е слово: ударение на 1-м слоге, „ј“ как рус. «й»</pronunciation_description>
+  <translation>абрикос</translation>
+  <note>сущ., ж.р.</note>
+</word>
+
+<word>
+  <element_id>word_242</element_id>
+  <text>Ку́пина</text>
+  <phonetic_transcription>[ˈkuːpina]</phonetic_transcription>
+  <pronunciation_description>К**уу**пина, 1-е слово: ударение на 1-м слоге</pronunciation_description>
+  <translation>ежевика</translation>
+  <note>сущ., ж.р.</note>
+</word>
+
+<word>
+  <element_id>word_243</element_id>
+  <text>Гро́жђе</text>
+  <phonetic_transcription>[ˈɡroːʒdʑɛ]</phonetic_transcription>
+  <pronunciation_description>Гр**оо**жђе, 1-е слово: ударение на 1-м слоге, „ђ“ ≈ мягкое «дж»</pronunciation_description>
+  <translation>виноград</translation>
+  <note>сущ., ср.р.</note>
+</word>
+
+<word>
+  <element_id>word_244</element_id>
+  <text>Ја́года</text>
+  <phonetic_transcription>[ˈjaːɡoda]</phonetic_transcription>
+  <pronunciation_description>Ј**аа**года, 1-е слово: ударение на 1-м слоге, „ј“ как рус. «й»</pronunciation_description>
+  <translation>клубника</translation>
+  <note>сущ., ж.р.</note>
+</word>
+
+<word>
+  <element_id>word_245</element_id>
+  <text>Тре́шња</text>
+  <phonetic_transcription>[ˈtrɛːʃɲa]</phonetic_transcription>
+  <pronunciation_description>Тр**ее**шња, 1-е слово: ударение на 1-м слоге, „њ“ = мягкое «нь»</pronunciation_description>
+  <translation>черешня</translation>
+  <note>сущ., ж.р.</note>
+</word>
+
+<word>
+  <element_id>word_246</element_id>
+  <text>На́ранџа</text>
+  <phonetic_transcription>[ˈnaːrandʒa]</phonetic_transcription>
+  <pronunciation_description>Н**аа**ранџа, 1-е слово: ударение на 1-м слоге, „џ“ = «дж»</pronunciation_description>
+  <translation>апельсин</translation>
+  <note>сущ., ж.р.</note>
+</word>
+
+<word>
+  <element_id>word_247</element_id>
+  <text>Бу́ндева</text>
+  <phonetic_transcription>[ˈbuːndɛva]</phonetic_transcription>
+  <pronunciation_description>Б**уу**ндева, 1-е слово: ударение на 1-м слоге</pronunciation_description>
+  <translation>тыква</translation>
+  <note>сущ., ж.р.</note>
+</word>
+
+<word>
+  <element_id>word_248</element_id>
+  <text>Лубе́ница</text>
+  <phonetic_transcription>[luˈbɛːnitsa]</phonetic_transcription>
+  <pronunciation_description>Луб**ее**ница, 1-е слово: ударение на 2-м слоге, „ц“ = [ts]</pronunciation_description>
+  <translation>арбуз</translation>
+  <note>сущ., ж.р.</note>
+</word>
+
+<word>
+  <element_id>word_249</element_id>
+  <text>Па́прика</text>
+  <phonetic_transcription>[ˈpaːprika]</phonetic_transcription>
+  <pronunciation_description>П**аа**прика, 1-е слово: ударение на 1-м слоге</pronunciation_description>
+  <translation>перец</translation>
+  <note>сущ., ж.р.</note>
+</word>
+
+<word>
+  <element_id>word_250</element_id>
+  <text>Па́суљ</text>
+  <phonetic_transcription>[ˈpaːsuʎ]</phonetic_transcription>
+  <pronunciation_description>П**аа**суљ, 1-е слово: ударение на 1-м слоге, „љ“ = мягкое «ль»</pronunciation_description>
+  <translation>фасоль</translation>
+  <note>сущ., м.р.</note>
+</word>
+
+<word>
+  <element_id>word_251</element_id>
+  <text>Парада́јз</text>
+  <phonetic_transcription>[paraˈdaːjz]</phonetic_transcription>
+  <pronunciation_description>Парад**аа**јз, 1-е слово: ударение на 3-м слоге, „ј“ как рус. «й»</pronunciation_description>
+  <translation>помидор</translation>
+  <note>сущ., м.р.</note>
+</word>
+
+<word>
+  <element_id>word_252</element_id>
+  <text>Кра́ставац</text>
+  <phonetic_transcription>[ˈkraːstavats]</phonetic_transcription>
+  <pronunciation_description>Кр**аа**ставац, 1-е слово: ударение на 1-м слоге, „ц“ = [ts]</pronunciation_description>
+  <translation>огурец</translation>
+  <note>сущ., м.р.</note>
+</word>
+
+<word>
+  <element_id>word_253</element_id>
+  <text>Ку́пус</text>
+  <phonetic_transcription>[ˈkuːpus]</phonetic_transcription>
+  <pronunciation_description>К**уу**пус, 1-е слово: ударение на 1-м слоге</pronunciation_description>
+  <translation>капуста</translation>
+  <note>сущ., м.р.</note>
+</word>
+
+<word>
+  <element_id>word_254</element_id>
+  <text>Гра́шак</text>
+  <phonetic_transcription>[ˈɡraːʃak]</phonetic_transcription>
+  <pronunciation_description>Гр**аа**шак, 1-е слово: ударение на 1-м слоге</pronunciation_description>
+  <translation>горох</translation>
+  <note>сущ., м.р.</note>
+</word>
+
+<word>
+  <element_id>word_255</element_id>
+  <text>Црни лу́к</text>
+  <phonetic_transcription>[tsrni ˈluːk]</phonetic_transcription>
+  <pronunciation_description>Црни л**уу**к, 1-е слово: ударение не отмечено; 2-е слово: ударение на 1-м слоге, „ц“ = [ts]</pronunciation_description>
+  <translation>лук</translation>
+  <note>сущ., м.р.</note>
+</word>
+
+<word>
+  <element_id>word_256</element_id>
+  <text>Бе́ли лу́к</text>
+  <phonetic_transcription>[ˈbɛːli ˈluːk]</phonetic_transcription>
+  <pronunciation_description>Б**ее**ли л**уу**к, 1-е слово: ударение на 1-м слоге; 2-е слово: ударение на 1-м слоге</pronunciation_description>
+  <translation>чеснок</translation>
+  <note>сущ., м.р.</note>
+</word>
+
+<word>
+  <element_id>word_257</element_id>
+  <text>Пра́зилук</text>
+  <phonetic_transcription>[ˈpraːziluk]</phonetic_transcription>
+  <pronunciation_description>Пр**аа**зилук, 1-е слово: ударение на 1-м слоге</pronunciation_description>
+  <translation>лук-порей</translation>
+  <note>сущ., м.р.</note>
+</word>
+
+<word>
+  <element_id>word_258</element_id>
+  <text>Шаргаре́па</text>
+  <phonetic_transcription>[ʃarɡaˈrɛːpa]</phonetic_transcription>
+  <pronunciation_description>Шаргар**ее**па, 1-е слово: ударение на 3-м слоге</pronunciation_description>
+  <translation>морковь</translation>
+  <note>сущ., ж.р.</note>
+</word>
+
+<word>
+  <element_id>word_259</element_id>
+  <text>Бора́нија</text>
+  <phonetic_transcription>[boˈraːnija]</phonetic_transcription>
+  <pronunciation_description>Бор**аа**нија, 1-е слово: ударение на 2-м слоге, „ј“ как рус. «й»</pronunciation_description>
+  <translation>зелёная фасоль</translation>
+  <note>сущ., ж.р.</note>
+</word>
+
+<word>
+  <element_id>word_260</element_id>
+  <text>Кро́мпир</text>
+  <phonetic_transcription>[ˈkroːmpir]</phonetic_transcription>
+  <pronunciation_description>Кр**оо**мпир, 1-е слово: ударение на 1-м слоге</pronunciation_description>
+  <translation>картофель</translation>
+  <note>сущ., м.р.</note>
+</word>
+
+<word>
+  <element_id>word_261</element_id>
+  <text>Цве́кла</text>
+  <phonetic_transcription>[ˈtsvɛːkla]</phonetic_transcription>
+  <pronunciation_description>Цв**ее**кла, 1-е слово: ударение на 1-м слоге, „ц“ = [ts]</pronunciation_description>
+  <translation>свёкла</translation>
+  <note>сущ., ж.р.</note>
+</word>
+
+<word>
+  <element_id>word_262</element_id>
+  <text>Зе́лена сала́та</text>
+  <phonetic_transcription>[ˈzɛːlɛna saˈlaːta]</phonetic_transcription>
+  <pronunciation_description>З**ее**лена сал**аа**та, 1-е слово: ударение на 1-м слоге; 2-е слово: ударение на 2-м слоге</pronunciation_description>
+  <translation>латук</translation>
+  <note>сущ., ж.р.</note>
+</word>
+
+<word>
+  <element_id>word_263</element_id>
+  <text>Карфио́л</text>
+  <phonetic_transcription>[karfiˈoːl]</phonetic_transcription>
+  <pronunciation_description>Карфи**оо**л, 1-е слово: ударение на 3-м слоге</pronunciation_description>
+  <translation>цветная капуста</translation>
+  <note>сущ., м.р.</note>
+</word>
+
+<word>
+  <element_id>word_264</element_id>
+  <text>Ти́квица</text>
+  <phonetic_transcription>[ˈtiːkvitsa]</phonetic_transcription>
+  <pronunciation_description>Т**ии**квица, 1-е слово: ударение на 1-м слоге, „ц“ = [ts]</pronunciation_description>
+  <translation>кабачок</translation>
+  <note>сущ., ж.р.</note>
+</word>
+
+<word>
+  <element_id>word_265</element_id>
+  <text>Ро́штиљ</text>
+  <phonetic_transcription>[ˈroːʃtiʎ]</phonetic_transcription>
+  <pronunciation_description>Р**оо**штиљ, 1-е слово: ударение на 1-м слоге, „љ“ = мягкое «ль»</pronunciation_description>
+  <translation>гриль</translation>
+  <note>сущ., м.р.</note>
+</word>
+
+<word>
+  <element_id>word_266</element_id>
+  <text>Коба́сица</text>
+  <phonetic_transcription>[koˈbaːsitsa]</phonetic_transcription>
+  <pronunciation_description>Коб**аа**сица, 1-е слово: ударение на 2-м слоге, „ц“ = [ts]</pronunciation_description>
+  <translation>колбаса</translation>
+  <note>сущ., ж.р.</note>
+</word>
+
+<word>
+  <element_id>word_267</element_id>
+  <text>Шу́нка</text>
+  <phonetic_transcription>[ˈʃuːnka]</phonetic_transcription>
+  <pronunciation_description>Ш**уу**нка, 1-е слово: ударение на 1-м слоге</pronunciation_description>
+  <translation>ветчина</translation>
+  <note>сущ., ж.р.</note>
+</word>
+
+<word>
+  <element_id>word_268</element_id>
+  <text>Пи́летина</text>
+  <phonetic_transcription>[ˈpiːlɛtina]</phonetic_transcription>
+  <pronunciation_description>П**ии**летина, 1-е слово: ударение на 1-м слоге</pronunciation_description>
+  <translation>курица</translation>
+  <note>сущ., ж.р.</note>
+</word>
+
+<word>
+  <element_id>word_269</element_id>
+  <text>Го́ведина</text>
+  <phonetic_transcription>[ˈɡoːvɛdina]</phonetic_transcription>
+  <pronunciation_description>Г**оо**ведина, 1-е слово: ударение на 1-м слоге</pronunciation_description>
+  <translation>говядина</translation>
+  <note>сущ., ж.р.</note>
+</word>
+
+<word>
+  <element_id>word_270</element_id>
+  <text>Сви́њетина</text>
+  <phonetic_transcription>[ˈsviːɲɛtina]</phonetic_transcription>
+  <pronunciation_description>Св**ии**њетина, 1-е слово: ударение на 1-м слоге, „њ“ = мягкое «нь»</pronunciation_description>
+  <translation>свинина</translation>
+  <note>сущ., ж.р.</note>
+</word>
+
+<word>
+  <element_id>word_271</element_id>
+  <text>Тестени́на</text>
+  <phonetic_transcription>[tɛstɛˈniːna]</phonetic_transcription>
+  <pronunciation_description>Тестен**ии**на, 1-е слово: ударение на 3-м слоге</pronunciation_description>
+  <translation>макаронные изделия</translation>
+  <note>сущ., ж.р.</note>
+</word>
+
+<word>
+  <element_id>word_272</element_id>
+  <text>Ђе́врек</text>
+  <phonetic_transcription>[ˈdʑɛːvrɛk]</phonetic_transcription>
+  <pronunciation_description>Ђ**ее**врек, 1-е слово: ударение на 1-м слоге, „ђ“ ≈ мягкое «дж»</pronunciation_description>
+  <translation>бублик</translation>
+  <note>сущ., м.р.</note>
+</word>
+
+<word>
+  <element_id>word_273</element_id>
+  <text>За́чин</text>
+  <phonetic_transcription>[ˈzaːtʃin]</phonetic_transcription>
+  <pronunciation_description>З**аа**чин, 1-е слово: ударение на 1-м слоге</pronunciation_description>
+  <translation>специя</translation>
+  <note>сущ., м.р.</note>
+</word>
+<word>
+    <element_id>word_274</element_id>
+    <text>Ста́н</text>
+    <phonetic_transcription>[stâːn]</phonetic_transcription>
+    <pronunciation_description>стан (1 слог), ударение на „а“, „а“ долгое</pronunciation_description>
+    <translation>Квартира</translation>
+    <note>Сущ., м.р., неодуш.: „квартира, апартаменты“</note>
+</word>
+
+<word>
+    <element_id>word_275</element_id>
+    <text>Ку́ћа</text>
+    <phonetic_transcription>[kût͡ɕa]</phonetic_transcription>
+    <pronunciation_description>ку-ћа, ударение на „ку“</pronunciation_description>
+    <translation>Дом</translation>
+    <note>Сущ., ж.р., неодуш.: „дом“</note>
+</word>
+
+<word>
+    <element_id>word_276</element_id>
+    <text>Ча́ша</text>
+    <phonetic_transcription>[t͡ʃâʃa]</phonetic_transcription>
+    <pronunciation_description>ча-ша, ударение на „ча“</pronunciation_description>
+    <translation>Стакан</translation>
+    <note>Сущ., ж.р., неодуш.: „стакан“ (также „чаша“)</note>
+</word>
+
+<word>
+    <element_id>word_277</element_id>
+    <text>Дру́г</text>
+    <phonetic_transcription>[drûːɡ]</phonetic_transcription>
+    <pronunciation_description>друг (1 слог), ударение на „у“, „у“ долгое</pronunciation_description>
+    <translation>Приятель</translation>
+    <note>Сущ., м.р., одуш.: „друг, товарищ“</note>
+</word>
+
+<word>
+    <element_id>word_278</element_id>
+    <text>При́јатељ</text>
+    <phonetic_transcription>[prîjateʎ]</phonetic_transcription>
+    <pronunciation_description>при-ја-тељ, ударение на „при“</pronunciation_description>
+    <translation>Друг</translation>
+    <note>Сущ., м.р., одуш.: „друг“ (ж.р.: пријатељица)</note>
+</word>
+
+<word>
+    <element_id>word_279</element_id>
+    <text>Вре́дан</text>
+    <phonetic_transcription>[ʋrěːdan]</phonetic_transcription>
+    <pronunciation_description>вре-дан, ударение на „вре“, „е“ долгое</pronunciation_description>
+    <translation>Ценный, трудолюбивый</translation>
+    <note>Прил.: „ценный; трудолюбивый, усердный“</note>
+</word>
+
+<word>
+    <element_id>word_280</element_id>
+    <text>Пе́чење</text>
+    <phonetic_transcription>[pɛ̂t͡ʃeːɲe]</phonetic_transcription>
+    <pronunciation_description>пе-че-ње, ударение на „пе“</pronunciation_description>
+    <translation>Запечённое мясо</translation>
+    <note>Сущ., ср.р., неодуш.: „жаркое; печёное/запечённое мясо“</note>
+</word>
+
+<word>
+    <element_id>word_282</element_id>
+    <text>При́стати</text>
+    <phonetic_transcription>[prǐstati]</phonetic_transcription>
+    <pronunciation_description>при-ста-ти, ударение на „при“</pronunciation_description>
+    <translation>Согласиться</translation>
+    <note>Глаг., св. вид: „согласиться“ (1 л. ед.ч.: при́станем)</note>
+</word>
+
+<word>
+    <element_id>word_283</element_id>
+    <text>Ко́рист</text>
+    <phonetic_transcription>[kôriːst]</phonetic_transcription>
+    <pronunciation_description>ко-рист, ударение на „ко“, „и“ долгое</pronunciation_description>
+    <translation>Польза</translation>
+    <note>Сущ., ж.р., неодуш.: „польза, выгода“</note>
+</word>
+
+<word>
+    <element_id>word_284</element_id>
+    <text>Ко́рисник</text>
+    <phonetic_transcription>[kǒriːsniːk]</phonetic_transcription>
+    <pronunciation_description>ко-рис-ник, ударение на „ко“, „и“ долгое</pronunciation_description>
+    <translation>Пользователь</translation>
+    <note>Сущ., м.р., одуш.: „пользователь“</note>
+</word>
+
+<word>
+    <element_id>word_285</element_id>
+    <text>Ко́рисно</text>
+    <phonetic_transcription>[kôrisno]</phonetic_transcription>
+    <pronunciation_description>ко-рис-но, ударение на „ко“</pronunciation_description>
+    <translation>Полезно</translation>
+    <note>Нареч.: „полезно“</note>
+</word>
+
+<word>
+    <element_id>word_286</element_id>
+    <text>По́нос</text>
+    <phonetic_transcription>[pǒnos]</phonetic_transcription>
+    <pronunciation_description>по-нос, ударение на „по“</pronunciation_description>
+    <translation>Гордость</translation>
+    <note>Сущ., м.р., неодуш.: „гордость“</note>
+</word>
+
+<word>
+    <element_id>word_287</element_id>
+    <text>Сло́во</text>
+    <phonetic_transcription>[slôʋo]</phonetic_transcription>
+    <pronunciation_description>сло-во, ударение на „сло“</pronunciation_description>
+    <translation>Буква</translation>
+    <note>Сущ., ср.р., неодуш.: „буква“ (а „слово“ чаще: ре̑ч)</note>
+</word>
+
+<word>
+    <element_id>word_288</element_id>
+    <text>Ре́ч</text>
+    <phonetic_transcription>[rêːt͡ʃ]</phonetic_transcription>
+    <pronunciation_description>реч (1 слог), ударение на „е“, „е“ долгое</pronunciation_description>
+    <translation>Слово</translation>
+    <note>Сущ., ж.р., неодуш.: „слово“</note>
+</word>
+
+<word>
+    <element_id>word_289</element_id>
+    <text>Жи́вот</text>
+    <phonetic_transcription>[ʒǐʋot]</phonetic_transcription>
+    <pronunciation_description>жи-вот, ударение на „жи“</pronunciation_description>
+    <translation>Жизнь</translation>
+    <note>Сущ., м.р., неодуш.: „жизнь“</note>
+</word>
+
+<word>
+    <element_id>word_290</element_id>
+    <text>Цве́т</text>
+    <phonetic_transcription>[t͡sʋêːt]</phonetic_transcription>
+    <pronunciation_description>цвет (1 слог), ударение на „е“, „е“ долгое</pronunciation_description>
+    <translation>Цветок</translation>
+    <note>Сущ., м.р., неодуш.: „цветок“</note>
+</word>
+
+    <word>
+        <element_id>word_291</element_id>
+        <text>Путова́ње</text>
+        <phonetic_transcription>[putoʋǎːɲe]</phonetic_transcription>
+        <pronunciation_description>пу-то-ВА-ње; „њ“ = мягкое „нь“</pronunciation_description>
+        <translation>путешествие</translation>
+        <note>сущ., ср.р.: путова́ње</note>
+    </word>
+
+    <word>
+        <element_id>word_292</element_id>
+        <text>Шо́ља</text>
+        <phonetic_transcription>[ʃǒːʎa]</phonetic_transcription>
+        <pronunciation_description>ШО-ља; „љ“ = мягкое „ль“</pronunciation_description>
+        <translation>чашка</translation>
+        <note>сущ., ж.р.: шо́ља</note>
+    </word>
+
+    <word>
+        <element_id>word_293</element_id>
+        <text>Ка̀фӣћ</text>
+        <phonetic_transcription>[kǎfiːt͡ɕ]</phonetic_transcription>
+        <pronunciation_description>КА-фић; „ћ“ — мягкое „ч“</pronunciation_description>
+        <translation>кафе</translation>
+        <note>сущ., м.р.: ка̀фӣћ</note>
+    </word>
+
+    <word>
+        <element_id>word_294</element_id>
+        <text>Шу̏ма</text>
+        <phonetic_transcription>[ʃûma]</phonetic_transcription>
+        <pronunciation_description>ШУ-ма</pronunciation_description>
+        <translation>лес</translation>
+        <note>сущ., ж.р.: шу̏ма</note>
+    </word>
+
+    <word>
+        <element_id>word_295</element_id>
+        <text>Ста̀за</text>
+        <phonetic_transcription>[stǎza]</phonetic_transcription>
+        <pronunciation_description>СТА-за</pronunciation_description>
+        <translation>дорожка</translation>
+        <note>сущ., ж.р.: ста̀за</note>
+    </word>
+
+    <word>
+        <element_id>word_296</element_id>
+        <text>Гра́на</text>
+        <phonetic_transcription>[ɡrǎːna]</phonetic_transcription>
+        <pronunciation_description>ГРА-на</pronunciation_description>
+        <translation>ветка</translation>
+        <note>сущ., ж.р.: гра́на</note>
+    </word>
+
+    <word>
+        <element_id>word_297</element_id>
+        <text>Крѐвет</text>
+        <phonetic_transcription>[krěʋet]</phonetic_transcription>
+        <pronunciation_description>КРЕ-вет</pronunciation_description>
+        <translation>кровать</translation>
+        <note>сущ., м.р.: крѐвет</note>
+    </word>
+
+    <word>
+        <element_id>word_298</element_id>
+        <text>Вр̏т</text>
+        <phonetic_transcription>[ʋr̩̂t]</phonetic_transcription>
+        <pronunciation_description>вр̏т — 1 слог, „р“ слоговой</pronunciation_description>
+        <translation>сад</translation>
+        <note>сущ., м.р.: вр̏т</note>
+    </word>
+
+    <word>
+        <element_id>word_299</element_id>
+        <text>Зи̑д</text>
+        <phonetic_transcription>[zîːd]</phonetic_transcription>
+        <pronunciation_description>зид — 1 слог (долгий „и“)</pronunciation_description>
+        <translation>стена</translation>
+        <note>сущ., м.р.: зи̑д</note>
+    </word>
+
+    <word>
+        <element_id>word_300</element_id>
+        <text>Интереса̀нтан</text>
+        <phonetic_transcription>[interesǎntan]</phonetic_transcription>
+        <pronunciation_description>ин-те-ре-САН-тан</pronunciation_description>
+        <translation>интересный</translation>
+        <note>прил.: интереса̀нтан / интереса̀нтна / интереса̀нтно</note>
+    </word>
+	    <word>
+        <element_id>word_301</element_id>
+        <text>Србија</text>
+        <phonetic_transcription>[ˈsr̩bija]</phonetic_transcription>
+        <pronunciation_description>СР̩-би-ја (р может быть слоговым)</pronunciation_description>
+        <translation>Сербия</translation>
+        <note>сущ., ж.р.; название страны, пишется с заглавной</note>
+    </word>
+
+    <word>
+        <element_id>word_302</element_id>
+        <text>Српкиња</text>
+        <phonetic_transcription>[ˈsr̩pkiɲa]</phonetic_transcription>
+        <pronunciation_description>СР̩п-ки-ња (р слоговой; „њ“ = мягкое „нь“)</pronunciation_description>
+        <translation>Сербка</translation>
+        <note>сущ., ж.р.; этноним, пишется с заглавной</note>
+    </word>
+
+    <word>
+        <element_id>word_303</element_id>
+        <text>Ру́сија</text>
+        <phonetic_transcription>[ˈrusija]</phonetic_transcription>
+        <pronunciation_description>РУ-си-ја</pronunciation_description>
+        <translation>Россия</translation>
+        <note>сущ., ж.р.; название страны, пишется с заглавной</note>
+    </word>
+    <word>
+        <element_id>word_305</element_id>
+        <text>Ру́скиња</text>
+        <phonetic_transcription>[ˈruskiɲa]</phonetic_transcription>
+        <pronunciation_description>РУ-ски-ња („њ“ = мягкое „нь“)</pronunciation_description>
+        <translation>Русская</translation>
+        <note>сущ., ж.р.; этноним, пишется с заглавной</note>
+    </word>
+	<word>
+  <element_id>word_306</element_id>
+  <text>Ми́слити</text>
+  <phonetic_transcription>[ˈmis.liti]</phonetic_transcription>
+  <pronunciation_description>ми́-сли-ти, ударение на «ми», «с» мягко не смягчается</pronunciation_description>
+  <translation>думать</translation>
+  <note>Несов. вид; часто: „мислим да…“ = «думаю, что…»</note>
+</word>
+
+<word>
+  <element_id>word_307</element_id>
+  <text>Же́лети</text>
+  <phonetic_transcription>[ˈʒe.le.ti]</phonetic_transcription>
+  <pronunciation_description>же́-ле-ти, „ж“ как русское ж</pronunciation_description>
+  <translation>хотеть</translation>
+  <note>Часто с „да + презент“: „Желим да…“</note>
+</word>
+
+<word>
+  <element_id>word_308</element_id>
+  <text>У́чити</text>
+  <phonetic_transcription>[ˈu.t͡ʃi.ti]</phonetic_transcription>
+  <pronunciation_description>у́-чи-ти, „ч“ твёрдое (как в «чай»)</pronunciation_description>
+  <translation>учить</translation>
+  <note>Также: „учити српски“ = учить сербский</note>
+</word>
+
+<word>
+  <element_id>word_309</element_id>
+  <text>Гово́рити</text>
+  <phonetic_transcription>[ɡoˈʋo.ri.ti]</phonetic_transcription>
+  <pronunciation_description>го-во́-ри-ти, „в“ ближе к мягкому [ʋ] (между в/у)</pronunciation_description>
+  <translation>говорить</translation>
+  <note>Несов. вид</note>
+</word>
+
+<word>
+  <element_id>word_310</element_id>
+  <text>Жи́вети</text>
+  <phonetic_transcription>[ˈʒi.ʋe.ti]</phonetic_transcription>
+  <pronunciation_description>жи́-ве-ти, „е“ как в «это»</pronunciation_description>
+  <translation>жить</translation>
+  <note>„Живим у…“ = «живу в…»</note>
+</word>
+
+<word>
+  <element_id>word_311</element_id>
+  <text>Ви́дети</text>
+  <phonetic_transcription>[ˈʋi.de.ti]</phonetic_transcription>
+  <pronunciation_description>ви́-де-ти, „в“ ≈ [ʋ], „д“ звонкое</pronunciation_description>
+  <translation>видеть</translation>
+  <note>Несов. вид; соверш.: „ви́дети“ часто парой „ви́дети/ви́дети“ не выделяют, но в речи есть „ви́дети“</note>
+</word>
+
+<word>
+  <element_id>word_312</element_id>
+  <text>Мрзе́ти</text>
+  <phonetic_transcription>[ˈmr̩.ze.ti]</phonetic_transcription>
+  <pronunciation_description>мр̩-зе́-ти: в начале „р“ может быть слоговым (как «рр»), затем „зе́“</pronunciation_description>
+  <translation>ненавидеть</translation>
+  <note>Несов. вид</note>
+</word>
+
+<word>
+  <element_id>word_313</element_id>
+  <text>Ле́тети</text>
+  <phonetic_transcription>[ˈle.te.ti]</phonetic_transcription>
+  <pronunciation_description>ле́-те-ти, чистое „е“</pronunciation_description>
+  <translation>летать, лететь</translation>
+  <note>Несов. вид</note>
+</word>
+
+<word>
+  <element_id>word_314</element_id>
+  <text>Во́зити</text>
+  <phonetic_transcription>[ˈʋo.zi.ti]</phonetic_transcription>
+  <pronunciation_description>во́-зи-ти, „з“ звонкое</pronunciation_description>
+  <translation>водить (транспорт), возить</translation>
+  <note>Несов. вид; „возим ауто“ = вожу машину</note>
+</word>
+
+<word>
+  <element_id>word_315</element_id>
+  <text>Тра́жити</text>
+  <phonetic_transcription>[ˈtra.ʒi.ti]</phonetic_transcription>
+  <pronunciation_description>тра́-жи-ти, „ж“ как русское ж</pronunciation_description>
+  <translation>искать</translation>
+  <note>Несов. вид; „тражим…“ = «ищу…»</note>
+</word>
+
+<word>
+  <element_id>word_316</element_id>
+  <text>Ште́дети</text>
+  <phonetic_transcription>[ˈʃte.de.ti]</phonetic_transcription>
+  <pronunciation_description>ште́-де-ти, „ш“ как русское ш</pronunciation_description>
+  <translation>экономить</translation>
+  <note>Несов. вид; „штедим новац“ = экономлю деньги</note>
+</word>
+
+<word>
+  <element_id>word_317</element_id>
+  <text>Но́сити</text>
+  <phonetic_transcription>[ˈno.si.ti]</phonetic_transcription>
+  <pronunciation_description>но́-си-ти, „с“ глухое</pronunciation_description>
+  <translation>носить</translation>
+  <note>Несов. вид; „носити капут“ = носить пальто (быть в пальто)</note>
+</word>
+
+<word>
+  <element_id>word_318</element_id>
+  <text>Се́дети</text>
+  <phonetic_transcription>[ˈse.de.ti]</phonetic_transcription>
+  <pronunciation_description>се́-де-ти, „е“ как в «это»</pronunciation_description>
+  <translation>сидеть</translation>
+  <note>Несов. вид</note>
+</word>
+
+<word>
+  <element_id>word_319</element_id>
+  <text>Во́лети</text>
+  <phonetic_transcription>[ˈʋo.le.ti]</phonetic_transcription>
+  <pronunciation_description>во́-ле-ти, „в“ ≈ [ʋ]</pronunciation_description>
+  <translation>любить</translation>
+  <note>Несов. вид; „волим кафу“ = люблю кофе</note>
+</word>
+
+<word>
+  <element_id>word_320</element_id>
+  <text>Гре́шити</text>
+  <phonetic_transcription>[ˈɡrɛ.ʃi.ti]</phonetic_transcription>
+  <pronunciation_description>гре́-ши-ти, „ш“ как русское ш, „е“ открытое</pronunciation_description>
+  <translation>ошибаться</translation>
+  <note>Несов. вид</note>
+</word>
+
+<word>
+  <element_id>word_321</element_id>
+  <text>Пра́вити</text>
+  <phonetic_transcription>[ˈpra.ʋi.ti]</phonetic_transcription>
+  <pronunciation_description>пра́-ви-ти, „в“ ≈ [ʋ]</pronunciation_description>
+  <translation>готовить, делать</translation>
+  <note>В быту: „правим ручак“ = готовим обед</note>
+</word>
+
+<word>
+  <element_id>word_322</element_id>
+  <text>Гу́бити</text>
+  <phonetic_transcription>[ˈɡu.bi.ti]</phonetic_transcription>
+  <pronunciation_description>гу́-би-ти, „г“ как в русском «гора»</pronunciation_description>
+  <translation>терять</translation>
+  <note>Несов. вид</note>
+</word>
+
+<word>
+  <element_id>word_323</element_id>
+  <text>Ра́дити</text>
+  <phonetic_transcription>[ˈra.di.ti]</phonetic_transcription>
+  <pronunciation_description>ра́-ди-ти, чёткое „р“</pronunciation_description>
+  <translation>делать, работать</translation>
+  <note>Несов. вид; „радим“ = работаю/делаю</note>
+</word>
+
+<word>
+    <element_id>word_324</element_id>
+    <text>ѝмати</text>
+    <phonetic_transcription>[ˈimati]</phonetic_transcription>
+    <pronunciation_description>ѝ-ма-ти; ударение на первом слоге.</pronunciation_description>
+    <translation>Иметь</translation>
+    <note>Базовый глагол: иметь.</note>
+</word>
+
+<word>
+    <element_id>word_325</element_id>
+    <text>не́мати</text>
+    <phonetic_transcription>[ˈnɛmati]</phonetic_transcription>
+    <pronunciation_description>не́-ма-ти; ударение на первом слоге.</pronunciation_description>
+    <translation>Не иметь</translation>
+    <note>Отрицательный парный глагол к „имати“.</note>
+</word>
+
+<word>
+    <element_id>word_326</element_id>
+    <text>др̀жати</text>
+    <phonetic_transcription>[ˈdr̩ʒati]</phonetic_transcription>
+    <pronunciation_description>др̀-жа-ти; первый слог со слоговым р.</pronunciation_description>
+    <translation>Держать</translation>
+    <note>Базовый глагол: держать.</note>
+</word>
+
+<word>
+    <element_id>word_327</element_id>
+    <text>Тр̀чати</text>
+    <phonetic_transcription>[ˈtr̩t͡ʃati]</phonetic_transcription>
+    <pronunciation_description>тр̀-ча-ти; первый слог со слоговым р.</pronunciation_description>
+    <translation>Бежать</translation>
+    <note>Базовый глагол движения: бежать, бегать.</note>
+</word>
+
+<word>
+    <element_id>word_328</element_id>
+    <text>Лѐжати</text>
+    <phonetic_transcription>[ˈlɛʒati]</phonetic_transcription>
+    <pronunciation_description>лѐ-жа-ти; ударение на первом слоге.</pronunciation_description>
+    <translation>Лежать</translation>
+    <note>Лежать; также в некоторых контекстах — располагаться.</note>
+</word>
+<word>
+    <element_id>word_329</element_id>
+    <text>Зна̏ти</text>
+    <phonetic_transcription>[znâti]</phonetic_transcription>
+    <pronunciation_description>зна̏-ти, ударение на первый слог; „зн“ произносится слитно.</pronunciation_description>
+    <translation>Знать</translation>
+    <note>Базовый глагол знания: „знати“ = знать что-то, быть знакомым с чем-то.</note>
+</word>
+
+<word>
+    <element_id>word_330</element_id>
+    <text>Ку̏вати</text>
+    <phonetic_transcription>[kûʋati]</phonetic_transcription>
+    <pronunciation_description>ку̏-ва-ти, ударение на первый слог; „в“ ближе к [ʋ], между русскими „в“ и „у“.</pronunciation_description>
+    <translation>Варить; готовить</translation>
+    <note>Часто о приготовлении еды: суп, кафе, ручак и т. п.</note>
+</word>
+
+<word>
+    <element_id>word_331</element_id>
+    <text>Мо́рати</text>
+    <phonetic_transcription>[mǒːrati]</phonetic_transcription>
+    <pronunciation_description>мо́о-ра-ти, ударение на первый слог; „о“ более протяжное.</pronunciation_description>
+    <translation>Быть должным; быть вынужденным</translation>
+    <note>Модальный глагол со значением „должен / надо / приходится“.</note>
+</word>
+
+<word>
+    <element_id>word_332</element_id>
+    <text>Пе̏вати</text>
+    <phonetic_transcription>[pêʋati]</phonetic_transcription>
+    <pronunciation_description>пе̏-ва-ти, ударение на первый слог.</pronunciation_description>
+    <translation>Петь</translation>
+    <note>Глагол для пения: песню, мелодию, в хоре и т. д.</note>
+</word>
+
+<word>
+    <element_id>word_333</element_id>
+    <text>Гле̏дати</text>
+    <phonetic_transcription>[ɡlêdati]</phonetic_transcription>
+    <pronunciation_description>гле̏-да-ти, ударение на первый слог; сочетание „гл“ произносится слитно.</pronunciation_description>
+    <translation>Смотреть; глядеть</translation>
+    <note>Очень частотный глагол: смотреть фильм, смотреть на кого-то, наблюдать.</note>
+</word>
+
+<word>
+    <element_id>word_334</element_id>
+    <text>Слу̏шати</text>
+    <phonetic_transcription>[slûʃati]</phonetic_transcription>
+    <pronunciation_description>слу̏-ша-ти, ударение на первый слог; „ш“ твёрдое, как в русском „шум“.</pronunciation_description>
+    <translation>Слушать</translation>
+    <note>Может значить и „слушать“, и „слушаться“ по контексту.</note>
+</word>
+
+<word>
+    <element_id>word_335</element_id>
+    <text>Чѝтати</text>
+    <phonetic_transcription>[t͡ʃǐtati]</phonetic_transcription>
+    <pronunciation_description>чѝ-та-ти, ударение на первый слог; „ч“ как в русском „читать“.</pronunciation_description>
+    <translation>Читать</translation>
+    <note>Несовершенный вид; совершенный парный глагол — „про̀читати“.</note>
+</word>
+
+<word>
+    <element_id>word_336</element_id>
+    <text>Спре́мати</text>
+    <phonetic_transcription>[sprěːmati]</phonetic_transcription>
+    <pronunciation_description>спре́-ма-ти, ударение на слог „спре“; „е“ слегка протяжное.</pronunciation_description>
+    <translation>Готовить; убирать; подготавливать</translation>
+    <note>Широкий по значению глагол: готовить еду, убирать дом, готовить что-то к чему-то.</note>
+</word>
+
+<word>
+    <element_id>word_337</element_id>
+    <text>Разгова́рати</text>
+    <phonetic_transcription>[razɡoʋǎːrati]</phonetic_transcription>
+    <pronunciation_description>раз-го-ва́а-ра-ти, ударение на „ва“; „а“ в ударном слоге более длинное.</pronunciation_description>
+    <translation>Разговаривать; беседовать</translation>
+    <note>Обычно употребляется с предлогом „о“: „разговарати о нечему“ = разговаривать о чём-то.</note>
+</word>
+
+<word>
+    <element_id>word_338</element_id>
+    <text>Пли̏вати</text>
+    <phonetic_transcription>[plîʋati]</phonetic_transcription>
+    <pronunciation_description>пли̏-ва-ти, ударение на первый слог.</pronunciation_description>
+    <translation>Плавать</translation>
+    <note>О людях и животных; также может значить „держаться на поверхности“ о предметах.</note>
+</word>
+
+<word>
+    <element_id>word_339</element_id>
+    <text>Сви́рати</text>
+    <phonetic_transcription>[sʋǐːrati]</phonetic_transcription>
+    <pronunciation_description>сви́и-ра-ти, ударение на первый слог; „в“ ближе к [ʋ].</pronunciation_description>
+    <translation>Играть на музыкальном инструменте</translation>
+    <note>Именно про музыкальный инструмент; для игр вообще используется другой глагол — „играти“.</note>
+</word>
+<word>
+    <element_id>word_340</element_id>
+    <text>И̏грати</text>
+    <phonetic_transcription>[îɡrati]</phonetic_transcription>
+    <pronunciation_description>и̏-гра-ти, ударение на первый слог; „гр“ произносится чётко и слитно.</pronunciation_description>
+    <translation>Играть; танцевать</translation>
+    <note>Обычно про игры, спорт; в сербском также может значить „танцевать“.</note>
+</word>
+<word>
+    <element_id>word_341</element_id>
+    <text>Чу́вати</text>
+    <phonetic_transcription>[t͡ʃǔːʋati]</phonetic_transcription>
+    <pronunciation_description>чу́у-ва-ти, ударение на первый слог; „у“ более протяжное.</pronunciation_description>
+    <translation>Хранить; беречь; охранять</translation>
+    <note>Часто: хранить вещи, беречь кого-то, присматривать за детьми.</note>
+</word>
+<word>
+    <element_id>word_342</element_id>
+    <text>Обожа́вати</text>
+    <phonetic_transcription>[oboʒǎːʋati]</phonetic_transcription>
+    <pronunciation_description>о-бо-жа́а-ва-ти, ударение на „жа“; „ж“ как в русском „жук“.</pronunciation_description>
+    <translation>Обожать</translation>
+    <note>Сильное эмоциональное „очень любить / обожать“.</note>
+</word>
+
+</vocabulary>
