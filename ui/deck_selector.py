@@ -76,7 +76,9 @@ class DeckSelectorScreen(QWidget):
                 QSizePolicy.Policy.Expanding,
                 QSizePolicy.Policy.Fixed,
             )
-            btn.setFixedHeight(72)
+            # Две строки текста + крупный внутренний padding из QSS.
+            # 72px недостаточно на некоторых DPI/шрифтах и текст визуально "выпирает".
+            btn.setFixedHeight(110)
             btn.clicked.connect(lambda checked, m=mode: self._select_mode(m))
             self._btn_group.addButton(btn)
             self._mode_buttons[mode] = btn
