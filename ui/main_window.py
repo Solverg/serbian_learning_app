@@ -7,9 +7,7 @@ MainWindow — контейнер приложения.
   2 — ResultsScreen       (итоги сессии)
 """
 
-from pathlib import Path
-
-from PyQt6.QtCore import Qt
+from PyQt6.QtWidgets import QMessageBox
 from PyQt6.QtWidgets import QMainWindow, QStackedWidget
 
 from core.session_engine import DeckMode, SessionEngine
@@ -48,7 +46,10 @@ class MainWindow(QMainWindow):
 
         self._selector = DeckSelectorScreen(on_start=self._start_session)
         self._card_screen = CardScreen(engine=self._engine, on_finish=self._show_results)
-        self._results = ResultsScreen(on_restart=self._show_selector)
+        self._results = ResultsScreen(
+            on_restart=self._show_selector,
+            on_save_progress=self._save_progress,
+        )
 
         self._stack.addWidget(self._selector)   # 0
         self._stack.addWidget(self._card_screen) # 1
@@ -69,6 +70,15 @@ class MainWindow(QMainWindow):
         stats = self._engine.finish_session()
         self._results.show_stats(stats)
         self._stack.setCurrentIndex(self.SCREEN_RESULTS)
+
+    def _save_progress(self) -> tuple[bool, str]:
+        """Сохранить прогресс по кнопке на экране результатов."""
+        success, message = self._engine.save_session_progress()
+        if success:
+            QMessageBox.information(self, "Сохранение прогресса", message)
+        else:
+            QMessageBox.warning(self, "Сохранение прогресса", message)
+        return success, message
 
     def _show_selector(self):
         """Вызывается из ResultsScreen при нажатии «Ещё раз»."""
