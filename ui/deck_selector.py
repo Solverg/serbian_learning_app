@@ -10,9 +10,11 @@ from typing import Callable
 from PyQt6.QtCore import Qt
 from PyQt6.QtWidgets import (
     QButtonGroup,
+    QFrame,
     QHBoxLayout,
     QLabel,
     QPushButton,
+    QScrollArea,
     QSizePolicy,
     QSpinBox,
     QVBoxLayout,
@@ -42,7 +44,18 @@ class DeckSelectorScreen(QWidget):
     # ---------- построение UI ----------
 
     def _build_ui(self):
-        root = QVBoxLayout(self)
+        outer = QVBoxLayout(self)
+        outer.setContentsMargins(0, 0, 0, 0)
+
+        scroll = QScrollArea()
+        scroll.setWidgetResizable(True)
+        scroll.setFrameShape(QFrame.Shape.NoFrame)
+        outer.addWidget(scroll)
+
+        content = QWidget()
+        scroll.setWidget(content)
+
+        root = QVBoxLayout(content)
         root.setContentsMargins(60, 50, 60, 50)
         root.setSpacing(0)
 
@@ -76,7 +89,9 @@ class DeckSelectorScreen(QWidget):
                 QSizePolicy.Policy.Expanding,
                 QSizePolicy.Policy.Fixed,
             )
-            btn.setFixedHeight(72)
+            # Две строки текста + крупный внутренний padding из QSS.
+            # 72px недостаточно на некоторых DPI/шрифтах и текст визуально "выпирает".
+            btn.setFixedHeight(110)
             btn.clicked.connect(lambda checked, m=mode: self._select_mode(m))
             self._btn_group.addButton(btn)
             self._mode_buttons[mode] = btn
