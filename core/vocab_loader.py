@@ -12,6 +12,12 @@ def _text(el: etree._Element, tag: str) -> str:
     return (child.text or "").strip() if child is not None else ""
 
 
+def _text_with_fallback(el: etree._Element, preferred_tag: str, fallback_tag: str) -> str:
+    """Возвращает preferred_tag, а если он пуст — fallback_tag."""
+    value = _text(el, preferred_tag)
+    return value if value else _text(el, fallback_tag)
+
+
 def load_words(xml_path: Path) -> list[Card]:
     """Загружает все <word> из serbian_words.xml."""
     try:
@@ -25,7 +31,7 @@ def load_words(xml_path: Path) -> list[Card]:
         cards.append(Card(
             element_id=_text(word, "element_id"),
             kind="word",
-            text=_text(word, "text"),
+            text=_text_with_fallback(word, "element", "text"),
             translation=_text(word, "translation"),
             phonetic_transcription=_text(word, "phonetic_transcription"),
             pronunciation_description=_text(word, "pronunciation_description"),
@@ -47,7 +53,7 @@ def load_constructions(xml_path: Path) -> list[Card]:
         cards.append(Card(
             element_id=_text(construction, "element_id"),
             kind="construction",
-            text=_text(construction, "text"),
+            text=_text_with_fallback(construction, "element", "text"),
             translation=_text(construction, "translation"),
             phonetic_transcription=_text(construction, "phonetic_transcription"),
             pronunciation_description=_text(construction, "pronunciation_description"),
