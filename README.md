@@ -1,6 +1,6 @@
 # Serbian Flashcards
 
-Приложение для изучения сербского языка на Windows.
+Приложение для изучения сербского языка на Windows (PyQt6).
 
 ## Стек
 - Python 3.11+
@@ -31,11 +31,19 @@ serbian_flashcards/
     └── style_dark.qss       # тёмная тема
 ```
 
+## Режимы обучения
+- **Anki-flip**: показать карточку → открыть ответ → отметить «Знаю / Не знаю».
+- **Multiple choice**: выбрать правильный вариант из 4 кнопок.
+- Для каждой карточки направление выбирается случайно:
+  - **прямое**: сербский → русский;
+  - **обратное**: русский → сербский.
+
 ## Формат словаря (XML)
 ```xml
 <vocabulary>
     <word>
         <element_id>word_1</element_id>
+        <element>Немати</element>
         <text>не́мати</text>
         <phonetic_transcription>[ˈnɛmati]</phonetic_transcription>
         <pronunciation_description>не́-ма-ти</pronunciation_description>
@@ -44,6 +52,9 @@ serbian_flashcards/
     </word>
 </vocabulary>
 ```
+
+Поле `<element>` — новый формат отображаемого сербского текста.  
+Если `<element>` отсутствует или пустой, приложение использует `<text>`.
 
 ## Формат прогресса (JSON)
 ```json
