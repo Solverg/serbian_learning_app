@@ -33,7 +33,7 @@ from core.session_engine import SessionEngine
 # ══════════════════════════════════════════════════════════════════════════════
 
 class CardFaceWidget(QWidget):
-    """Лицо карточки: сербский текст + МФА + произношение."""
+    """Лицо карточки: сербский или русский текст в зависимости от направления."""
 
     def __init__(self, parent=None):
         super().__init__(parent)
@@ -69,15 +69,20 @@ class CardFaceWidget(QWidget):
         self._pronunc_label.setWordWrap(True)
         layout.addWidget(self._pronunc_label)
 
-    def load(self, card: Card):
+    def load(self, card: Card, reverse: bool = False):
         self._kind_label.setText("слово" if card.kind == "word" else "конструкция")
-        self._text_label.setText(card.text)
-        self._phonetic_label.setText(card.phonetic_transcription)
-        self._pronunc_label.setText(card.pronunciation_description)
+        if reverse:
+            self._text_label.setText(card.translation)
+            self._phonetic_label.clear()
+            self._pronunc_label.clear()
+        else:
+            self._text_label.setText(card.text)
+            self._phonetic_label.setText(card.phonetic_transcription)
+            self._pronunc_label.setText(card.pronunciation_description)
 
 
 class CardBackWidget(QWidget):
-    """Оборот карточки: перевод + заметка."""
+    """Оборот карточки: ответ + заметка для прямого/обратного направления."""
 
     def __init__(self, parent=None):
         super().__init__(parent)
@@ -105,9 +110,18 @@ class CardBackWidget(QWidget):
         self._note_label.setWordWrap(True)
         layout.addWidget(self._note_label)
 
-    def load(self, card: Card):
-        self._translation_label.setText(card.translation)
-        note = card.note.strip()
+    def load(self, card: Card, reverse: bool = False):
+        if reverse:
+            self._translation_label.setText(card.text)
+            details = [
+                card.phonetic_transcription.strip(),
+                card.pronunciation_description.strip(),
+                card.note.strip(),
+            ]
+            note = "\n".join([d for d in details if d])
+        else:
+            self._translation_label.setText(card.translation)
+            note = card.note.strip()
         self._note_label.setText(note)
         self._note_label.setVisible(bool(note))
 
@@ -178,9 +192,9 @@ class AnkiFlipWidget(QWidget):
         self._answer_widget.setVisible(False)
         root.addWidget(self._answer_widget)
 
-    def load(self, card: Card):
-        self._face.load(card)
-        self._back.load(card)
+    def load(self, card: Card, reverse: bool = False):
+        self._face.load(card, reverse=reverse)
+        self._back.load(card, reverse=reverse)
         self._set_flipped(False)
         self._card_frame.setObjectName("cardFrame")
         self._card_frame.setStyle(self._card_frame.style())
@@ -208,7 +222,7 @@ class AnkiFlipWidget(QWidget):
 # ══════════════════════════════════════════════════════════════════════════════
 
 class MultiChoiceWidget(QWidget):
-    """Показать сербский текст → выбрать правильный перевод из 4 вариантов."""
+    """Выбрать правильный вариант в прямом или обратном направлении."""
 
     def __init__(self, on_answer: Callable[[bool], None], parent=None):
         super().__init__(parent)
@@ -245,8 +259,8 @@ class MultiChoiceWidget(QWidget):
             root.addWidget(btn)
             self._choice_buttons.append(btn)
 
-    def load(self, card: Card, distractors: list[Card]):
-        self._face.load(card)
+    def load(self, card: Card, distractors: list[Card], reverse: bool = False):
+        self._face.load(card, reverse=reverse)
         self._correct_id = card.element_id
 
         options = [card] + distractors[:3]
@@ -255,7 +269,7 @@ class MultiChoiceWidget(QWidget):
         for i, btn in enumerate(self._choice_buttons):
             if i < len(options):
                 opt = options[i]
-                btn.setText(opt.translation)
+                btn.setText(opt.text if reverse else opt.translation)
                 btn.setProperty("element_id", opt.element_id)
                 btn.setObjectName("btnChoice")
                 btn.setStyle(btn.style())
@@ -344,17 +358,20 @@ class CardScreen(QWidget):
         self._progress_bar.setValue(pos - 1)
         self._counter_label.setText(f"{pos} / {total}")
 
+        # 50/50 по направлению: сербский→русский или русский→сербский
+        reverse_direction = random.random() < 0.5
+
         # 50/50 между режимами; fallback на anki если мало дистракторов
         use_multi = random.random() < 0.5
         if use_multi:
             distractors = self._engine.get_distractors(card, count=3)
             if len(distractors) >= 1:
                 self._mode_stack.setCurrentIndex(1)
-                self._multi.load(card, distractors)
+                self._multi.load(card, distractors, reverse=reverse_direction)
                 return
 
         self._mode_stack.setCurrentIndex(0)
-        self._anki.load(card)
+        self._anki.load(card, reverse=reverse_direction)
 
     def _on_answered(self, correct: bool):
         self._engine.submit_answer(correct)
