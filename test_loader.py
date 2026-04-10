@@ -51,6 +51,32 @@ def test_constructions():
     print(f"  ✓ construction_109: '{c2.text}' — {c2.translation}")
 
 
+
+def test_element_tag_fallback(tmp_path: Path):
+    xml = tmp_path / "mixed_constructions.xml"
+    xml.write_text(
+        """
+<root>
+  <construction>
+    <element_id>construction_131</element_id>
+    <element>Ти си прави.</element>
+    <text>Ти си пра̑ви.</text>
+    <translation>Ну ты красавчик.</translation>
+  </construction>
+  <construction>
+    <element_id>construction_132</element_id>
+    <text>Старый формат.</text>
+    <translation>Старый формат.</translation>
+  </construction>
+</root>
+""".strip(),
+        encoding="utf-8",
+    )
+
+    cards = load_constructions(xml)
+    assert cards[0].text == "Ти си прави."
+    assert cards[1].text == "Старый формат."
+
 def test_load_all():
     all_cards = load_all(DATA)
     assert len(all_cards) == 4
