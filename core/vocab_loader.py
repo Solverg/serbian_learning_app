@@ -50,14 +50,19 @@ def load_constructions(xml_path: Path) -> list[Card]:
 
     cards = []
     for construction in tree.findall("construction"):
+        element_node = construction.find("element")
+        text_val = _text_with_fallback(construction, "element", "text")
+        is_eligible = (element_node is not None) and (len(text_val.split()) > 1)
+
         cards.append(Card(
             element_id=_text(construction, "element_id"),
             kind="construction",
-            text=_text_with_fallback(construction, "element", "text"),
+            text=text_val,
             translation=_text(construction, "translation"),
             phonetic_transcription=_text(construction, "phonetic_transcription"),
             pronunciation_description=_text(construction, "pronunciation_description"),
             note=_text(construction, "note"),
+            has_element_tag=is_eligible,
         ))
     return cards
 
