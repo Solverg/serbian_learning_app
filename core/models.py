@@ -13,6 +13,7 @@ class Card:
     phonetic_transcription: str = ""         # МФА: [ˈnɛmati]
     pronunciation_description: str = ""      # русскоязычная подсказка произношения
     note: str = ""                           # дополнительная заметка
+    has_element_tag: bool = False            # Подходит ли для режима "вставь слово"
 
 
 @dataclass

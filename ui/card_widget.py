@@ -9,6 +9,7 @@ CardScreen — экран карточки.
 """
 
 import random
+import re
 from typing import Callable
 
 from PyQt6.QtCore import Qt, QTimer
@@ -16,6 +17,7 @@ from PyQt6.QtWidgets import (
     QFrame,
     QHBoxLayout,
     QLabel,
+    QLineEdit,
     QProgressBar,
     QPushButton,
     QSizePolicy,
@@ -295,6 +297,108 @@ class MultiChoiceWidget(QWidget):
 
 
 # ══════════════════════════════════════════════════════════════════════════════
+# Режим 3: Fill in the blank
+# ══════════════════════════════════════════════════════════════════════════════
+
+class FillBlankWidget(QWidget):
+    """Показать перевод и фразу с пропуском, пользователь вводит недостающее слово."""
+
+    _PUNCT_PATTERN = re.compile(r"^([^\w\u0400-\u04FF\-']*)([\w\u0400-\u04FF\-']+)([^\w\u0400-\u04FF\-']*)$")
+
+    def __init__(self, on_answer: Callable[[bool], None], parent=None):
+        super().__init__(parent)
+        self._on_answer = on_answer
+        self._target_word: str = ""
+        self._masked_pattern: str = ""
+        self._is_answered = False
+
+        root = QVBoxLayout(self)
+        root.setContentsMargins(0, 0, 0, 0)
+        root.setSpacing(12)
+
+        self._translation_label = QLabel()
+        self._translation_label.setObjectName("labelTranslation")
+        self._translation_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self._translation_label.setWordWrap(True)
+        root.addWidget(self._translation_label)
+
+        self._sentence_label = QLabel()
+        self._sentence_label.setObjectName("labelCardText")
+        self._sentence_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self._sentence_label.setWordWrap(True)
+        root.addWidget(self._sentence_label)
+
+        self._input = QLineEdit()
+        self._input.setPlaceholderText("Введите пропущенное слово")
+        self._input.setMinimumHeight(44)
+        self._input.returnPressed.connect(self._check_answer)
+        root.addWidget(self._input)
+
+        self._check_button = QPushButton("Проверить")
+        self._check_button.setObjectName("btnAccent")
+        self._check_button.setFixedHeight(48)
+        self._check_button.setCursor(Qt.CursorShape.PointingHandCursor)
+        self._check_button.clicked.connect(self._check_answer)
+        root.addWidget(self._check_button)
+
+    def load(self, card: Card):
+        words = card.text.split()
+        self._translation_label.setText(card.translation)
+        self._target_word = ""
+        self._masked_pattern = ""
+        self._is_answered = False
+
+        if len(words) < 2:
+            self._sentence_label.setText(card.text)
+            self._check_button.setEnabled(False)
+            self._input.setReadOnly(True)
+            return
+
+        hidden_index = random.randrange(len(words))
+        original_word = words[hidden_index]
+        prefix, core, suffix = self._split_word_parts(original_word)
+
+        self._target_word = core.lower().strip()
+        self._masked_pattern = " ".join(
+            words[:hidden_index] + [f"{prefix}_____{suffix}"] + words[hidden_index + 1:]
+        )
+        self._sentence_label.setText(self._masked_pattern)
+
+        self._input.clear()
+        self._input.setReadOnly(False)
+        self._input.setStyleSheet("")
+        self._check_button.setEnabled(True)
+        self._input.setFocus()
+
+    def _split_word_parts(self, word: str) -> tuple[str, str, str]:
+        match = self._PUNCT_PATTERN.match(word)
+        if match:
+            return match.group(1), match.group(2), match.group(3)
+        return "", word, ""
+
+    def _check_answer(self):
+        if self._is_answered or not self._target_word:
+            return
+
+        self._is_answered = True
+        self._check_button.setEnabled(False)
+        self._input.setReadOnly(True)
+
+        user_answer = self._input.text().strip().lower()
+        correct = user_answer == self._target_word
+
+        if correct:
+            self._input.setStyleSheet("background-color: #1e5f2b; color: #f2fff5;")
+            QTimer.singleShot(850, lambda: self._on_answer(True))
+            return
+
+        self._input.setStyleSheet("background-color: #6d1f1f; color: #fff2f2;")
+        revealed = f'<span style="color:#6ee7a8;font-weight:600;">{self._target_word}</span>'
+        self._sentence_label.setText(self._masked_pattern.replace("_____", revealed, 1))
+        QTimer.singleShot(1700, lambda: self._on_answer(False))
+
+
+# ══════════════════════════════════════════════════════════════════════════════
 # Главный экран карточек
 # ══════════════════════════════════════════════════════════════════════════════
 
@@ -333,9 +437,11 @@ class CardScreen(QWidget):
 
         self._anki = AnkiFlipWidget(on_answer=self._on_answered)
         self._multi = MultiChoiceWidget(on_answer=self._on_answered)
+        self._fill_blank = FillBlankWidget(on_answer=self._on_answered)
 
         self._mode_stack.addWidget(self._anki)   # 0
         self._mode_stack.addWidget(self._multi)  # 1
+        self._mode_stack.addWidget(self._fill_blank)  # 2
 
         root.addWidget(self._mode_stack, stretch=1)
 
@@ -358,20 +464,25 @@ class CardScreen(QWidget):
         self._progress_bar.setValue(pos - 1)
         self._counter_label.setText(f"{pos} / {total}")
 
-        # 50/50 по направлению: сербский→русский или русский→сербский
+        available_modes = ["anki"]
+        distractors = self._engine.get_distractors(card, count=3)
+        if len(distractors) >= 1:
+            available_modes.append("multi")
+        if card.kind == "construction" and getattr(card, "has_element_tag", False):
+            available_modes.append("fill_blank")
+
+        chosen_mode = random.choice(available_modes)
         reverse_direction = random.random() < 0.5
 
-        # 50/50 между режимами; fallback на anki если мало дистракторов
-        use_multi = random.random() < 0.5
-        if use_multi:
-            distractors = self._engine.get_distractors(card, count=3)
-            if len(distractors) >= 1:
-                self._mode_stack.setCurrentIndex(1)
-                self._multi.load(card, distractors, reverse=reverse_direction)
-                return
-
-        self._mode_stack.setCurrentIndex(0)
-        self._anki.load(card, reverse=reverse_direction)
+        if chosen_mode == "fill_blank":
+            self._mode_stack.setCurrentIndex(2)
+            self._fill_blank.load(card)
+        elif chosen_mode == "multi":
+            self._mode_stack.setCurrentIndex(1)
+            self._multi.load(card, distractors, reverse=reverse_direction)
+        else:
+            self._mode_stack.setCurrentIndex(0)
+            self._anki.load(card, reverse=reverse_direction)
 
     def _on_answered(self, correct: bool):
         self._engine.submit_answer(correct)
