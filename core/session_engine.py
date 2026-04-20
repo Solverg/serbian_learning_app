@@ -89,6 +89,7 @@ class SessionEngine:
         self._queue: list[Card] = []
         self._current_index: int = 0
         self._results: list[SessionResult] = []
+        self._extra_progress_results: list[SessionResult] = []
         self._stats: SessionStats | None = None
         self._progress_saved: bool = False
 
@@ -122,12 +123,14 @@ class SessionEngine:
         # Отобрать карточки по режиму
         candidates = self._get_candidates(mode)
 
-        # Отсортировать по приоритету и взять session_size
+        # Отсортировать по приоритету и взять минимум 20 карточек (если доступны)
+        effective_size = max(20, session_size)
         ranked = self._rank(candidates)
-        self._queue = ranked[:session_size]
+        self._queue = ranked[:effective_size]
 
         self._current_index = 0
         self._results = []
+        self._extra_progress_results = []
         self._stats = None
         self._progress_saved = False
 
@@ -144,6 +147,17 @@ class SessionEngine:
         card = self._queue[self._current_index]
         self._results.append(SessionResult(card.element_id, was_correct))
         self._current_index += 1
+
+
+    def submit_additional_results(self, element_ids: list[str], was_correct: bool) -> None:
+        """
+        Зафиксировать дополнительные результаты без продвижения очереди.
+        Используется для упражнений (например matching), которые тренируют
+        несколько карточек за один экран.
+        """
+        for element_id in dict.fromkeys(element_ids):
+            if element_id in self._all_cards:
+                self._extra_progress_results.append(SessionResult(element_id, was_correct))
 
     def is_finished(self) -> bool:
         return self._current_index >= len(self._queue)
@@ -241,7 +255,7 @@ class SessionEngine:
     def _split_results_by_kind(self) -> tuple[list[tuple[str, bool]], list[tuple[str, bool]]]:
         word_results: list[tuple[str, bool]] = []
         construction_results: list[tuple[str, bool]] = []
-        for r in self._results:
+        for r in [*self._results, *self._extra_progress_results]:
             card = self._all_cards.get(r.element_id)
             if card and card.kind == "word":
                 word_results.append((r.element_id, r.was_correct))

@@ -1,11 +1,13 @@
 """
 CardScreen — экран карточки.
 
-Два режима в одном виджете через QStackedWidget:
-  - AnkiFlipWidget   — показать лицо → перевернуть → оценить себя
+Доступные режимы через QStackedWidget:
+  - AnkiFlipWidget    — показать лицо → перевернуть → оценить себя
   - MultiChoiceWidget — выбрать правильный перевод из 4 вариантов
+  - FillBlankWidget   — вставить пропущенное слово
+  - MatchingWidget    — соотнести 6 слов и 6 переводов
 
-Режим выбирается случайно (50/50) для каждой карточки.
+Matching показывается рандомизированно в среднем 1 раз на 20 упражнений.
 """
 
 import random
@@ -143,7 +145,6 @@ class AnkiFlipWidget(QWidget):
         root.setContentsMargins(0, 0, 0, 0)
         root.setSpacing(12)
 
-        # Фрейм карточки
         self._card_frame = QFrame()
         self._card_frame.setObjectName("cardFrame")
         self._card_frame.setSizePolicy(
@@ -162,7 +163,6 @@ class AnkiFlipWidget(QWidget):
 
         root.addWidget(self._card_frame)
 
-        # Кнопка «Показать»
         self._btn_show = QPushButton("Показать перевод")
         self._btn_show.setObjectName("btnAccent")
         self._btn_show.setFixedHeight(48)
@@ -170,7 +170,6 @@ class AnkiFlipWidget(QWidget):
         self._btn_show.clicked.connect(self._flip)
         root.addWidget(self._btn_show)
 
-        # Кнопки оценки
         answer_row = QHBoxLayout()
         answer_row.setSpacing(12)
 
@@ -235,7 +234,6 @@ class MultiChoiceWidget(QWidget):
         root.setContentsMargins(0, 0, 0, 0)
         root.setSpacing(10)
 
-        # Фрейм карточки — только лицо
         card_frame = QFrame()
         card_frame.setObjectName("cardFrame")
         card_frame.setSizePolicy(
@@ -250,7 +248,6 @@ class MultiChoiceWidget(QWidget):
         root.addWidget(card_frame)
         root.addSpacing(4)
 
-        # 4 кнопки вариантов
         self._choice_buttons: list[QPushButton] = []
         for _ in range(4):
             btn = QPushButton()
@@ -282,7 +279,7 @@ class MultiChoiceWidget(QWidget):
 
     def _on_choice(self, clicked_btn: QPushButton):
         chosen_id = clicked_btn.property("element_id")
-        correct = (chosen_id == self._correct_id)
+        correct = chosen_id == self._correct_id
 
         for btn in self._choice_buttons:
             btn.setEnabled(False)
@@ -399,6 +396,175 @@ class FillBlankWidget(QWidget):
 
 
 # ══════════════════════════════════════════════════════════════════════════════
+# Режим 4: Matching — соотнеси слово и перевод (6 × 6)
+# ══════════════════════════════════════════════════════════════════════════════
+
+class MatchingWidget(QWidget):
+    """
+    6 слов слева — 6 переводов справа.
+    Пользователь нажимает слово, затем перевод (или наоборот).
+    Правильные пары подсвечиваются зелёным и блокируются.
+
+    Упражнение засчитывается одним результатом:
+      верно  — все 6 пар без единой ошибки,
+      неверно — была хотя бы одна неверная попытка.
+    """
+
+    def __init__(self, on_answer: Callable[[bool], None], parent=None):
+        super().__init__(parent)
+        self._on_answer = on_answer
+        self._errors: int = 0
+        self._matched: int = 0
+        self._id_of_left: dict[QPushButton, str] = {}
+        self._id_of_right: dict[QPushButton, str] = {}
+        self._selected_left: QPushButton | None = None
+        self._selected_right: QPushButton | None = None
+        self._used_element_ids: list[str] = []
+
+        root = QVBoxLayout(self)
+        root.setContentsMargins(0, 0, 0, 0)
+        root.setSpacing(10)
+
+        hint = QLabel("Соотнеси слова и переводы")
+        hint.setObjectName("labelHint")
+        hint.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        root.addWidget(hint)
+
+        columns = QHBoxLayout()
+        columns.setSpacing(12)
+
+        left_col = QVBoxLayout()
+        left_col.setSpacing(6)
+        right_col = QVBoxLayout()
+        right_col.setSpacing(6)
+
+        self._left_btns: list[QPushButton] = []
+        self._right_btns: list[QPushButton] = []
+
+        for _ in range(6):
+            lb = QPushButton()
+            lb.setObjectName("btnChoice")
+            lb.setMinimumHeight(52)
+            lb.setCursor(Qt.CursorShape.PointingHandCursor)
+            lb.clicked.connect(lambda _c, b=lb: self._on_left(b))
+            left_col.addWidget(lb)
+            self._left_btns.append(lb)
+
+            rb = QPushButton()
+            rb.setObjectName("btnChoice")
+            rb.setMinimumHeight(52)
+            rb.setCursor(Qt.CursorShape.PointingHandCursor)
+            rb.clicked.connect(lambda _c, b=rb: self._on_right(b))
+            right_col.addWidget(rb)
+            self._right_btns.append(rb)
+
+        columns.addLayout(left_col)
+        columns.addLayout(right_col)
+        root.addLayout(columns, stretch=1)
+
+    def load(self, cards: list[Card]) -> None:
+        """Загрузить 6 карточек для матчинга."""
+        self._selected_left = None
+        self._selected_right = None
+        self._errors = 0
+        self._matched = 0
+        self._id_of_left = {}
+        self._id_of_right = {}
+
+        sample = cards[:6]
+        self._used_element_ids = [c.element_id for c in sample]
+        left_order = sample[:]
+        random.shuffle(left_order)
+        right_order = sample[:]
+        random.shuffle(right_order)
+
+        for i in range(6):
+            lb = self._left_btns[i]
+            lb.setText(left_order[i].text)
+            lb.setProperty("element_id", left_order[i].element_id)
+            lb.setObjectName("btnChoice")
+            lb.setStyle(lb.style())
+            lb.setEnabled(True)
+            self._id_of_left[lb] = left_order[i].element_id
+
+            rb = self._right_btns[i]
+            rb.setText(right_order[i].translation)
+            rb.setProperty("element_id", right_order[i].element_id)
+            rb.setObjectName("btnChoice")
+            rb.setStyle(rb.style())
+            rb.setEnabled(True)
+            self._id_of_right[rb] = right_order[i].element_id
+
+    def used_element_ids(self) -> list[str]:
+        return list(self._used_element_ids)
+
+    def _on_left(self, btn: QPushButton) -> None:
+        if self._selected_left is btn:
+            self._deselect_left()
+            return
+        self._deselect_left()
+        self._selected_left = btn
+        btn.setObjectName("btnChoiceSelected")
+        btn.setStyle(btn.style())
+        self._try_match()
+
+    def _on_right(self, btn: QPushButton) -> None:
+        if self._selected_right is btn:
+            self._deselect_right()
+            return
+        self._deselect_right()
+        self._selected_right = btn
+        btn.setObjectName("btnChoiceSelected")
+        btn.setStyle(btn.style())
+        self._try_match()
+
+    def _deselect_left(self) -> None:
+        if self._selected_left is not None:
+            self._selected_left.setObjectName("btnChoice")
+            self._selected_left.setStyle(self._selected_left.style())
+            self._selected_left = None
+
+    def _deselect_right(self) -> None:
+        if self._selected_right is not None:
+            self._selected_right.setObjectName("btnChoice")
+            self._selected_right.setStyle(self._selected_right.style())
+            self._selected_right = None
+
+    def _try_match(self) -> None:
+        if self._selected_left is None or self._selected_right is None:
+            return
+
+        lid = self._id_of_left[self._selected_left]
+        rid = self._id_of_right[self._selected_right]
+        lb, rb = self._selected_left, self._selected_right
+        self._selected_left = None
+        self._selected_right = None
+
+        if lid == rid:
+            for btn in (lb, rb):
+                btn.setObjectName("btnChoiceCorrect")
+                btn.setStyle(btn.style())
+                btn.setEnabled(False)
+            self._matched += 1
+            if self._matched == 6:
+                result = self._errors == 0
+                QTimer.singleShot(600, lambda: self._on_answer(result))
+        else:
+            self._errors += 1
+            for btn in (lb, rb):
+                btn.setObjectName("btnChoiceWrong")
+                btn.setStyle(btn.style())
+
+            def _reset(b1=lb, b2=rb):
+                for b in (b1, b2):
+                    if b.isEnabled():
+                        b.setObjectName("btnChoice")
+                        b.setStyle(b.style())
+
+            QTimer.singleShot(700, _reset)
+
+
+# ══════════════════════════════════════════════════════════════════════════════
 # Главный экран карточек
 # ══════════════════════════════════════════════════════════════════════════════
 
@@ -413,7 +579,6 @@ class CardScreen(QWidget):
         root.setContentsMargins(40, 20, 40, 28)
         root.setSpacing(12)
 
-        # ── Шапка: прогресс + счётчик ──
         header = QHBoxLayout()
         header.setSpacing(12)
 
@@ -432,26 +597,37 @@ class CardScreen(QWidget):
 
         root.addLayout(header)
 
-        # ── Переключатель режимов ──
         self._mode_stack = QStackedWidget()
 
         self._anki = AnkiFlipWidget(on_answer=self._on_answered)
         self._multi = MultiChoiceWidget(on_answer=self._on_answered)
         self._fill_blank = FillBlankWidget(on_answer=self._on_answered)
+        self._matching = MatchingWidget(on_answer=self._on_matching_answered)
 
-        self._mode_stack.addWidget(self._anki)   # 0
-        self._mode_stack.addWidget(self._multi)  # 1
+        self._mode_stack.addWidget(self._anki)        # 0
+        self._mode_stack.addWidget(self._multi)       # 1
         self._mode_stack.addWidget(self._fill_blank)  # 2
+        self._mode_stack.addWidget(self._matching)    # 3
+
+        self._exercise_count: int = 0
+        self._in_matching: bool = False
 
         root.addWidget(self._mode_stack, stretch=1)
 
-    # ---------- публичный API ----------
-
     def begin(self):
         """Вызвать перед показом экрана — загружает первую карточку."""
+        self._exercise_count = 0
+        self._in_matching = False
         self._show_current()
 
-    # ---------- внутренняя логика ----------
+    def _on_matching_answered(self, correct: bool):
+        """Матчинг завершён — не тратит карточку из очереди."""
+        self._engine.submit_additional_results(
+            self._matching.used_element_ids(),
+            correct,
+        )
+        self._in_matching = False
+        QTimer.singleShot(80, self._show_current)
 
     def _show_current(self):
         card = self._engine.current_card()
@@ -463,6 +639,18 @@ class CardScreen(QWidget):
         self._progress_bar.setMaximum(total)
         self._progress_bar.setValue(pos - 1)
         self._counter_label.setText(f"{pos} / {total}")
+
+        self._exercise_count += 1
+        if not self._in_matching and self._exercise_count > 1:
+            if random.random() < 1 / 20:
+                matching_pool = self._engine.get_matching_cards(card, count=6)
+                if len(matching_pool) >= 6:
+                    self._in_matching = True
+                    self._mode_stack.setCurrentIndex(3)
+                    self._matching.load(matching_pool)
+                    return
+
+        self._in_matching = False
 
         available_modes = ["anki"]
         distractors = self._engine.get_distractors(card, count=3)
