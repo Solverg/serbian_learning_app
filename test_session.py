@@ -47,12 +47,13 @@ def test_basic_session():
         engine.load_vocab()
         engine.start_session(mode="mixed", session_size=4, today=date(2026, 4, 1))
 
-        assert len(engine._queue) == 4
+        assert len(engine._queue) == 20
         print(f"  ✓ Очередь сформирована: {len(engine._queue)} карточек")
         print(f"    Порядок: {[c.element_id for c in engine._queue]}")
 
-        # Пройти все карточки: 3 правильных, 1 ошибка
-        answers = [True, True, False, True]
+        # Пройти все карточки: 1 ошибка
+        answers = [True] * len(engine._queue)
+        answers[2] = False
         while not engine.is_finished():
             card = engine.current_card()
             idx = engine._current_index
@@ -63,8 +64,8 @@ def test_basic_session():
         stats = engine.finish_session()
         print(f"  ✓ finish_session: total={stats.total}, correct={stats.correct}, errors={stats.errors}")
         print(f"    accuracy={stats.accuracy:.0%}")
-        assert stats.total == 4
-        assert stats.correct == 3
+        assert stats.total == 20
+        assert stats.correct == 19
         assert stats.errors == 1
         assert 0.0 <= stats.accuracy <= 1.0
 
@@ -169,12 +170,42 @@ def test_progress_bar():
         engine.start_session(mode="mixed", session_size=4, today=date(2026, 4, 1))
 
         pos, total = engine.progress_tuple()
-        assert pos == 1 and total == 4
+        assert pos == 1 and total == 20
 
         engine.submit_answer(True)
         pos, total = engine.progress_tuple()
-        assert pos == 2 and total == 4
+        assert pos == 2 and total == 20
         print(f"  ✓ progress_tuple: после 1 ответа → ({pos}/{total})")
+
+
+def test_matching_progress_saved():
+    """Дополнительные результаты (matching) сохраняются в прогресс."""
+    with tempfile.TemporaryDirectory() as tmpdir:
+        tmp = Path(tmpdir)
+        make_progress_dir(tmp, words=[], constructions=[])
+
+        engine = SessionEngine(DATA_DIR, tmp)
+        engine.load_vocab()
+        engine.start_session(mode="mixed", session_size=20, today=date(2026, 4, 1))
+
+        card = engine.current_card()
+        matching_cards = engine.get_matching_cards(card, count=6)
+        ids = [c.element_id for c in matching_cards]
+        engine.submit_additional_results(ids, was_correct=False)
+
+        while not engine.is_finished():
+            engine.submit_answer(True)
+
+        saved, message = engine.save_session_progress()
+        assert saved is True, message
+
+        words_prog = load_progress(tmp / "progress_words.json")
+        constr_prog = load_progress(tmp / "progress_constructions.json")
+        for eid in ids:
+            entry = words_prog.get(eid) or constr_prog.get(eid)
+            assert entry is not None, f"{eid}: запись не найдена после сохранения"
+            assert entry.last_practiced == date(2026, 4, 1)
+        print("  ✓ matching-результаты попали в сохранённый прогресс")
 
 
 if __name__ == "__main__":
@@ -194,5 +225,8 @@ if __name__ == "__main__":
 
     print("\n[ Прогресс-бар ]")
     test_progress_bar()
+
+    print("\n[ Сохранение matching ]")
+    test_matching_progress_saved()
 
     print("\n✓ Все тесты прошли\n")
