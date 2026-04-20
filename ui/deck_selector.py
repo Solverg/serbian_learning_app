@@ -108,7 +108,7 @@ class DeckSelectorScreen(QWidget):
         size_row.addStretch()
 
         self._spin = QSpinBox()
-        self._spin.setRange(5, 100)
+        self._spin.setRange(20, 100)
         self._spin.setValue(20)
         self._spin.setSingleStep(5)
         self._spin.setFixedWidth(90)
