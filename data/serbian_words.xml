@@ -105,8 +105,9 @@
     <note>Звучит похоже на русское „документ“, в сербском допустимы оба варианта ударения</note>
 </word>
 	<word>
-	 <element_id>word_14</element_id>
-    <text>И́ме</text>
+	<element_id>word_14</element_id>
+	<element>Име</element>
+    <text>И̏ме</text>
     <phonetic_transcription>[ˈimɛ]</phonetic_transcription>
     <pronunciation_description>и́-мэ, ударение на первый слог, „э“ короткое</pronunciation_description>
     <translation>Имя</translation>
@@ -114,6 +115,7 @@
 </word>
 <word>
 	<element_id>word_15</element_id>
+	<element>Како</element>
     <text>Ка́ко</text>
     <phonetic_transcription>[ˈkako]</phonetic_transcription>
     <pronunciation_description>ка́-ко, ударение на первый слог, „а“ короткое</pronunciation_description>
@@ -338,6 +340,7 @@
     </word>
 	    <word>
         <element_id>word_43</element_id>
+		<element>Карта</element>
         <text>Ка̑рта</text>
         <phonetic_transcription>[kâːrta]</phonetic_transcription>
         <pronunciation_description>к**аа**-рта, ударение на первый слог, „а“ длинное нисходящее</pronunciation_description>
@@ -381,7 +384,7 @@
         <text>Чѐтврт</text>
         <phonetic_transcription>[ˈt͡ʃetʋrt]</phonetic_transcription>
         <pronunciation_description>ч**э**т-врт, ударење на први слог, „э“ кратко као у „этот“, „ч“ као у „чай“, „в“ мекше него у руском „в“, ближе [ʋ], „р“ тврдо, држаће, „т“ јасно</pronunciation_description>
-        <translation>Четврт</translation>
+        <translation>Четверть</translation>
         <note>У времену – „четврт сата“ значи четвртина часа</note>
     </word>
     <word>
@@ -402,6 +405,7 @@
     </word>
 	    <word>
         <element_id>word_51</element_id>
+		<element>Седам</element>
         <text>Сѐдам</text>
         <phonetic_transcription>[ˈsɛdam]</phonetic_transcription>
         <pronunciation_description>с**э**дам, ударение на первый слог, „э“ короткое как в „этот“, „дам“ как в „дам“</pronunciation_description>
@@ -1645,11 +1649,12 @@
 </word>
 <word>
     <element_id>word_199</element_id>
-    <text>Сурими́ шта̀пићи</text>
-    <phonetic_transcription>[suˈrimi ˈʃtapit͡ɕi]</phonetic_transcription>
-    <pronunciation_description>су-ри́-ми шта̀-пи-ћи; ударение: сури́ми, шта̀пићи.</pronunciation_description>
+    <element>Сурими штапићи</element>
+    <text>Сури́ми шта̀пӣћи</text>
+    <phonetic_transcription>[suˈrimi ˈʃtapiːt͡ɕi]</phonetic_transcription>
+    <pronunciation_description>су-РИ-ми шта̀-пӣ-ћи; ударение в „сури́ми“ на „ри“, в „шта̀пӣћи“ — на первый слог „шта“, после ударения в „шта̀пӣћи“ слышится удлинение „ӣ“.</pronunciation_description>
     <translation>крабовые палочки (сурими)</translation>
-    <note>Товарное название: палочки из сурими.</note>
+    <note>Товарное название. Палочки из сурими, обычно как имитация крабового мяса.</note>
 </word>
 <word>
     <element_id>word_200</element_id>
@@ -2882,5 +2887,13 @@
     <translation>Обожать</translation>
     <note>Сильное эмоциональное „очень любить / обожать“.</note>
 </word>
-
+<word>
+    <element_id>word_343</element_id>
+    <element>Ајде</element>
+    <text>А̀јде</text>
+    <phonetic_transcription>[ǎjde]</phonetic_transcription>
+    <pronunciation_description>а̀ј-де; ударение на первом слоге, звучит коротко и очень разговорно. „ј“ = мягкое «й».</pronunciation_description>
+    <translation>Давай; пойдём; ну; ладно</translation>
+    <note>Разговорное междометие/частица. Очень частотное слово в живой речи. Часто используется для побуждения, согласия, перехода к действию: „Ајде!“ = «Давай! / Пошли! / Ну давай!»; вариант: „хајде“.</note>
+</word>
 </vocabulary>

@@ -1,357 +1,2026 @@
 {
-"elements": [
-{"element_id": "word_1", "errors": 0, "repetitions": 5, "last_practiced": "2025-10-02"},
-{"element_id": "word_2", "errors": 0, "repetitions": 12, "last_practiced": "2025-10-02"},
-{"element_id": "word_3", "errors": 0, "repetitions": 13, "last_practiced": "2025-11-07"},
-{"element_id": "word_4", "errors": 0, "repetitions": 11, "last_practiced": "2025-11-07"},
-{"element_id": "word_5", "errors": 0, "repetitions": 8, "last_practiced": "2025-10-02"},
-{"element_id": "word_6", "errors": 0, "repetitions": 8, "last_practiced": "2025-10-02"},
-{"element_id": "word_7", "errors": 1, "repetitions": 7, "last_practiced": "2025-10-31"},
-{"element_id": "word_8", "errors": 0, "repetitions": 2, "last_practiced": "2025-11-07"},
-{"element_id": "word_9", "errors": 0, "repetitions": 4, "last_practiced": "2025-10-02"},
-{"element_id": "word_10", "errors": 0, "repetitions": 5, "last_practiced": "2025-10-02"},
-{"element_id": "word_11", "errors": 1, "repetitions": 16, "last_practiced": "2025-10-02"},
-{"element_id": "word_12", "errors": 0, "repetitions": 4, "last_practiced": "2025-10-02"},
-{"element_id": "word_13", "errors": 0, "repetitions": 2, "last_practiced": "2025-10-02"},
-{"element_id": "word_14", "errors": 0, "repetitions": 3, "last_practiced": "2025-10-02"},
-{"element_id": "word_15", "errors": 0, "repetitions": 6, "last_practiced": "2025-10-02"},
-{"element_id": "word_16", "errors": 0, "repetitions": 2, "last_practiced": "2025-10-02"},
-{"element_id": "word_17", "errors": 0, "repetitions": 3, "last_practiced": "2025-10-02"},
-{"element_id": "word_18", "errors": 0, "repetitions": 3, "last_practiced": "2025-10-02"},
-{"element_id": "word_19", "errors": 0, "repetitions": 4, "last_practiced": "2025-10-31"},
-{"element_id": "word_20", "errors": 0, "repetitions": 6, "last_practiced": "2025-11-05"},
-{"element_id": "word_21", "errors": 0, "repetitions": 4, "last_practiced": "2025-11-05"},
-{"element_id": "word_22", "errors": 0, "repetitions": 1, "last_practiced": "2025-10-02"},
-{"element_id": "word_23", "errors": 0, "repetitions": 3, "last_practiced": "2025-10-02"},
-{"element_id": "word_24", "errors": 0, "repetitions": 2, "last_practiced": "2025-10-02"},
-{"element_id": "word_25", "errors": 0, "repetitions": 4, "last_practiced": "2025-11-05"},
-{"element_id": "word_26", "errors": 0, "repetitions": 2, "last_practiced": "2025-10-02"},
-{"element_id": "word_27", "errors": 0, "repetitions": 4, "last_practiced": "2025-10-31"},
-{"element_id": "word_28", "errors": 0, "repetitions": 1, "last_practiced": "2025-10-02"},
-{"element_id": "word_29", "errors": 0, "repetitions": 8, "last_practiced": "2025-10-31"},
-{"element_id": "word_30", "errors": 0, "repetitions": 3, "last_practiced": "2025-10-02"},
-{"element_id": "word_31", "errors": 0, "repetitions": 4, "last_practiced": "2025-10-02"},
-{"element_id": "word_32", "errors": 0, "repetitions": 4, "last_practiced": "2025-11-07"},
-{"element_id": "word_33", "errors": 0, "repetitions": 8, "last_practiced": "2025-11-07"},
-{"element_id": "word_34", "errors": 0, "repetitions": 2, "last_practiced": "2025-10-02"},
-{"element_id": "word_35", "errors": 0, "repetitions": 2, "last_practiced": "2025-10-02"},
-{"element_id": "word_36", "errors": 1, "repetitions": 2, "last_practiced": "2025-10-02"},
-{"element_id": "word_37", "errors": 0, "repetitions": 5, "last_practiced": "2025-10-15"},
-{"element_id": "word_38", "errors": 0, "repetitions": 3, "last_practiced": "2025-10-02"},
-{"element_id": "word_39", "errors": 0, "repetitions": 1, "last_practiced": "2025-10-02"},
-{"element_id": "word_40", "errors": 0, "repetitions": 1, "last_practiced": "2025-10-02"},
-{"element_id": "word_41", "errors": 0, "repetitions": 1, "last_practiced": "2025-10-02"},
-{"element_id": "word_42", "errors": 0, "repetitions": 7, "last_practiced": "2025-10-02"},
-{"element_id": "word_43", "errors": 0, "repetitions": 2, "last_practiced": "2025-10-02"},
-{"element_id": "word_44", "errors": 0, "repetitions": 8, "last_practiced": "2025-10-02"},
-{"element_id": "word_45", "errors": 0, "repetitions": 1, "last_practiced": "2025-10-02"},
-{"element_id": "word_46", "errors": 0, "repetitions": 1, "last_practiced": "2025-10-02"},
-{"element_id": "word_47", "errors": 0, "repetitions": 1, "last_practiced": "2025-10-02"},
-{"element_id": "word_48", "errors": 0, "repetitions": 1, "last_practiced": "2025-10-02"},
-{"element_id": "word_49", "errors": 0, "repetitions": 1, "last_practiced": "2025-10-02"},
-{"element_id": "word_50", "errors": 0, "repetitions": 1, "last_practiced": "2025-10-02"},
-{"element_id": "word_51", "errors": 0, "repetitions": 1, "last_practiced": "2025-10-02"},
-{"element_id": "word_52", "errors": 0, "repetitions": 1, "last_practiced": "2025-10-02"},
-{"element_id": "word_53", "errors": 0, "repetitions": 1, "last_practiced": "2025-10-02"},
-{"element_id": "word_54", "errors": 0, "repetitions": 1, "last_practiced": "2025-10-02"},
-{"element_id": "word_55", "errors": 0, "repetitions": 1, "last_practiced": "2025-10-02"},
-{"element_id": "word_56", "errors": 0, "repetitions": 1, "last_practiced": "2025-10-02"},
-{"element_id": "word_57", "errors": 0, "repetitions": 1, "last_practiced": "2025-10-02"},
-{"element_id": "word_58", "errors": 0, "repetitions": 3, "last_practiced": "2025-12-07"},
-{"element_id": "word_59", "errors": 0, "repetitions": 6, "last_practiced": "2025-10-02"},
-{"element_id": "word_60", "errors": 4, "repetitions": 9, "last_practiced": "2025-10-02"},
-{"element_id": "word_61", "errors": 0, "repetitions": 2, "last_practiced": "2025-12-07"},
-{"element_id": "word_62", "errors": 0, "repetitions": 2, "last_practiced": "2025-12-07"},
-{"element_id": "word_63", "errors": 0, "repetitions": 7, "last_practiced": "2025-10-02"},
-{"element_id": "word_64", "errors": 1, "repetitions": 6, "last_practiced": "2025-10-02"},
-{"element_id": "word_65", "errors": 0, "repetitions": 3, "last_practiced": "2025-10-02"},
-{"element_id": "word_66", "errors": 0, "repetitions": 6, "last_practiced": "2025-10-02"},
-{"element_id": "word_67", "errors": 0, "repetitions": 4, "last_practiced": "2025-10-02"},
-{"element_id": "word_68", "errors": 0, "repetitions": 2, "last_practiced": "2025-10-02"},
-{"element_id": "word_69", "errors": 0, "repetitions": 3, "last_practiced": "2025-10-02"},
-{"element_id": "word_70", "errors": 0, "repetitions": 2, "last_practiced": "2025-10-02"},
-{"element_id": "word_71", "errors": 0, "repetitions": 2, "last_practiced": "2025-10-02"},
-{"element_id": "word_72", "errors": 0, "repetitions": 2, "last_practiced": "2025-10-02"},
-{"element_id": "word_73", "errors": 0, "repetitions": 2, "last_practiced": "2025-10-02"},
-{"element_id": "word_74", "errors": 0, "repetitions": 2, "last_practiced": "2025-10-31"},
-{"element_id": "word_75", "errors": 0, "repetitions": 5, "last_practiced": "2025-11-05"},
-{"element_id": "word_76", "errors": 0, "repetitions": 3, "last_practiced": "2025-10-02"},
-{"element_id": "word_77", "errors": 0, "repetitions": 1, "last_practiced": "2025-10-02"},
-{"element_id": "word_78", "errors": 0, "repetitions": 2, "last_practiced": "2025-10-02"},
-{"element_id": "word_79", "errors": 0, "repetitions": 1, "last_practiced": "2025-10-02"},
-{"element_id": "word_80", "errors": 0, "repetitions": 5, "last_practiced": "2025-11-07"},
-{"element_id": "word_81", "errors": 0, "repetitions": 1, "last_practiced": "2025-10-02"},
-{"element_id": "word_82", "errors": 0, "repetitions": 1, "last_practiced": "2025-10-02"},
-{"element_id": "word_83", "errors": 0, "repetitions": 2, "last_practiced": "2025-10-31"},
-{"element_id": "word_84", "errors": 0, "repetitions": 3, "last_practiced": "2025-10-02"},
-{"element_id": "word_85", "errors": 0, "repetitions": 3, "last_practiced": "2025-10-02"},
-{"element_id": "word_86", "errors": 0, "repetitions": 3, "last_practiced": "2025-10-02"},
-{"element_id": "word_87", "errors": 0, "repetitions": 3, "last_practiced": "2025-11-05"},
-{"element_id": "word_88", "errors": 0, "repetitions": 1, "last_practiced": "2025-10-10"},
-{"element_id": "word_89", "errors": 0, "repetitions": 1, "last_practiced": "2025-10-10"},
-{"element_id": "word_90", "errors": 0, "repetitions": 1, "last_practiced": "2025-10-10"},
-{"element_id": "word_91", "errors": 0, "repetitions": 1, "last_practiced": "2025-11-07"},
-{"element_id": "word_92", "errors": 0, "repetitions": 1, "last_practiced": "2025-11-07"},
-{"element_id": "word_93", "errors": 0, "repetitions": 1, "last_practiced": "2025-11-10"},
-{"element_id": "word_94", "errors": 0, "repetitions": 2, "last_practiced": "2025-12-12"},
-{"element_id": "word_95", "errors": 0, "repetitions": 2, "last_practiced": "2025-12-12"},
-{"element_id": "word_96", "errors": 0, "repetitions": 1, "last_practiced": "2025-11-16"},
-{ "element_id": "word_97",  "errors": 0, "repetitions": 1, "last_practiced": "2026-01-31" },
-{ "element_id": "word_98",  "errors": 0, "repetitions": 1, "last_practiced": "2026-01-31" },
-{ "element_id": "word_99",  "errors": 0, "repetitions": 1, "last_practiced": "2026-01-31" },
-{ "element_id": "word_100", "errors": 0, "repetitions": 1, "last_practiced": "2026-01-31" },
-{ "element_id": "word_101", "errors": 0, "repetitions": 1, "last_practiced": "2026-01-31" },
-{ "element_id": "word_102", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-01" },
-{ "element_id": "word_103", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-01" },
-{ "element_id": "word_104", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-04" },
-{ "element_id": "word_105", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-01" },
-{ "element_id": "word_106", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-04" },
-{ "element_id": "word_107", "errors": 0, "repetitions": 1, "last_practiced": "2026-01-31" },
-{ "element_id": "word_108", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-01" },
-{ "element_id": "word_109", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-01" },
-{ "element_id": "word_110", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-01" },
-{ "element_id": "word_111", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-04" },
-{ "element_id": "word_112", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-04" },
-  { "element_id": "word_113", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-04" },
-  { "element_id": "word_114", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-04" },
-  { "element_id": "word_115", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-03" },
-  { "element_id": "word_116", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-03" },
-  { "element_id": "word_117", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-03" },
-  { "element_id": "word_118", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-03" },
-  { "element_id": "word_119", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-03" },
-  { "element_id": "word_120", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-05" },
-{ "element_id": "word_121", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-03" },
-{ "element_id": "word_122", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-05" },
-{"element_id":"word_123","errors":0,"repetitions":1,"last_practiced":"2026-02-06"},
-{"element_id":"word_124","errors":0,"repetitions":1,"last_practiced":"2026-02-06"},
- { "element_id": "word_125", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-07" },
-{ "element_id": "word_126", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-05" },
-{"element_id":"word_127","errors":0,"repetitions":1,"last_practiced":"2026-02-06"},
-  { "element_id": "word_128", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-05" },
-  { "element_id": "word_129", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-07" },
-  { "element_id": "word_130", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-07" },
-  { "element_id": "word_131", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-05" },
-  { "element_id": "word_132", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-05" },
-  { "element_id": "word_133", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-07" },
-  { "element_id": "word_134", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-07" },
-  { "element_id": "word_135", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-07" },
-{"element_id":"word_136","errors":0,"repetitions":1,"last_practiced":"2026-02-06"},
-{"element_id":"word_137","repetitions":1,"errors":0,"last_practiced":"2025-12-07"},
-{"element_id":"word_138","errors":0,"repetitions":1,"last_practiced":"2026-02-06"},
-{"element_id":"word_139","repetitions":1,"errors":0,"last_practiced":"2025-12-07"},
-{"element_id":"word_140","errors":0,"repetitions":1,"last_practiced":"2026-02-06"},
-{"element_id":"word_141","repetitions":1,"errors":0,"last_practiced":"2025-12-07"},
-  { "element_id": "word_143", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-09" },
-{"element_id":"word_144","errors":0,"repetitions":1,"last_practiced":"2026-02-06"},
-  { "element_id": "word_145", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-08" },
-  { "element_id": "word_146", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-08" },
-  { "element_id": "word_147", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-08" },
- { "element_id": "word_148", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-09" },
-  { "element_id": "word_149", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-08" },
-  { "element_id": "word_150", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-08" },
-  { "element_id": "word_151", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-09" },
-  { "element_id": "word_152", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-09" },
-  { "element_id": "word_153", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-09" },
-  { "element_id": "word_154", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-09" },
-  { "element_id": "word_155", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-09" },
-  { "element_id": "word_156", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-09" },
-  { "element_id": "word_157", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-09" },
-  { "element_id": "word_158", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-09" },
-  { "element_id": "word_159", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-09" },
-  { "element_id": "word_160", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-09" },
-  { "element_id": "word_161", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-10" },
-  { "element_id": "word_162", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-10" },
-  { "element_id": "word_163", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-10" },
-  { "element_id": "word_164", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-10" },
-  { "element_id": "word_165", "errors": 1, "repetitions": 1, "last_practiced": "2026-02-10" },
-  { "element_id": "word_166", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-10" },
- { "element_id": "word_167", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-11" },
-{"element_id":"word_168","errors":0,"repetitions":3,"last_practiced":"2026-03-04"},
-{"element_id":"word_169","errors":0,"repetitions":1,"last_practiced":"2026-02-06"},
- { "element_id": "word_170", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-11" },
-{"element_id":"word_171","errors":0,"repetitions":1,"last_practiced":"2026-02-06"},
-{"element_id":"word_172","errors":0,"repetitions":1,"last_practiced":"2026-02-06"},
-{"element_id":"word_173","errors":0,"repetitions":1,"last_practiced":"2026-02-06"},
-  { "element_id": "word_174", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-11" },
-  { "element_id": "word_175", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-11" },
-  { "element_id": "word_177", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-11" },
-  { "element_id": "word_178", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-11" },
-{"element_id":"word_179","errors":0,"repetitions":1,"last_practiced":"2026-03-04"},
-{"element_id":"word_180","errors":0,"repetitions":1,"last_practiced":"2026-03-04"},
-{"element_id":"word_181","errors":0,"repetitions":1,"last_practiced":"2026-03-04"},
-{"element_id":"word_182","errors":0,"repetitions":1,"last_practiced":"2026-03-04"},
-{"element_id":"word_183","errors":0,"repetitions":1,"last_practiced":"2026-03-04"},
-{"element_id":"word_184","errors":0,"repetitions":1,"last_practiced":"2026-03-06"},
-{"element_id":"word_185","errors":1,"repetitions":1,"last_practiced":"2026-03-06"},
-{"element_id":"word_186","errors":0,"repetitions":1,"last_practiced":"2026-03-06"},
-{"element_id":"word_187","errors":0,"repetitions":1,"last_practiced":"2026-03-06"},
-{"element_id":"word_189","errors":0,"repetitions":1,"last_practiced":"2026-03-06"},
-{"element_id":"word_190","errors":0,"repetitions":1,"last_practiced":"2026-03-06"},
-{"element_id":"word_191","errors":0,"repetitions":1,"last_practiced":"2026-03-10"},
-{"element_id":"word_192","errors":0,"repetitions":1,"last_practiced":"2026-03-10"},
-{"element_id":"word_193","errors":0,"repetitions":1,"last_practiced":"2026-03-10"},
-{"element_id":"word_194","errors":0,"repetitions":1,"last_practiced":"2026-03-10"},
-{"element_id":"word_195","errors":0,"repetitions":1,"last_practiced":"2026-03-10"},
-  { "element_id": "word_196", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-27" },
-  { "element_id": "word_197", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-27" },
-  { "element_id": "word_198", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-27" },
-{"element_id":"word_199","errors":0,"repetitions":1,"last_practiced":"2026-01-02"},
-{"element_id":"word_200","errors":0,"repetitions":1,"last_practiced":"2026-01-02"},
-{"element_id":"word_201","errors":1,"repetitions":1,"last_practiced":"2026-01-02"},
-{"element_id":"word_202","errors":0,"repetitions":1,"last_practiced":"2026-01-02"},
-{"element_id":"word_203","errors":0,"repetitions":2,"last_practiced":"2026-01-02"},
-{"element_id":"word_204","errors":0,"repetitions":1,"last_practiced":"2025-12-19"},
-{"element_id":"word_205","errors":0,"repetitions":1,"last_practiced":"2025-12-19"},
-{"element_id":"word_206","errors":0,"repetitions":1,"last_practiced":"2025-12-19"},
-{"element_id":"word_207","errors":0,"repetitions":1,"last_practiced":"2025-12-19"},
-{"element_id":"word_208","errors":0,"repetitions":1,"last_practiced":"2025-12-23"},
-{"element_id":"word_209","errors":0,"repetitions":1,"last_practiced":"2025-12-23"},
-{"element_id":"word_210","errors":0,"repetitions":1,"last_practiced":"2025-12-23"},
-{"element_id":"word_211","errors":0,"repetitions":1,"last_practiced":"2025-12-23"},
-{"element_id":"word_212","errors":0,"repetitions":1,"last_practiced":"2025-12-23"},
-{"element_id":"word_213","errors":0,"repetitions":1,"last_practiced":"2025-12-23"},
-{"element_id":"word_214","errors":1,"repetitions":2,"last_practiced":"2026-03-02"},
-{"element_id":"word_215","errors":0,"repetitions":1,"last_practiced":"2025-12-23"},
-{"element_id":"word_216","errors":0,"repetitions":1,"last_practiced":"2025-12-23"},
-{"element_id":"word_217","errors":0,"repetitions":2,"last_practiced":"2025-12-27"},
-{"element_id":"word_218","errors":0,"repetitions":2,"last_practiced":"2025-12-27"},
-{"element_id":"word_219","errors":0,"repetitions":2,"last_practiced":"2025-12-27"},
-{"element_id":"word_220","errors":0,"repetitions":2,"last_practiced":"2025-12-27"},
-{"element_id":"word_221","errors":0,"repetitions":2,"last_practiced":"2025-12-27"},
-{"element_id":"word_222","errors":0,"repetitions":2,"last_practiced":"2025-12-27"},
-{"element_id":"word_224","errors":0,"repetitions":1,"last_practiced":"2025-12-25"},
-{"element_id":"word_226","errors":0,"repetitions":1,"last_practiced":"2025-12-25"},
-{"element_id":"word_227","errors":0,"repetitions":1,"last_practiced":"2025-12-25"},
-{"element_id":"word_228","errors":0,"repetitions":1,"last_practiced":"2025-12-25"},
-{"element_id":"word_229","errors":0,"repetitions":1,"last_practiced":"2026-01-17"},
-{"element_id":"word_230","errors":0,"repetitions":1,"last_practiced":"2026-01-17"},
-{"element_id":"word_231","errors":0,"repetitions":1,"last_practiced":"2026-01-17"},
-{"element_id":"word_232","errors":0,"repetitions":1,"last_practiced":"2026-01-17"},
-{"element_id":"word_233","errors":0,"repetitions":1,"last_practiced":"2026-01-17"},
-{"element_id":"word_234","errors":0,"repetitions":1,"last_practiced":"2026-01-17"},
-{"element_id":"word_235","errors":0,"repetitions":1,"last_practiced":"2026-01-17"},
-{"element_id":"word_236","errors":1,"repetitions":2,"last_practiced":"2026-03-02"},
-  { "element_id": "word_237", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-27" },
- { "element_id": "word_238", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-06" },
-{"element_id":"word_239","errors":0,"repetitions":1,"last_practiced":"2026-03-11"},
-{"element_id":"word_240","errors":0,"repetitions":1,"last_practiced":"2026-03-11"},
-{"element_id":"word_241","errors":0,"repetitions":1,"last_practiced":"2026-03-11"},
-{"element_id":"word_242","errors":0,"repetitions":1,"last_practiced":"2026-03-11"},
-{"element_id":"word_243","errors":1,"repetitions":1,"last_practiced":"2026-03-11"},
-{"element_id":"word_244","errors":0,"repetitions":1,"last_practiced":"2026-03-11"},
-{"element_id":"word_245","errors":0,"repetitions":1,"last_practiced":"2026-03-13"},
-{"element_id":"word_246","errors":0,"repetitions":1,"last_practiced":"2026-03-12"},
-{"element_id":"word_247","errors":0,"repetitions":1,"last_practiced":"2026-03-13"},
-{"element_id":"word_248","errors":0,"repetitions":1,"last_practiced":"2026-03-12"},
-{"element_id":"word_249","errors":0,"repetitions":1,"last_practiced":"2026-03-12"},
-  { "element_id": "word_250", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-06" },
-  { "element_id": "word_251", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-06" },
-  { "element_id": "word_252", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-06" },
-{"element_id":"word_253","errors":0,"repetitions":1,"last_practiced":"2026-03-12"},
-{"element_id":"word_254","errors":0,"repetitions":1,"last_practiced":"2026-03-13"},
-  { "element_id": "word_255", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-06" },
-{"element_id":"word_256","errors":0,"repetitions":1,"last_practiced":"2026-03-13"},
-{"element_id":"word_257","errors":0,"repetitions":1,"last_practiced":"2026-03-13"},
-  { "element_id": "word_258", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-27" },
-{"element_id":"word_259","errors":0,"repetitions":1,"last_practiced":"2026-03-13"},
- { "element_id": "word_260", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-06" },
-  { "element_id": "word_261", "errors": 0, "repetitions": 1, "last_practiced": "2026-02-27" },
-{"element_id": "word_262", "errors": 0, "repetitions": 0, "last_practiced": "2026-01-03"},
-{"element_id": "word_263", "errors": 0, "repetitions": 0, "last_practiced": "2026-01-03"},
-{"element_id":"word_264","errors":0,"repetitions":1,"last_practiced":"2026-03-12"},
-{"element_id":"word_265","errors":0,"repetitions":1,"last_practiced":"2026-03-24"},
-{"element_id":"word_266","errors":0,"repetitions":1,"last_practiced":"2026-03-24"},
-{"element_id":"word_267","errors":0,"repetitions":1,"last_practiced":"2026-03-24"},
-{"element_id":"word_268","errors":0,"repetitions":1,"last_practiced":"2026-03-24"},
-{"element_id":"word_269","errors":0,"repetitions":1,"last_practiced":"2026-03-24"},
-{"element_id":"word_270","errors":0,"repetitions":1,"last_practiced":"2026-03-24"},
-{"element_id": "word_271", "errors": 0, "repetitions": 0, "last_practiced": "2026-01-03"},
-{"element_id":"word_272","errors":0,"repetitions":1,"last_practiced":"2026-03-12"},
-{"element_id": "word_273", "errors": 0, "repetitions": 0, "last_practiced": "2026-01-03"},
-{"element_id":"word_274","errors":0,"repetitions":1,"last_practiced":"2026-01-05"},
-{"element_id":"word_275","errors":0,"repetitions":1,"last_practiced":"2026-01-05"},
-{"element_id":"word_276","errors":0,"repetitions":1,"last_practiced":"2026-01-05"},
-{"element_id":"word_277","errors":0,"repetitions":1,"last_practiced":"2026-01-05"},
-{"element_id":"word_278","errors":0,"repetitions":1,"last_practiced":"2026-01-05"},
-{"element_id":"word_279","errors":0,"repetitions":1,"last_practiced":"2026-01-05"},
-{"element_id":"word_280","errors":0,"repetitions":1,"last_practiced":"2026-01-08"},
-{"element_id":"word_282","errors":0,"repetitions":1,"last_practiced":"2026-01-08"},
-{"element_id":"word_283","errors":0,"repetitions":1,"last_practiced":"2026-01-08"},
-{"element_id":"word_284","errors":0,"repetitions":1,"last_practiced":"2026-03-25"},
-{"element_id":"word_285","errors":0,"repetitions":1,"last_practiced":"2026-01-08"},
-{"element_id":"word_286","errors":0,"repetitions":1,"last_practiced":"2026-01-08"},
-{"element_id":"word_287","errors":0,"repetitions":1,"last_practiced":"2026-03-25"},
-{"element_id":"word_288","errors":0,"repetitions":1,"last_practiced":"2026-03-25"},
-{"element_id":"word_289","errors":0,"repetitions":1,"last_practiced":"2026-01-08"},
-{"element_id":"word_290","errors":0,"repetitions":1,"last_practiced":"2026-01-08"},
-{"element_id":"word_291","errors":1,"repetitions":2,"last_practiced":"2026-03-02"},
-{"element_id":"word_292","errors":0,"repetitions":1,"last_practiced":"2026-01-19"},
-{"element_id":"word_293","errors":0,"repetitions":1,"last_practiced":"2026-01-19"},
-{"element_id":"word_294","errors":0,"repetitions":1,"last_practiced":"2026-01-19"},
-{"element_id":"word_295","errors":0,"repetitions":1,"last_practiced":"2026-01-19"},
-{"element_id":"word_297","errors":0,"repetitions":1,"last_practiced":"2026-01-19"},
-  {"element_id": "word_298",
-    "errors": 0,
-    "repetitions": 1,
-    "last_practiced": "2026-02-11"
-  },
-  {
-    "element_id": "word_299",
-    "errors": 0,
-    "repetitions": 1,
-    "last_practiced": "2026-02-11"
-  },
-  {
-    "element_id": "word_300",
-    "errors": 0,
-    "repetitions": 1,
-    "last_practiced": "2026-02-11"
-  },
-  {
-    "element_id": "word_301",
-    "errors": 0,
-    "repetitions": 1,
-    "last_practiced": "2026-02-11"
-  },
-{"element_id": "word_303","errors": 0,"repetitions": 1,"last_practiced": "2026-02-11"},
-{"element_id":"word_305","errors":0,"repetitions":1,"last_practiced":"2026-03-27"},
-{"element_id":"word_306","errors":0,"repetitions":1,"last_practiced":"2026-03-25"},
-{"element_id":"word_307","errors":0,"repetitions":1,"last_practiced":"2026-03-25"},
-{"element_id":"word_308","errors":0,"repetitions":1,"last_practiced":"2026-03-27"},
-{"element_id":"word_309","errors":0,"repetitions":1,"last_practiced":"2026-03-27"},
-{"element_id":"word_310","errors":0,"repetitions":1,"last_practiced":"2026-03-27"},
-{"element_id":"word_311","errors":0,"repetitions":0,"last_practiced":"2026-02-09"},
-{"element_id":"word_312","errors":0,"repetitions":0,"last_practiced":"2026-02-09"},
-{"element_id":"word_313","errors":0,"repetitions":0,"last_practiced":"2026-02-09"},
-{"element_id":"word_314","errors":0,"repetitions":0,"last_practiced":"2026-02-09"},
-{"element_id":"word_315","errors":0,"repetitions":0,"last_practiced":"2026-02-09"},
-{"element_id":"word_316","errors":0,"repetitions":0,"last_practiced":"2026-02-09"},
-{"element_id":"word_317","errors":0,"repetitions":0,"last_practiced":"2026-02-09"},
-{"element_id":"word_318","errors":0,"repetitions":0,"last_practiced":"2026-02-09"},
-{"element_id":"word_319","errors":0,"repetitions":1,"last_practiced":"2026-03-27"},
-{"element_id":"word_320","errors":0,"repetitions":0,"last_practiced":"2026-02-09"},
-{"element_id":"word_321","errors":0,"repetitions":0,"last_practiced":"2026-02-09"},
-{"element_id":"word_322","errors":0,"repetitions":0,"last_practiced":"2026-02-09"},
-{"element_id":"word_323","errors":0,"repetitions":0,"last_practiced":"2026-02-09"},
-{"element_id":"word_324","errors":0,"repetitions":0,"last_practiced":"2026-03-12"},
-{"element_id":"word_325","errors":0,"repetitions":0,"last_practiced":"2026-03-12"},
-{"element_id":"word_326","errors":0,"repetitions":0,"last_practiced":"2026-03-12"},
-{"element_id":"word_327","errors":0,"repetitions":0,"last_practiced":"2026-03-12"},
-{"element_id":"word_328","errors":0,"repetitions":0,"last_practiced":"2026-03-12"},
-{"element_id":"word_329","errors":0,"repetitions":0,"last_practiced":"2026-03-30"},
-{"element_id":"word_330","errors":0,"repetitions":0,"last_practiced":"2026-03-30"},
-{"element_id":"word_331","errors":0,"repetitions":0,"last_practiced":"2026-03-30"},
-{"element_id":"word_332","errors":0,"repetitions":0,"last_practiced":"2026-03-30"},
-{"element_id":"word_333","errors":0,"repetitions":0,"last_practiced":"2026-03-30"},
-{"element_id":"word_334","errors":0,"repetitions":0,"last_practiced":"2026-03-30"},
-{"element_id":"word_335","errors":0,"repetitions":0,"last_practiced":"2026-03-30"},
-{"element_id":"word_336","errors":0,"repetitions":0,"last_practiced":"2026-03-30"},
-{"element_id":"word_337","errors":0,"repetitions":0,"last_practiced":"2026-03-30"},
-{"element_id":"word_338","errors":0,"repetitions":0,"last_practiced":"2026-03-30"},
-{"element_id":"word_339","errors":0,"repetitions":0,"last_practiced":"2026-03-30"},
-{"element_id":"word_340","errors":0,"repetitions":0,"last_practiced":"2026-03-30"},
-{"element_id":"word_341","errors":0,"repetitions":0,"last_practiced":"2026-03-30"},
-{"element_id":"word_342","errors":0,"repetitions":0,"last_practiced":"2026-03-30"}
-
-]
+  "elements": [
+    {
+      "element_id": ">word_1",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_1",
+      "errors": 0,
+      "repetitions": 5,
+      "last_practiced": "2025-10-02"
+    },
+    {
+      "element_id": "word_2",
+      "errors": 0,
+      "repetitions": 13,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_3",
+      "errors": 0,
+      "repetitions": 14,
+      "last_practiced": "2026-04-15"
+    },
+    {
+      "element_id": "word_4",
+      "errors": 0,
+      "repetitions": 12,
+      "last_practiced": "2026-04-15"
+    },
+    {
+      "element_id": "word_5",
+      "errors": 0,
+      "repetitions": 9,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_6",
+      "errors": 0,
+      "repetitions": 9,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_7",
+      "errors": 1,
+      "repetitions": 8,
+      "last_practiced": "2026-04-15"
+    },
+    {
+      "element_id": "word_8",
+      "errors": 0,
+      "repetitions": 3,
+      "last_practiced": "2026-04-15"
+    },
+    {
+      "element_id": "word_9",
+      "errors": 0,
+      "repetitions": 5,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_10",
+      "errors": 0,
+      "repetitions": 6,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_11",
+      "errors": 1,
+      "repetitions": 17,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_12",
+      "errors": 0,
+      "repetitions": 5,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_13",
+      "errors": 0,
+      "repetitions": 3,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_14",
+      "errors": 0,
+      "repetitions": 4,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_15",
+      "errors": 0,
+      "repetitions": 7,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_16",
+      "errors": 0,
+      "repetitions": 3,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_17",
+      "errors": 0,
+      "repetitions": 4,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_18",
+      "errors": 0,
+      "repetitions": 4,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_19",
+      "errors": 0,
+      "repetitions": 5,
+      "last_practiced": "2026-04-15"
+    },
+    {
+      "element_id": "word_20",
+      "errors": 0,
+      "repetitions": 7,
+      "last_practiced": "2026-04-15"
+    },
+    {
+      "element_id": "word_21",
+      "errors": 0,
+      "repetitions": 5,
+      "last_practiced": "2026-04-15"
+    },
+    {
+      "element_id": "word_22",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_23",
+      "errors": 0,
+      "repetitions": 4,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_24",
+      "errors": 0,
+      "repetitions": 3,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_25",
+      "errors": 0,
+      "repetitions": 5,
+      "last_practiced": "2026-04-15"
+    },
+    {
+      "element_id": "word_26",
+      "errors": 0,
+      "repetitions": 3,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_27",
+      "errors": 0,
+      "repetitions": 5,
+      "last_practiced": "2026-04-15"
+    },
+    {
+      "element_id": "word_28",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_29",
+      "errors": 0,
+      "repetitions": 9,
+      "last_practiced": "2026-04-15"
+    },
+    {
+      "element_id": "word_30",
+      "errors": 0,
+      "repetitions": 4,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_31",
+      "errors": 0,
+      "repetitions": 5,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_32",
+      "errors": 0,
+      "repetitions": 5,
+      "last_practiced": "2026-04-15"
+    },
+    {
+      "element_id": "word_33",
+      "errors": 0,
+      "repetitions": 9,
+      "last_practiced": "2026-04-15"
+    },
+    {
+      "element_id": "word_34",
+      "errors": 0,
+      "repetitions": 3,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_35",
+      "errors": 0,
+      "repetitions": 3,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_36",
+      "errors": 1,
+      "repetitions": 3,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_37",
+      "errors": 0,
+      "repetitions": 6,
+      "last_practiced": "2026-04-15"
+    },
+    {
+      "element_id": "word_38",
+      "errors": 0,
+      "repetitions": 4,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_39",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_40",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_41",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_42",
+      "errors": 0,
+      "repetitions": 8,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_43",
+      "errors": 0,
+      "repetitions": 3,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_44",
+      "errors": 0,
+      "repetitions": 9,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_45",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_46",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_47",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_48",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_49",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_50",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_51",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_52",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_53",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_54",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_55",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_56",
+      "errors": 0,
+      "repetitions": 3,
+      "last_practiced": "2026-04-20"
+    },
+    {
+      "element_id": "word_57",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_58",
+      "errors": 0,
+      "repetitions": 4,
+      "last_practiced": "2026-04-15"
+    },
+    {
+      "element_id": "word_59",
+      "errors": 1,
+      "repetitions": 7,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_60",
+      "errors": 4,
+      "repetitions": 10,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_61",
+      "errors": 0,
+      "repetitions": 3,
+      "last_practiced": "2026-04-15"
+    },
+    {
+      "element_id": "word_62",
+      "errors": 0,
+      "repetitions": 3,
+      "last_practiced": "2026-04-15"
+    },
+    {
+      "element_id": "word_63",
+      "errors": 0,
+      "repetitions": 9,
+      "last_practiced": "2026-04-20"
+    },
+    {
+      "element_id": "word_64",
+      "errors": 1,
+      "repetitions": 7,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_65",
+      "errors": 0,
+      "repetitions": 4,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_66",
+      "errors": 0,
+      "repetitions": 7,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_67",
+      "errors": 0,
+      "repetitions": 5,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_68",
+      "errors": 1,
+      "repetitions": 3,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_69",
+      "errors": 0,
+      "repetitions": 4,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_70",
+      "errors": 0,
+      "repetitions": 3,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_71",
+      "errors": 0,
+      "repetitions": 3,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_72",
+      "errors": 0,
+      "repetitions": 3,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_73",
+      "errors": 0,
+      "repetitions": 3,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_74",
+      "errors": 0,
+      "repetitions": 3,
+      "last_practiced": "2026-04-15"
+    },
+    {
+      "element_id": "word_75",
+      "errors": 0,
+      "repetitions": 6,
+      "last_practiced": "2026-04-15"
+    },
+    {
+      "element_id": "word_76",
+      "errors": 0,
+      "repetitions": 4,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_77",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_78",
+      "errors": 0,
+      "repetitions": 3,
+      "last_practiced": "2026-04-12"
+    },
+    {
+      "element_id": "word_79",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-12"
+    },
+    {
+      "element_id": "word_80",
+      "errors": 0,
+      "repetitions": 6,
+      "last_practiced": "2026-04-15"
+    },
+    {
+      "element_id": "word_81",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-12"
+    },
+    {
+      "element_id": "word_82",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-12"
+    },
+    {
+      "element_id": "word_83",
+      "errors": 0,
+      "repetitions": 3,
+      "last_practiced": "2026-04-15"
+    },
+    {
+      "element_id": "word_84",
+      "errors": 0,
+      "repetitions": 4,
+      "last_practiced": "2026-04-12"
+    },
+    {
+      "element_id": "word_85",
+      "errors": 0,
+      "repetitions": 4,
+      "last_practiced": "2026-04-12"
+    },
+    {
+      "element_id": "word_86",
+      "errors": 0,
+      "repetitions": 4,
+      "last_practiced": "2026-04-12"
+    },
+    {
+      "element_id": "word_87",
+      "errors": 0,
+      "repetitions": 4,
+      "last_practiced": "2026-04-15"
+    },
+    {
+      "element_id": "word_88",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-12"
+    },
+    {
+      "element_id": "word_89",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-12"
+    },
+    {
+      "element_id": "word_90",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-15"
+    },
+    {
+      "element_id": "word_91",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-15"
+    },
+    {
+      "element_id": "word_92",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-15"
+    },
+    {
+      "element_id": "word_93",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-15"
+    },
+    {
+      "element_id": "word_94",
+      "errors": 0,
+      "repetitions": 4,
+      "last_practiced": "2026-04-20"
+    },
+    {
+      "element_id": "word_95",
+      "errors": 0,
+      "repetitions": 3,
+      "last_practiced": "2026-04-15"
+    },
+    {
+      "element_id": "word_96",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-15"
+    },
+    {
+      "element_id": "word_97",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-19"
+    },
+    {
+      "element_id": "word_98",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-20"
+    },
+    {
+      "element_id": "word_99",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-20"
+    },
+    {
+      "element_id": "word_100",
+      "errors": 1,
+      "repetitions": 2,
+      "last_practiced": "2026-04-20"
+    },
+    {
+      "element_id": "word_101",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-20"
+    },
+    {
+      "element_id": "word_102",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-20"
+    },
+    {
+      "element_id": "word_103",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-20"
+    },
+    {
+      "element_id": "word_104",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-20"
+    },
+    {
+      "element_id": "word_105",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-20"
+    },
+    {
+      "element_id": "word_106",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-20"
+    },
+    {
+      "element_id": "word_107",
+      "errors": 0,
+      "repetitions": 3,
+      "last_practiced": "2026-04-20"
+    },
+    {
+      "element_id": "word_108",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-20"
+    },
+    {
+      "element_id": "word_109",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-20"
+    },
+    {
+      "element_id": "word_110",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-20"
+    },
+    {
+      "element_id": "word_111",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-20"
+    },
+    {
+      "element_id": "word_112",
+      "errors": 0,
+      "repetitions": 3,
+      "last_practiced": "2026-04-20"
+    },
+    {
+      "element_id": "word_113",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-20"
+    },
+    {
+      "element_id": "word_114",
+      "errors": 0,
+      "repetitions": 3,
+      "last_practiced": "2026-04-20"
+    },
+    {
+      "element_id": "word_115",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-20"
+    },
+    {
+      "element_id": "word_116",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-20"
+    },
+    {
+      "element_id": "word_117",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-20"
+    },
+    {
+      "element_id": "word_118",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-20"
+    },
+    {
+      "element_id": "word_119",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-20"
+    },
+    {
+      "element_id": "word_120",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-20"
+    },
+    {
+      "element_id": "word_121",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-20"
+    },
+    {
+      "element_id": "word_122",
+      "errors": 0,
+      "repetitions": 3,
+      "last_practiced": "2026-04-20"
+    },
+    {
+      "element_id": "word_123",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-20"
+    },
+    {
+      "element_id": "word_124",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-20"
+    },
+    {
+      "element_id": "word_125",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-07"
+    },
+    {
+      "element_id": "word_126",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-20"
+    },
+    {
+      "element_id": "word_127",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-20"
+    },
+    {
+      "element_id": "word_128",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-20"
+    },
+    {
+      "element_id": "word_129",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-07"
+    },
+    {
+      "element_id": "word_130",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-07"
+    },
+    {
+      "element_id": "word_131",
+      "errors": 0,
+      "repetitions": 3,
+      "last_practiced": "2026-04-20"
+    },
+    {
+      "element_id": "word_132",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-20"
+    },
+    {
+      "element_id": "word_133",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-07"
+    },
+    {
+      "element_id": "word_134",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-07"
+    },
+    {
+      "element_id": "word_135",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-07"
+    },
+    {
+      "element_id": "word_136",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-20"
+    },
+    {
+      "element_id": "word_137",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-15"
+    },
+    {
+      "element_id": "word_138",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-20"
+    },
+    {
+      "element_id": "word_139",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-15"
+    },
+    {
+      "element_id": "word_140",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-06"
+    },
+    {
+      "element_id": "word_141",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-15"
+    },
+    {
+      "element_id": "word_143",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-09"
+    },
+    {
+      "element_id": "word_144",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-06"
+    },
+    {
+      "element_id": "word_145",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-08"
+    },
+    {
+      "element_id": "word_146",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-08"
+    },
+    {
+      "element_id": "word_147",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-08"
+    },
+    {
+      "element_id": "word_148",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-09"
+    },
+    {
+      "element_id": "word_149",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-08"
+    },
+    {
+      "element_id": "word_150",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-08"
+    },
+    {
+      "element_id": "word_151",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-09"
+    },
+    {
+      "element_id": "word_152",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-09"
+    },
+    {
+      "element_id": "word_153",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-09"
+    },
+    {
+      "element_id": "word_154",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-09"
+    },
+    {
+      "element_id": "word_155",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-09"
+    },
+    {
+      "element_id": "word_156",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-09"
+    },
+    {
+      "element_id": "word_157",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-09"
+    },
+    {
+      "element_id": "word_158",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-09"
+    },
+    {
+      "element_id": "word_159",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-09"
+    },
+    {
+      "element_id": "word_160",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-09"
+    },
+    {
+      "element_id": "word_161",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-10"
+    },
+    {
+      "element_id": "word_162",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-10"
+    },
+    {
+      "element_id": "word_163",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-10"
+    },
+    {
+      "element_id": "word_164",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-10"
+    },
+    {
+      "element_id": "word_165",
+      "errors": 1,
+      "repetitions": 1,
+      "last_practiced": "2026-02-10"
+    },
+    {
+      "element_id": "word_166",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-10"
+    },
+    {
+      "element_id": "word_167",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-11"
+    },
+    {
+      "element_id": "word_168",
+      "errors": 0,
+      "repetitions": 3,
+      "last_practiced": "2026-03-04"
+    },
+    {
+      "element_id": "word_169",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-06"
+    },
+    {
+      "element_id": "word_170",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-11"
+    },
+    {
+      "element_id": "word_171",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-06"
+    },
+    {
+      "element_id": "word_172",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-06"
+    },
+    {
+      "element_id": "word_173",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-06"
+    },
+    {
+      "element_id": "word_174",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-11"
+    },
+    {
+      "element_id": "word_175",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-11"
+    },
+    {
+      "element_id": "word_177",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-11"
+    },
+    {
+      "element_id": "word_178",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-11"
+    },
+    {
+      "element_id": "word_179",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-03-04"
+    },
+    {
+      "element_id": "word_180",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-03-04"
+    },
+    {
+      "element_id": "word_181",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-03-04"
+    },
+    {
+      "element_id": "word_182",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-03-04"
+    },
+    {
+      "element_id": "word_183",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-03-04"
+    },
+    {
+      "element_id": "word_184",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-03-06"
+    },
+    {
+      "element_id": "word_185",
+      "errors": 1,
+      "repetitions": 1,
+      "last_practiced": "2026-03-06"
+    },
+    {
+      "element_id": "word_186",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-03-06"
+    },
+    {
+      "element_id": "word_187",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-03-06"
+    },
+    {
+      "element_id": "word_189",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-03-06"
+    },
+    {
+      "element_id": "word_190",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-03-06"
+    },
+    {
+      "element_id": "word_191",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-03-10"
+    },
+    {
+      "element_id": "word_192",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-03-10"
+    },
+    {
+      "element_id": "word_193",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-03-10"
+    },
+    {
+      "element_id": "word_194",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-03-10"
+    },
+    {
+      "element_id": "word_195",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-03-10"
+    },
+    {
+      "element_id": "word_196",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-27"
+    },
+    {
+      "element_id": "word_197",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-27"
+    },
+    {
+      "element_id": "word_198",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-27"
+    },
+    {
+      "element_id": "word_199",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-16"
+    },
+    {
+      "element_id": "word_200",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-16"
+    },
+    {
+      "element_id": "word_201",
+      "errors": 1,
+      "repetitions": 2,
+      "last_practiced": "2026-04-16"
+    },
+    {
+      "element_id": "word_202",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-16"
+    },
+    {
+      "element_id": "word_203",
+      "errors": 0,
+      "repetitions": 3,
+      "last_practiced": "2026-04-16"
+    },
+    {
+      "element_id": "word_204",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-16"
+    },
+    {
+      "element_id": "word_205",
+      "errors": 1,
+      "repetitions": 2,
+      "last_practiced": "2026-04-16"
+    },
+    {
+      "element_id": "word_206",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-16"
+    },
+    {
+      "element_id": "word_207",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-16"
+    },
+    {
+      "element_id": "word_208",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-16"
+    },
+    {
+      "element_id": "word_209",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-16"
+    },
+    {
+      "element_id": "word_210",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-16"
+    },
+    {
+      "element_id": "word_211",
+      "errors": 1,
+      "repetitions": 2,
+      "last_practiced": "2026-04-16"
+    },
+    {
+      "element_id": "word_212",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-16"
+    },
+    {
+      "element_id": "word_213",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-16"
+    },
+    {
+      "element_id": "word_214",
+      "errors": 1,
+      "repetitions": 2,
+      "last_practiced": "2026-03-02"
+    },
+    {
+      "element_id": "word_215",
+      "errors": 1,
+      "repetitions": 2,
+      "last_practiced": "2026-04-16"
+    },
+    {
+      "element_id": "word_216",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-16"
+    },
+    {
+      "element_id": "word_217",
+      "errors": 0,
+      "repetitions": 3,
+      "last_practiced": "2026-04-16"
+    },
+    {
+      "element_id": "word_218",
+      "errors": 0,
+      "repetitions": 3,
+      "last_practiced": "2026-04-16"
+    },
+    {
+      "element_id": "word_219",
+      "errors": 0,
+      "repetitions": 3,
+      "last_practiced": "2026-04-16"
+    },
+    {
+      "element_id": "word_220",
+      "errors": 1,
+      "repetitions": 3,
+      "last_practiced": "2026-04-16"
+    },
+    {
+      "element_id": "word_221",
+      "errors": 0,
+      "repetitions": 3,
+      "last_practiced": "2026-04-16"
+    },
+    {
+      "element_id": "word_222",
+      "errors": 0,
+      "repetitions": 3,
+      "last_practiced": "2026-04-16"
+    },
+    {
+      "element_id": "word_224",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-16"
+    },
+    {
+      "element_id": "word_226",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-16"
+    },
+    {
+      "element_id": "word_227",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-16"
+    },
+    {
+      "element_id": "word_228",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-16"
+    },
+    {
+      "element_id": "word_229",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-19"
+    },
+    {
+      "element_id": "word_230",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-19"
+    },
+    {
+      "element_id": "word_231",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-19"
+    },
+    {
+      "element_id": "word_232",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-19"
+    },
+    {
+      "element_id": "word_233",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-19"
+    },
+    {
+      "element_id": "word_234",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-19"
+    },
+    {
+      "element_id": "word_235",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-19"
+    },
+    {
+      "element_id": "word_236",
+      "errors": 1,
+      "repetitions": 2,
+      "last_practiced": "2026-03-02"
+    },
+    {
+      "element_id": "word_237",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-27"
+    },
+    {
+      "element_id": "word_238",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-06"
+    },
+    {
+      "element_id": "word_239",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-03-11"
+    },
+    {
+      "element_id": "word_240",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-03-11"
+    },
+    {
+      "element_id": "word_241",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-03-11"
+    },
+    {
+      "element_id": "word_242",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-03-11"
+    },
+    {
+      "element_id": "word_243",
+      "errors": 1,
+      "repetitions": 1,
+      "last_practiced": "2026-03-11"
+    },
+    {
+      "element_id": "word_244",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-03-11"
+    },
+    {
+      "element_id": "word_245",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-03-13"
+    },
+    {
+      "element_id": "word_246",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-03-12"
+    },
+    {
+      "element_id": "word_247",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-03-13"
+    },
+    {
+      "element_id": "word_248",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-03-12"
+    },
+    {
+      "element_id": "word_249",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-03-12"
+    },
+    {
+      "element_id": "word_250",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-06"
+    },
+    {
+      "element_id": "word_251",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-06"
+    },
+    {
+      "element_id": "word_252",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-06"
+    },
+    {
+      "element_id": "word_253",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-03-12"
+    },
+    {
+      "element_id": "word_254",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-03-13"
+    },
+    {
+      "element_id": "word_255",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-06"
+    },
+    {
+      "element_id": "word_256",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-03-13"
+    },
+    {
+      "element_id": "word_257",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-03-13"
+    },
+    {
+      "element_id": "word_258",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-27"
+    },
+    {
+      "element_id": "word_259",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-03-13"
+    },
+    {
+      "element_id": "word_260",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-06"
+    },
+    {
+      "element_id": "word_261",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-27"
+    },
+    {
+      "element_id": "word_262",
+      "errors": 1,
+      "repetitions": 1,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_263",
+      "errors": 1,
+      "repetitions": 1,
+      "last_practiced": "2026-04-06"
+    },
+    {
+      "element_id": "word_264",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-03-12"
+    },
+    {
+      "element_id": "word_265",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-03-24"
+    },
+    {
+      "element_id": "word_266",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-03-24"
+    },
+    {
+      "element_id": "word_267",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-03-24"
+    },
+    {
+      "element_id": "word_268",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-03-24"
+    },
+    {
+      "element_id": "word_269",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-03-24"
+    },
+    {
+      "element_id": "word_270",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-03-24"
+    },
+    {
+      "element_id": "word_271",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_272",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-03-12"
+    },
+    {
+      "element_id": "word_273",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_274",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-16"
+    },
+    {
+      "element_id": "word_275",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-16"
+    },
+    {
+      "element_id": "word_276",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-16"
+    },
+    {
+      "element_id": "word_277",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-18"
+    },
+    {
+      "element_id": "word_278",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-18"
+    },
+    {
+      "element_id": "word_279",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-18"
+    },
+    {
+      "element_id": "word_280",
+      "errors": 0,
+      "repetitions": 3,
+      "last_practiced": "2026-04-20"
+    },
+    {
+      "element_id": "word_282",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-18"
+    },
+    {
+      "element_id": "word_283",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-18"
+    },
+    {
+      "element_id": "word_284",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-03-25"
+    },
+    {
+      "element_id": "word_285",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-18"
+    },
+    {
+      "element_id": "word_286",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-18"
+    },
+    {
+      "element_id": "word_287",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-03-25"
+    },
+    {
+      "element_id": "word_288",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-03-25"
+    },
+    {
+      "element_id": "word_289",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-18"
+    },
+    {
+      "element_id": "word_290",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-19"
+    },
+    {
+      "element_id": "word_291",
+      "errors": 1,
+      "repetitions": 2,
+      "last_practiced": "2026-03-02"
+    },
+    {
+      "element_id": "word_292",
+      "errors": 1,
+      "repetitions": 2,
+      "last_practiced": "2026-04-19"
+    },
+    {
+      "element_id": "word_293",
+      "errors": 1,
+      "repetitions": 3,
+      "last_practiced": "2026-04-20"
+    },
+    {
+      "element_id": "word_294",
+      "errors": 1,
+      "repetitions": 2,
+      "last_practiced": "2026-04-19"
+    },
+    {
+      "element_id": "word_295",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-19"
+    },
+    {
+      "element_id": "word_296",
+      "errors": 1,
+      "repetitions": 1,
+      "last_practiced": "2026-04-06"
+    },
+    {
+      "element_id": "word_297",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-19"
+    },
+    {
+      "element_id": "word_298",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-11"
+    },
+    {
+      "element_id": "word_299",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-11"
+    },
+    {
+      "element_id": "word_300",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-11"
+    },
+    {
+      "element_id": "word_301",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-11"
+    },
+    {
+      "element_id": "word_302",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_303",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-02-11"
+    },
+    {
+      "element_id": "word_305",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-03-27"
+    },
+    {
+      "element_id": "word_306",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-03-25"
+    },
+    {
+      "element_id": "word_307",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-03-25"
+    },
+    {
+      "element_id": "word_308",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-03-27"
+    },
+    {
+      "element_id": "word_309",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-03-27"
+    },
+    {
+      "element_id": "word_310",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-03-27"
+    },
+    {
+      "element_id": "word_311",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-04-06"
+    },
+    {
+      "element_id": "word_312",
+      "errors": 1,
+      "repetitions": 2,
+      "last_practiced": "2026-04-20"
+    },
+    {
+      "element_id": "word_313",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-04-06"
+    },
+    {
+      "element_id": "word_314",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-04-06"
+    },
+    {
+      "element_id": "word_315",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-04-06"
+    },
+    {
+      "element_id": "word_316",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_317",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-04-06"
+    },
+    {
+      "element_id": "word_318",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-04-06"
+    },
+    {
+      "element_id": "word_319",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-03-27"
+    },
+    {
+      "element_id": "word_320",
+      "errors": 1,
+      "repetitions": 1,
+      "last_practiced": "2026-04-06"
+    },
+    {
+      "element_id": "word_321",
+      "errors": 1,
+      "repetitions": 1,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_322",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-04-06"
+    },
+    {
+      "element_id": "word_323",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_324",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_325",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_326",
+      "errors": 0,
+      "repetitions": 2,
+      "last_practiced": "2026-04-20"
+    },
+    {
+      "element_id": "word_327",
+      "errors": 1,
+      "repetitions": 1,
+      "last_practiced": "2026-04-06"
+    },
+    {
+      "element_id": "word_328",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-04-06"
+    },
+    {
+      "element_id": "word_329",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_330",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-04-06"
+    },
+    {
+      "element_id": "word_331",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-04-06"
+    },
+    {
+      "element_id": "word_332",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-04-06"
+    },
+    {
+      "element_id": "word_333",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_334",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-04-06"
+    },
+    {
+      "element_id": "word_335",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-04-06"
+    },
+    {
+      "element_id": "word_336",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-04-10"
+    },
+    {
+      "element_id": "word_337",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-04-06"
+    },
+    {
+      "element_id": "word_338",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-04-06"
+    },
+    {
+      "element_id": "word_339",
+      "errors": 1,
+      "repetitions": 1,
+      "last_practiced": "2026-04-06"
+    },
+    {
+      "element_id": "word_340",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-04-06"
+    },
+    {
+      "element_id": "word_341",
+      "errors": 1,
+      "repetitions": 1,
+      "last_practiced": "2026-04-06"
+    },
+    {
+      "element_id": "word_342",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-04-06"
+    },
+    {
+      "element_id": "word_343",
+      "errors": 0,
+      "repetitions": 1,
+      "last_practiced": "2026-04-15"
+    }
+  ]
 }
