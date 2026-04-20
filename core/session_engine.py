@@ -260,6 +260,20 @@ class SessionEngine:
         ]
         return random.sample(same_kind, min(count, len(same_kind)))
 
+    def get_matching_cards(self, card: Card, count: int = 6) -> list[Card]:
+        """
+        Вернуть список из `count` карточек того же типа (включая текущую)
+        для упражнения на соотнесение. Если карточек меньше count — вернуть все доступные.
+        """
+        same_kind = [
+            c for c in self._all_cards.values()
+            if c.kind == card.kind and c.element_id != card.element_id
+        ]
+        pool = random.sample(same_kind, min(count - 1, len(same_kind)))
+        result = [card] + pool
+        random.shuffle(result)
+        return result
+
     # ---------- внутренние методы ----------
 
     def _get_candidates(self, mode: DeckMode) -> list[Card]:
