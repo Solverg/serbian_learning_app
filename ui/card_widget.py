@@ -339,14 +339,15 @@ class FillBlankWidget(QWidget):
         root.addWidget(self._check_button)
 
     def load(self, card: Card):
-        words = card.text.split()
+        sentence_source = card.element or card.text
+        words = sentence_source.split()
         self._translation_label.setText(card.translation)
         self._target_word = ""
         self._masked_pattern = ""
         self._is_answered = False
 
         if len(words) < 2:
-            self._sentence_label.setText(card.text)
+            self._sentence_label.setText(sentence_source)
             self._check_button.setEnabled(False)
             self._input.setReadOnly(True)
             return

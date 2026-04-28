@@ -74,8 +74,12 @@ def test_element_tag_fallback(tmp_path: Path):
     )
 
     cards = load_constructions(xml)
-    assert cards[0].text == "Ти си прави."
+    assert cards[0].text == "Ти си пра̑ви."
+    assert cards[0].element == "Ти си прави."
+    assert cards[0].has_element_tag is True
     assert cards[1].text == "Старый формат."
+    assert cards[1].element == ""
+    assert cards[1].has_element_tag is False
 
 def test_load_all():
     all_cards = load_all(DATA)
