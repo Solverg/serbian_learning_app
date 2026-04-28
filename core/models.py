@@ -10,6 +10,7 @@ class Card:
     kind: Literal["word", "construction"]    # тип элемента
     text: str                                # сербский текст (кириллица)
     translation: str                         # перевод на русский
+    element: str = ""                        # спец. текст для режима "вставь слово"
     phonetic_transcription: str = ""         # МФА: [ˈnɛmati]
     pronunciation_description: str = ""      # русскоязычная подсказка произношения
     note: str = ""                           # дополнительная заметка

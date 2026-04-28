@@ -28,11 +28,13 @@ def load_words(xml_path: Path) -> list[Card]:
 
     cards = []
     for word in tree.findall("word"):
+        element_val = _text(word, "element")
         cards.append(Card(
             element_id=_text(word, "element_id"),
             kind="word",
-            text=_text_with_fallback(word, "element", "text"),
+            text=_text_with_fallback(word, "text", "element"),
             translation=_text(word, "translation"),
+            element=element_val,
             phonetic_transcription=_text(word, "phonetic_transcription"),
             pronunciation_description=_text(word, "pronunciation_description"),
             note=_text(word, "note"),
@@ -50,15 +52,16 @@ def load_constructions(xml_path: Path) -> list[Card]:
 
     cards = []
     for construction in tree.findall("construction"):
-        element_node = construction.find("element")
-        text_val = _text_with_fallback(construction, "element", "text")
-        is_eligible = (element_node is not None) and (len(text_val.split()) > 1)
+        element_val = _text(construction, "element")
+        text_val = _text_with_fallback(construction, "text", "element")
+        is_eligible = bool(element_val) and (len(element_val.split()) > 1)
 
         cards.append(Card(
             element_id=_text(construction, "element_id"),
             kind="construction",
             text=text_val,
             translation=_text(construction, "translation"),
+            element=element_val,
             phonetic_transcription=_text(construction, "phonetic_transcription"),
             pronunciation_description=_text(construction, "pronunciation_description"),
             note=_text(construction, "note"),
